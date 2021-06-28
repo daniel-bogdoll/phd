@@ -3,6 +3,15 @@
 
 \includegraphics[width=1\textwidth]{04_images/sota_taxonomy}
 
+Notes from the "Combine PhD with projects workshop with Arne and EG with Marius from 06/2021:
+\begin{enumerate}
+    \item Huge "snow-Balling" leads to very many sources (not so good)
+    \item If research shows cross-references ("Oh, I read this paper before") this is a good point to stop
+    \item SotA Freeze shortly before finishing, also recent sources should be included
+    \item How to deal with recent publications that have "overtaken" this work? Put those after the own methods later in the document and state "my method can be further improved as shown in" in the outlook. More difficult, if a later publication is 10x better than my own work and crushes it.
+    \item JMZ likes the work of Breitenstein
+    
+\end{enumerate}
 
 Beispiel für ein ordinäres Zitat:~\cite{Schwarzer05adaptivedynamic}.
 
@@ -26,16 +35,22 @@ See first PhD seminar
 
 \todo{Knowledge-driven vs data-driven}
 
-While the term \emph{corner case} is mentioned in the context of autonomous driving several times in the literature\todo[]{Find and cite literature before 2019}, no formal definition of its meaning was attempted until 2019, when Bolte et al. stated the following:
+While the term \emph{corner case} is mentioned in the context of autonomous driving several times in the literature\todo[]{Find and cite literature before 2019}, no formal definition of its meaning was attempted until 2019, when Termöhlen (previously Bolte) et al. stated the following:
 
 \begin{displayquote}[\cite{bolte_towards_2019}]
 A corner case is given, if there is a non-predictable, 
-relevant object/class in relevant location.
+relevant object/class in [a] relevant location.
 \end{displayquote}
 
-This definition was motivated by the task of detecting corner cases in video data. Their proposed \emph{corner case detector} was designed as either an offline analysis tool for datasets or an online module to communicate corner cases to a \emph{autonomous driving system}.
+This definition is motivated by the task of detecting corner cases in video data. Their proposed \emph{corner case detector} is designed as either an offline analysis tool for datasets or an online module to communicate corner cases to a \emph{autonomous driving system}. While it is very actionable, the narrow focus on relevant, "technically unpredictable situations" neglects many types of scenarios, which might be seen as corner cases.
+Therefore, in follow-up publications, Breitenstein et al. buildt upon the results and introduced a broadened \emph{Systematization of Corner Cases} in \cite{ breitenstein_systematization_2020} and extended it in \cite{breitenstein_corner_2020}, as shown in fig. \ref{fig:systematization_corner_case}.
 
-Extended to Systemization by \cite{breitenstein_corner_2020, breitenstein_systematization_2020}
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=1]{04_images/sota/corner_cases_systematization.png}
+\caption{"Systematization of corner cases on different levels"\cite{breitenstein_systematization_2020}}
+\label{fig:systematization_corner_case}
+\end{figure}
 
 \begin{displayquote}[IESChat, Jasmin Breitenstein, 24 June 2021]
 Wir haben die dann zusammen erweitert zu der Systematisierung, weil die bisherige Definition nicht alles abgebildet hat, vor allem nicht unser Bild, dass verschiedene Arten von CoCas verschiedene Detektionsmethoden brauchen
