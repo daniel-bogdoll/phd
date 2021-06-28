@@ -1,0 +1,52 @@
+\usetikzlibrary{shapes,arrows,fit,positioning, decorations, chains, decorations.markings}
+
+\definecolor{blockcolor}{RGB}{88, 170, 255}
+\definecolor{decisioncolor}{RGB}{255, 130, 0}
+\definecolor{cloudcolor}{RGB}{112, 255, 135}
+
+\definecolor{bit_green_color}{RGB}{112, 255, 135}
+\definecolor{bit_red_color}{RGB}{255, 0, 0}
+
+\definecolor{color1}{RGB}{0, 114, 231}
+\definecolor{color2}{RGB}{88, 169, 242}
+\definecolor{color3}{RGB}{194, 5, 5}
+\definecolor{color4}{RGB}{242, 123, 126}
+\definecolor{color5}{RGB}{255, 219, 78}
+
+\tikzstyle{decision} = [diamond, draw, fill=color4, 
+    text width=4.5em, text badly centered, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=color2, text centered, rounded corners, inner sep=10pt,
+                     text width=6.5em, thick]
+\tikzstyle{block_maybe} = [rectangle, draw, dashed, fill=color2!30, text centered, rounded corners, inner sep=10pt,
+                     text width=6.5em, thick]
+\tikzstyle{line} = [draw, -triangle 45, very thick]
+\tikzstyle{line_double} = [line, triangle 45-triangle 45]
+\tikzstyle{cloud} = [draw, ellipse,fill=color5, minimum height=2em,text width=7em,text centered, thick]
+\tikzstyle{annotation} = [text width = 10em]
+\tikzstyle{bit_0} = [label={center:0}, draw, fill=gray!20, rectangle, minimum height=1.5em, minimum width=1em]
+\tikzstyle{bit_0_red} = [bit_0, fill=bit_red_color!20]
+\tikzstyle{bit_0_green} = [bit_0, fill=green!20]
+\tikzstyle{bit_1} = [label={center:1}, draw, fill=gray!60, rectangle, minimum height=1.5em, minimum width=1em]
+\tikzstyle{bit_1_red} = [bit_1, fill=bit_red_color!60]
+\tikzstyle{bit_1_green} = [bit_1, fill=green!60]
+\tikzstyle{bit_spacer}=[minimum height=2em, minimum width=0.5em]
+
+% argument #1: any options
+\newenvironment{customlegend}[1][]{%
+    \begingroup
+    % inits/clears the lists (which might be populated from previous
+    % axes):
+    \csname pgfplots@init@cleared@structures\endcsname
+    \pgfplotsset{#1}%
+}{%
+    % draws the legend:
+    \csname pgfplots@createlegend\endcsname
+    \endgroup
+}%
+
+% makes \addlegendimage available (typically only available within an
+% axis environment):
+\def\addlegendimage{\csname pgfplots@addlegendimage\endcsname}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9} % FZI setup doesn't support 1.12

@@ -1,0 +1,295 @@
+\newacronym[]{CPU}{CPU}{Central Processing Unit}
+
+\newglossaryentry{CUDA}{type=\acronymtype, name={CUDA}, description={Compute Unified Device Architecture}, first={Compute Unified Device Architecture (CUDA)\glsadd{CUDAg}}, see=[Glossar:]{CUDAg}}
+
+\newacronym[longplural={Degrees of freedom},plural={DOF},\glsshortpluralkey={DOF}]{DOF}{DOF}{Degree of freedom}
+
+\newglossaryentry{EDT}{type=\acronymtype, name={EDT}, description={Euklidische Distanz Transformation}, first={Euklidische Distanz Transformation (EDT)\glsadd{EDTg}},
+firstplural={Euklidische Distanz Transformationen (EDTs)\glsadd{EDTg}}, see=[Glossar:]{EDTg}}
+
+\newglossaryentry{EKF}{type=\acronymtype, name={EKF}, description={Erweitertes Kalman Filter}, first={Erweitertes Kalman Filter (EKF)\glsadd{EKFg}}, see=[Glossar:]{EKFg}}
+
+\newacronym[longplural={Frames per Second},plural={FPS}]{FPS}{FPS}{Frames per Second}
+
+\newacronym[]{GPU}{GPU}{Graphics Processing Unit}
+
+\newglossaryentry{GPGPU}{type=\acronymtype, name={GP-GPU}, description={General-purpose Graphics Processing Unit}, first={General-purpose Graphics Processing Unit (GP-GPU)\glsadd{GPGPUg}}, see=[Glossar:]{GPGPUg}}
+
+\newacronym[]{HPC}{HPC}{High-Performance Computing}
+
+\newacronym[]{ICP}{ICP}{Iterative Closest Point}
+
+\newacronym[]{AABB}{AABB}{Axis Aligned Bound Box}
+
+\newacronym[]{OOBB}{OOBB}{Object Oriented Bound Box}
+
+\newacronym[]{PCL}{PCL}{Point Cloud Library}
+
+\newglossaryentry{PSO}{type=\acronymtype, name={PSO}, description={Partikelschwarmoptimierung}, first={Partikelschwarmoptimierung (PSO)\glsadd{PSOg}}, see=[Glossar:]{PSOg}}
+
+\newacronym[]{RANSAC}{RANSAC}{Random sample consensus}
+
+\newacronym[]{ROS}{ROS}{Robot Operating System}
+
+\newacronym[]{SLAM}{SLAM}{Simultaneous Localization and Mapping}
+
+\newglossaryentry{SSV-ID}{type=\acronymtype, name={SSV-ID}, description={Sub-Swept-Volumen-Identifikator}, longplural={Sub-Swept-Volumen-Identifikatoren},plural={SSV-IDs},\glsshortpluralkey={SSV-IDs}, first={Sub-Swept-Volumen-Identifikator (SSV-ID)\glsadd{SSV-IDg}}, firstplural={Sub-Swept-Volumen-Identifikatoren (SSV-IDs)\glsadd{SSV-IDg}}, see=[Glossar:]{SSV-IDg}}
+
+\newacronym[]{URDF}{URDF}{Unified Robot Description Format}
+
+\newacronym[]{VBO}{VBO}{Vertex-Buffer Object}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newglossaryentry{se2}
+{
+	name={\ensuremath{\mathit{SE}(2)}},
+	description={Spezielle euklidische Gruppe im der Ebene, die Translationen und Rotationen enthält (3 DOF)},
+	sort=se2, type=symbolslist
+}
+
+\newglossaryentry{se3}
+{
+	name={\ensuremath{\mathit{SE}(3)}},
+	description={Spezielle euklidische Gruppe im dreidimensionalen Raum, die Translationen und Rotationen enthält (6 DOF)},
+	sort=se3, type=symbolslist
+}
+
+\newglossaryentry{voxelvolumen}
+{
+	name={\ensuremath{V_O}},
+	description={ist die Menge aller Voxel, die von einem Objekt $O$ geschnitten werden},
+	sort=voxel_voxelvolumen, type=symbolslist
+}
+
+\newglossaryentry{map_and}
+{
+	name={\ensuremath{\cap}},
+	description={ist der Operator, der zwei Voxel-Datenstrukturen überlagert und welcher die Menge der Voxel findet, die nach einem gegebenen Belegtheitskriterium in beiden Datenstrukturen belegt sind. Dafür werden paarweise alle Voxel mittels dem \Gls{voxel_and}-Operator verglichen},
+	sort=op_mapschnitt, type=symbolslist
+}
+
+\newglossaryentry{map_or}
+{
+	name={\ensuremath{\cup}},
+	description={ist der Operator, der die Vereinigung zweier Punktewolken oder Voxel-Datenstrukturen bildet. Doppelte Einträge werden dabei entfernt},
+	sort=op_mapvereinigung, type=symbolslist
+}
+
+\newglossaryentry{voxel_and}
+{
+	name={\ensuremath{\&}},
+	description={ist der Operator, der zwei Voxel auf Belegtheit überprüft. Der Operator ist je nach Voxel-Datentyp und Semantik unterschiedlich implementiert und parametrisiert},
+	sort=op_voxelschnitt, type=symbolslist
+}
+
+\newglossaryentry{delta_t_sv}{
+	name={\ensuremath{\varDelta t_{sv}}},
+	description={Zeitdauer, die einem \glsentryfirst{SSV-ID} entspricht},
+	sort=delta_t, type=symbolslist
+}
+
+% Notation von Vektoren und Matrizen hier einführen??
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newglossaryentry{Anytime Algorithmus}
+{
+	name=Anytime Algorithmus,
+	description={ist ein iterativer, approximierender Algorithmus, der nach jedem Durchlauf valide Ergebnisse bereit stellt, und somit jederzeit abgebrochen werden kann. Mit zunehmenden Iterationen nähert sich das Ergebnis dem Optimum}
+}
+
+\newglossaryentry{Block}
+{
+	name=Block,
+	description={ist eine Einheit aus CUDA \textit{Threads}, die synchron einen \textit{Kernel} ausführt und einen gemeinsamen Speicher teilt}
+}
+
+\newglossaryentry{CUDAg}
+{
+	name=CUDA,
+	description={ist eine Programmiertechnik mit einer gleichnamigen Laufzeitumgebung, mit der Algorithmen für GPUs compiliert und auf ihnen ausgeführt werden können. CUDA wird von Nvidia exklusiv für Grafikkarten der eigenen Marke entwickelt}
+}
+
+\newglossaryentry{Device}
+{
+	name=Device,
+	description={ist die physische und logische Einheit aus \Gls{GPGPUg}, Speicher, und allen weiteren Kompoenten, die auf einer Grafikkarte verbaut sind. Da das \textit{Device} nicht eigenständig nutzbar ist, benötigt es einen (\textit{Host}), also ein Computersystem, in dem es läuft}
+}
+
+\newglossaryentry{Endeffektor}
+{
+	name=Endeffektor,
+	description={ist das Werkzeug am Ende eines robotischen Armes mit dem Objekte gegriffen oder manipuliert werden}
+}
+
+\newglossaryentry{EDTg}
+{
+	name=Euklidische Distanz Transformation,
+	description={beschreibt eine Rechenvorschrift und ein Muster zur Anwendung auf die Elemente einer Datenstruktur. Dient zur Berechnung der euklidische Distanz zu einem anderen Element der Datenstruktur}
+}
+
+\newglossaryentry{EKFg}
+{
+	name=Erweitertes Kalman Filter,
+	description={ist eine nichtlineare Erweiterung des Kalman Filters, das es erlaubt, 
+		nichtlineare Systemmodelle zu schätzen}
+}
+
+\newglossaryentry{GPGPUg}
+{
+	name=GP-GPU,
+	description={ist ein Grafikprozessor, der für generische Berechnung genutzt werden kann}
+}
+
+\newglossaryentry{Grid}
+{
+	name=Grid,
+	description={besteht aus mehreren CUDA Blöcken, die ohne Synchronisierung auf einer GP-GPU ausgeführt werden}
+}
+
+\newglossaryentry{GSL}
+{
+	name=Grid-Stride Loops,
+	description={sind \texttt{for}-Schleifen in CUDA \textit{Kerneln}, die Arbeit im Kernel serialisieren, falls zu wenige \textit{Threads} für eine vollständige Parallelisierung gestartet wurden}
+}
+
+\newglossaryentry{GVL}
+{
+	name=GPU-Voxels,
+	description={ist die im Verlauf dieser Dissertation entwickelte OpenSource Software-Bibliothek, die hoch parallelisierte Algorithmen und Datenstrukturen zur Verarbeitung von Voxel zur Verfügung stellt}
+}
+
+\newglossaryentry{Host}
+{
+	name=Host,
+	description={ist das Computer-System, welches eine GP-GPU beinhaltet, und diese als untergeordnete Einheit (\textit{Device}) nutzt, um \glsentryfirst{CUDA} Berechnungen auszuführen}
+}
+
+\newglossaryentry{Kernel}
+{
+	name=Kernel,
+	description={bezeichnet eine in sich abgeschlossenen Funktion, die in einem \glsentryfirst{CUDA}-Kontext auf der \glsentryfirst{GPGPU} zur Ausführung gebracht wird. Die Paralleleisierung des Kernels mit mehreren \textit{Threads} kann über Aufrufparameter gesteuert werden}
+}
+
+\newglossaryentry{Kinematische Konfiguration}
+{
+	name=Kinematische Konfiguration,
+	description={beschreibt die Anordnung aller beweglichen Achsen eines Roboters zueinander und somit seine Beweglichkeit. Nicht zu verwechseln mit: \Gls{Roboter Konfiguration}}
+}
+
+\newglossaryentry{KinFu}
+{
+	name=KinFu,
+	description={ist die OpenSource Implementierung von Kinect Fusion, einem Algorithmus zur Rekonstruktion von Oberflächenmodellen aus 3D Punktewolken, die mit bewegten Sensoren aufgenommen werden}
+}
+
+\newglossaryentry{Octree}
+{
+	name=Octree,
+	description={ist eine Baum-Datenstruktur mit einer einzelnen Wurzel. Jeder Knoten im Baum weist entweder acht direkte Nachfolger oder keine Nachfolger (Blattknoten) auf}
+}
+
+\newglossaryentry{OpenGL}
+{
+	name=OpenGL,
+	description={(Open Graphics Library) ist eine Plattform- und Programmiersprachen-übergreifende Programmierschnittstelle zur Darstellung von 2D und 3D Szenen in Echtzeit}
+}
+
+\newglossaryentry{Provider}
+{
+	name=Provider,
+	description={ist das Haupt-Programm in \Gls{GVL}, das Berechnungen durchführt, und dessen Daten durch den \Gls{Visualizer} angezeigt werden können}
+}
+
+\newglossaryentry{PSOg}
+{
+  name=Partikelschwarmoptimierung,
+  description={ist eine biologisch motivierte Herangehensweise um nichtlineare Optimierungsprobleme zu lösen. Ähnlich dem Schwarmverhalten in der Natur wird dabei eine Population von potentiellen Lösungen (Partikel) iterativ durch den Suchraum bewegt und über eine Bewertungsfunktion beurteilt. Details siehe  \cref{appendix:pso}}
+}
+
+\newglossaryentry{Raytracing}
+{
+	name=Raytracing,
+	description={beschreibt Verfahren zur Abtastung eines simulierten Licht- oder Sichtstrahles um synthetische Bilder zu generieren oder Freiräume zu bestimmen}
+}
+
+\newglossaryentry{RGBD-Kamera}
+{
+	name=RGBD-Kamera,
+	description={ist eine Kombination aus zwei Sensoren in einem Gehäuse: Durch die gleichzeitige Auswertung der Daten einer Farbkamera (RGB: Red Green Blue) und eine Tiefenkamera (D: Depth) können eingefärbte 2,5 dimensionale Abbildungen einer Szene erstellt werden}
+}
+
+\newglossaryentry{Roboter Konfiguration}
+{
+	name=Roboter Konfiguration,
+	description={beschreibt den Zustand aller beweglichen Achsen eines Roboters und somit seine \textit{Körperhaltung}. Nicht zu verwechseln mit: \Gls{Kinematische Konfiguration}}
+}
+
+\newglossaryentry{SPA-Zyklus}
+{
+	name=Sense-Plan-Act-Zyklus,
+	description={beschreibt die typischen Ablauf von Roboterhandlungen: Sensorielle Wahrnehmung und Analyse der Daten. Basierend darauf eine Planung von Aktionen und letztendlich die Ausführung der Pläne. Die Ausführung geschieht somit \textit{blind}}
+}
+
+\newglossaryentry{SV}
+{
+	name=Swept-Volumen,
+	description={entspricht dem aufintegrierte Volumen im Raum, das von einem Objekt durch seine Bewegung überstrichen wird},
+	user1={Swept-Volumens}
+}
+
+\newglossaryentry{SSV-IDg}{name={Sub-Swept-Volumen-Identifikator},
+	description={ist ein Bitmuster, das in Voxeln gespeichert wird, um ihre Zugehörigkeit zu einer oder mehreren Entitäten zu kennzeichnen}
+}
+
+\newglossaryentry{CUDA-Thread}
+{
+	name=CUDA-Thread,
+	description={führt einen \textit{Kernel} auf einer Recheneinheit (Core) der GP-GPU aus. CUDA Threads werden in \textit{Blöcken} gestartet, in denen sie synchron ablaufen und einen gemeinsamen Speicher nutzen},
+	user1={Swept-Volumens}
+}
+
+\newglossaryentry{VBOg}{name={Vertex-Buffer Object},
+	description={ist ein Speicherbereich der in \Gls{OpenGL} genutzt wird, um Eckpunkte und andere Informationen über mehrere Zeichenaufrufe hinweg zu speichern. \Glspl{VBO} dienen zur Entkopplung der Daten-Bereitstellung und dem eigentlichen Zeichnen. Im \Gls{GVL}-Visualizer liegen VBOs im \Gls{CUDA} Shared Memory.}
+}
+
+
+\newglossaryentry{Visual Servoing}
+{
+	name=Visual Servoing,
+	description={ist ein Kamera gestützter Regelungsprozess, bei dem ein \Gls{Endeffektor} relativ zu einem detektierten Objekt positioniert wird}
+}
+
+\newglossaryentry{Visualizer}
+{
+	name=Visualizer,
+	description={ist ein eigenständiges Programm zu Visualisierung von Daten in \Gls{GVL}. Es benötigt einen laufenden \Gls{Provider}, dessen Daten interpretiert werden}
+}
+
+\newglossaryentry{Voxel}
+{
+	name=Voxel,
+	description={bezeichnet ein kubisches Volumen im dreidimensionalen Raum, das die kleinste Einheit der in dieser Arbeit verwendeten Raumpartitionierung darstellt. Ein Voxel kann unterschiedliche Zustände einnehmen und zu einer oder mehreren Entitäten zugeordnet werden. Er ist das Pendant des zweidimensionalen \textit{Pixel}}
+}
+
+\newglossaryentry{Voxel-Bedeutung}
+{
+	name=Voxel-Bedeutung,
+	description={entspricht der semantischen Interpretation vom Voxeldaten. Hauptsächlich als Bitmuster in Bitvoxeln gespeichert, oder als Wahrscheinlichkeits-Grenze bei probabilisitischen Voxeln definiert.}
+}
+
+\newglossaryentry{Voxel-Typ}
+{
+	name=Voxel-Typ,
+	description={bezeichnet die Art der Implementierung eines \Glspl{Voxel}. Je nach Typ können unterschiedliche Informationen pro Voxel gespeichert werden.}
+}
+
+\newglossaryentry{Voxelisierung}
+{
+	name=Voxelisierung,
+	description={bezeichnet die Umwandlung (Diskretisierung) einer Punktewolke in Voxel, indem die Belegtheitsinformationen der Voxel, in welchen die Punkte liegen, aktualisiert werden},
+	user1={voxelisieren},
+	user2={voxelisiert},
+	user3={voxelisierten}
+}
