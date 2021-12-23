@@ -284,4 +284,4 @@ Answer 1
     
 &nbsp;
 &nbsp;
-\* denotes equal contribution
+##### \* denotes equal contribution
