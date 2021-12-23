@@ -144,6 +144,8 @@ Reject
 
 [PDF](https://arxiv.org/pdf/2109.08599) | [arXiv](https://arxiv.org/abs/2109.08599) | [Proceeding]()
 
+:heavy_check_mark: Accepted at [FICC Future of Information and Communication Conference](https://saiconference.com/FICC)
+
 <details>
   <summary markdown="span">Citation</summary>
   
@@ -156,8 +158,6 @@ Reject
   }
   ```
 </details>
-
-:heavy_check_mark: Accepted at [FICC Future of Information and Communication Conference](https://saiconference.com/FICC)
 
 <details>
   <summary>:closed_book: Low Quality Reviews
@@ -357,14 +357,14 @@ Year • Authors
 
 [PDF]() | [arXiv]() | [Code]() | [Proceeding]()
 
+:heavy_check_mark::x: Accepted/Rejected at []()
+
 <details>
   <summary markdown="span">Citation</summary>
   
   ```
   ```
 </details>
-
-:heavy_check_mark::x: Accepted/Rejected at []()
 
 <details>
   <summary>:green_book::orange_book::closed_book: High/Medium/Low Quality Reviews
