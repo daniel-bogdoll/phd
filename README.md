@@ -11,7 +11,7 @@ Detection and Handling of Corner Cases in Autonomous Driving
 :heavy_check_mark: Accepted at [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
 
 <details>
-  <summary markdown="span">Citation</summary>
+  <summary markdown="span">BibTeX Citation</summary>
   
   ```
   @article{Bogdoll_Compressing_2021_NeurIPS,
@@ -145,7 +145,7 @@ Reject
 :heavy_check_mark: Accepted at [VEHITS International Conference on Vehicle Technology and Intelligent Transport Systems](https://vehits.scitevents.org/)
 
 <details>
-  <summary markdown="span">Citation</summary>
+  <summary markdown="span">BibTeX Citation</summary>
   
   ```
   @article{Bogdoll_Compressing_2021_NeurIPS,
