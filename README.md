@@ -157,7 +157,7 @@ Reject
   ```
 </details>
 
-:heavy_check_mark::x: Accepted at [FICC Future of Information and Communication Conference](https://saiconference.com/FICC)
+:heavy_check_mark: Accepted at [FICC Future of Information and Communication Conference](https://saiconference.com/FICC)
 
 <details>
   <summary>:closed_book: Low Quality Reviews
