@@ -8,8 +8,6 @@ Detection and Handling of Corner Cases in Autonomous Driving
 
 [PDF](https://arxiv.org/pdf/2111.03201.pdf) | [arXiv](https://arxiv.org/abs/2111.03201) | [Code](https://github.com/daniel-bogdoll/deep_generative_models) | [Workshop](https://ml4ad.github.io/)
 
-:heavy_check_mark: Accepted at [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
-
 <details>
   <summary markdown="span">Citation</summary>
   
@@ -22,6 +20,8 @@ Detection and Handling of Corner Cases in Autonomous Driving
   }
   ```
 </details>
+
+:heavy_check_mark: Accepted at [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
 
 <details>
   <summary>:orange_book: Medium Quality Reviews
