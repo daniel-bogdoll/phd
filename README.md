@@ -4,7 +4,7 @@ Detection and Handling of Corner Cases in Autonomous Driving
 ## List of Publications
 
 ### Compressing Sensor Data for Remote Assistance of Autonomous Vehicles using Deep Generative Models
-2021 | Daniel Bogdoll*, Johannes Jestram*, Jonas Rauch*, Christin Scheib*, Moritz Wittig* and J. Marius Zöllner
+2021 • Daniel Bogdoll*, Johannes Jestram*, Jonas Rauch*, Christin Scheib*, Moritz Wittig* and J. Marius Zöllner
 
 [PDF](https://arxiv.org/pdf/2111.03201.pdf) | [arXiv](https://arxiv.org/abs/2111.03201) | [Code](https://github.com/daniel-bogdoll/deep_generative_models) | [Workshop](https://ml4ad.github.io/)
 
@@ -138,7 +138,7 @@ Reject
 &nbsp;
 &nbsp;
 ### ad-datasets: a meta-collection of data sets for autonomous driving
-2021 | Daniel Bogdoll*, Felix Schreyer* and J. Marius Zöllner
+2021 • Daniel Bogdoll*, Felix Schreyer* and J. Marius Zöllner
 
 [PDF]() | [arXiv]() | [Code](https://ad-datasets.com) | [Proceeding]()
 
