@@ -135,6 +135,101 @@ Using learning-based methods for low-latency compression for teleoperated vehicl
 Reject
 </details>
 
+
+
+&nbsp;
+&nbsp;
+### Taxonomy and Survey on Remote Human Input Systems for Driving Automation Systems
+2021 • Daniel Bogdoll, Stefan Orf, Lars Töttel and J. Marius Zöllner
+
+[PDF](https://arxiv.org/pdf/2109.08599) | [arXiv](https://arxiv.org/abs/2109.08599) | [Proceeding]()
+
+<details>
+  <summary markdown="span">Citation</summary>
+  
+  ```
+  @article{Bogdoll_Taxonomy_2021_arXiv,
+      author    = {Bogdoll, Daniel and Orf, Stefan and T\"{o}ttel, Lars and Z\"{o}llner, J. Marius},
+      title     = {{Taxonomy and Survey on Remote Human Input Systems for Driving Automation Systems}}, 
+      journal   = {arXiv preprint:2109.08599},
+      year      = {2021}
+  }
+  ```
+</details>
+
+:heavy_check_mark::x: Accepted at [FICC Future of Information and Communication Conference](https://saiconference.com/FICC)
+
+<details>
+  <summary>:closed_book: Low Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+##### Detailed Comments
+Interesting work! I would like to share your research findings with other colleagues later at the forthcoming event, FICC 2022. After all, this paper should be accepted.
+
+##### Please rate your satisfaction with the basic sections (introduction, conclusion, works cited, etc.) ?
+Fair
+
+##### The material is ordered in a way that is logical, clear, and easy to follow?
+Good
+
+##### The writer adequately summarizes and discusses the topic?
+Fair
+
+##### The writer makes some contribution of thought to the paper or merely summarizes data or publications?
+Good
+
+##### The writer introduces and documents sources adequately and appropriately?
+Good
+
+##### The formatting of the manuscript is in accordance to the prescribed paper format?
+Fair
+
+##### The paragraphs and sentences are cohesive (flow together smoothly without disruption in the train of thought)?
+Good
+
+##### Are there any grammar, punctuation, or spelling errors?
+Moderate editing of English style and the paper format changes are required including minor spell check.
+
+### Reviewer 2
+
+##### Detailed Comments
+• The "Introduction" section needs to be elaborated with more details.
+• The paper is missing a short paragraph to introduce the rest of the paper's contents at the end of the Introduction section. This paragraph is important, enabling the readers to understand what the following content will be and arouse their interest to continue reading the paper.
+• Describe an incremental solution and show the results.
+• Limitation of the study must be highlighted.
+• Add portion of discussion to share your thoughts.
+• This work can be published only after careful review by the authors as those mentioned above.
+
+##### Please rate your satisfaction with the basic sections (introduction, conclusion, works cited, etc.) ?
+Fair
+
+##### The material is ordered in a way that is logical, clear, and easy to follow?
+Fair
+
+##### The writer adequately summarizes and discusses the topic?
+Fair
+
+##### The writer makes some contribution of thought to the paper or merely summarizes data or publications?
+Fair
+
+##### The writer introduces and documents sources adequately and appropriately?
+Fair
+
+##### The formatting of the manuscript is in accordance to the prescribed paper format?
+Good
+
+##### The paragraphs and sentences are cohesive (flow together smoothly without disruption in the train of thought)?
+Good
+
+##### Are there any grammar, punctuation, or spelling errors?
+No
+
+</details>
+
+
+
 &nbsp;
 &nbsp;
 ### ad-datasets: a meta-collection of data sets for autonomous driving
