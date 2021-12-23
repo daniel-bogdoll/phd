@@ -258,7 +258,7 @@ The paper describes the creation of a web site containing a list of data sets co
 &nbsp;
 &nbsp;
 ### Title (Template)
-Year | Authors
+Year • Authors
 
 [PDF]() | [arXiv]() | [Code]() | [Proceeding]()
 
@@ -281,4 +281,6 @@ Year | Authors
 Answer 1
 </details>
 
+&nbsp;
+&nbsp;
 \* denotes equal contribution
