@@ -6,6 +6,8 @@ Detection and Handling of Corner Cases in Autonomous Driving
 ### Compressing Sensor Data for Remote Assistance of Autonomous Vehicles using Deep Generative Models
 2021 • Daniel Bogdoll*, Johannes Jestram*, Jonas Rauch*, Christin Scheib*, Moritz Wittig* and J. Marius Zöllner
 
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/150287374-0c4b3081-62b9-46f2-8d32-cb733cd7c762.png">
+
 [PDF](https://arxiv.org/pdf/2111.03201.pdf) | [arXiv](https://arxiv.org/abs/2111.03201) | [Code](https://github.com/daniel-bogdoll/deep_generative_models) | [Workshop](https://ml4ad.github.io/)
 
 :heavy_check_mark: Accepted at [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
@@ -24,7 +26,9 @@ Detection and Handling of Corner Cases in Autonomous Driving
 </details>
 
 <details>
-  <summary>:orange_book: Medium Quality Reviews
+  <summary>
+    :+1: Double-Blind
+    :orange_book: Medium Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -142,12 +146,14 @@ Reject
 ### Taxonomy and Survey on Remote Human Input Systems for Driving Automation Systems
 2021 • Daniel Bogdoll, Stefan Orf, Lars Töttel and J. Marius Zöllner
 
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/150287894-21e34522-03d8-4d34-98b5-4d630b3d1644.png">
+
 [PDF](https://arxiv.org/pdf/2109.08599) | [arXiv](https://arxiv.org/abs/2109.08599) | [Proceeding]()
 
 :heavy_check_mark: Accepted at [FICC Future of Information and Communication Conference](https://saiconference.com/FICC)
 
 <details>
-  <summary markdown="span">Citation</summary>
+  <summary markdown="span">BibTeX Citation</summary>
   
   ```
   @article{Bogdoll_Taxonomy_2021_arXiv,
@@ -160,7 +166,9 @@ Reject
 </details>
 
 <details>
-  <summary>:closed_book: Low Quality Reviews
+  <summary>
+    :+1: Double-Blind
+    :closed_book: Low Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -253,7 +261,9 @@ No
 </details>
 
 <details>
-  <summary>:green_book: High Quality Reviews
+  <summary>
+    :+1: Double-Blind
+    :orange_book: Medium Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -264,7 +274,9 @@ No
 :x: Rejected at [AAMAS International Conference on Autonomous Agents and Multiagent Systems](https://aamas2022-conference.auckland.ac.nz/)
 
 <details>
-  <summary>:green_book: High Quality Reviews
+  <summary>
+    :+1: Double-Blind
+    :green_book: High Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -367,7 +379,9 @@ Year • Authors
 </details>
 
 <details>
-  <summary>:green_book::orange_book::closed_book: High/Medium/Low Quality Reviews
+  <summary>
+    :-1::+1::raised_hands: Single-Blind/Double-Blind/Open Peer
+    :green_book::orange_book::closed_book: High/Medium/Low Quality Reviews
 </summary>
   
 ### Reviewer 1
