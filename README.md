@@ -367,6 +367,9 @@ The paper describes the creation of a web site containing a list of data sets co
 ### Title (Template)
 Year • Authors
 
+(image 1600x300)
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/150287374-0c4b3081-62b9-46f2-8d32-cb733cd7c762.png">
+
 [PDF]() | [arXiv]() | [Code]() | [Proceeding]()
 
 :heavy_check_mark::x: Accepted/Rejected at []()
