@@ -457,8 +457,6 @@ No
     year      = {2021}
 }
 
-}
-
   ```
 </details>
 
@@ -537,7 +535,7 @@ Accept (1)
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152373346-99b6d881-4543-494c-80de-f0e196f6c1c0.png">
 
-[Proceeding](https://www.sae.org/publications/technical-papers/content/2018-01-1080/) | [Conference](https://www.sae.org/news/press-room/2018/04/successful-sae-international-wcx-world-congress-experience-featured-global-thought-leaders-and-innovative-engineering-technology)
+[Proceeding](https://www.sae.org/publications/technical-papers/content/2018-01-1080/)
 
 :heavy_check_mark: Accepted at [SAE WCX World Congress Experience](https://www.sae.org/attend/wcx)
 
