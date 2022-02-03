@@ -272,7 +272,7 @@ Reject
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152381191-25bea065-3f4b-4fae-ac3c-76111cf9083f.png">
 
-[PDF](https://openaccess.thecvf.com/content/ICCV2021W/ERCVAD/papers/Bogdoll_Description_of_Corner_Cases_in_Automated_Driving_Goals_and_Challenges_ICCVW_2021_paper.pdf) | [arXiv](https://arxiv.org/abs/2109.09607) | [Proceedings](https://openaccess.thecvf.com/ICCV2021_workshops/ERCVAD)
+[PDF](https://openaccess.thecvf.com/content/ICCV2021W/ERCVAD/papers/Bogdoll_Description_of_Corner_Cases_in_Automated_Driving_Goals_and_Challenges_ICCVW_2021_paper.pdf) | [arXiv](https://arxiv.org/abs/2109.09607) | [Proceeding](https://openaccess.thecvf.com/ICCV2021_workshops/ERCVAD)
 
 :heavy_check_mark: Accepted at [ICCV Workshop on Embedded and Real-World Computer Vision in Autonomous Driving](https://www.ki-deltalearning.de/event/ercvad2021)
 
@@ -442,7 +442,7 @@ No
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152385032-b1dc7720-7b22-4ead-b1cd-0b3665edf4fc.png">
 
-[PDF](https://arxiv.org/pdf/2106.04549.pdf) | [arXiv](https://arxiv.org/abs/2106.04549) | [Proceedings](https://ieeexplore.ieee.org/abstract/document/9562826)
+[PDF](https://arxiv.org/pdf/2106.04549.pdf) | [arXiv](https://arxiv.org/abs/2106.04549) | [Proceeding](https://ieeexplore.ieee.org/abstract/document/9562826)
 
 :heavy_check_mark: Accepted at [IEEE International Smart Cities Conference (ISC2)](https://attend.ieee.org/isc2-2021/)
 
