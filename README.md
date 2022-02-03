@@ -4,7 +4,10 @@ Detection and Handling of Corner Cases in Autonomous Driving
 ## List of Publications
 ##### \* denotes equal contribution
 
+&nbsp;
+&nbsp;
 ----------------------------------------------------------- 2022 -----------------------------------------------------------
+&nbsp;
 &nbsp;
 
 ### ad-datasets: a meta-collection of data sets for autonomous driving
@@ -129,9 +132,11 @@ The paper describes the creation of a web site containing a list of data sets co
 </details>
 
 &nbsp;
------------------------------------------------------------ 2021 -----------------------------------------------------------
 &nbsp;
+----------------------------------------------------------- 2021 -----------------------------------------------------------
 
+&nbsp;
+&nbsp;
 ### Compressing Sensor Data for Remote Assistance of Autonomous Vehicles using Deep Generative Models
 2021 • Daniel Bogdoll*, Johannes Jestram*, Jonas Rauch*, Christin Scheib*, Moritz Wittig* and J. Marius Zöllner
 
@@ -365,9 +370,11 @@ No
 </details>
 
 &nbsp;
------------------------------------------------------------ 2018 -----------------------------------------------------------
 &nbsp;
+----------------------------------------------------------- 2018 -----------------------------------------------------------
 
+&nbsp;
+&nbsp;
 ### AUREATE: An Augmented Reality Test Environment for Realistic Simulations
 2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel and Gautham Sholingar
 
@@ -394,9 +401,11 @@ No
 I no longer have access to the reviews
 
 &nbsp;
------------------------------------------------------------ Template -----------------------------------------------------------
 &nbsp;
+----------------------------------------------------------- Template -----------------------------------------------------------
 
+nbsp;
+&nbsp;
 ### Title (Template)
 Year • Authors
 
