@@ -130,7 +130,7 @@ The paper describes the creation of a web site containing a list of data sets co
 &nbsp;
 &nbsp;
 ### Compressing Sensor Data for Remote Assistance of Autonomous Vehicles using Deep Generative Models
-11/2021 • Daniel Bogdoll*, Johannes Jestram*, Jonas Rauch*, Christin Scheib*, Moritz Wittig* and J. Marius Zöllner
+11/2021 • Daniel Bogdoll*, Johannes Jestram*, Jonas Rauch*, Christin Scheib*, Moritz Wittig*, and J. Marius Zöllner
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/150287374-0c4b3081-62b9-46f2-8d32-cb733cd7c762.png">
 
@@ -268,7 +268,7 @@ Reject
 &nbsp;
 &nbsp;
 ### Description of Corner Cases in Automated Driving: Goals and Challenges
-09/2021 • Daniel Bogdoll*, Jasmin Breitenstein*, Florian Heidecker*, Maarten Bieshaar, Bernhard Sick, Tim Fingscheidt, J. Marius Zöllner
+09/2021 • Daniel Bogdoll*, Jasmin Breitenstein*, Florian Heidecker*, Maarten Bieshaar, Bernhard Sick, Tim Fingscheidt, and J. Marius Zöllner
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152381191-25bea065-3f4b-4fae-ac3c-76111cf9083f.png">
 
@@ -284,7 +284,6 @@ Reject
     author    = {Bogdoll, Daniel and Breitenstein, Jasmin and Heidecker, Florian and Bieshaar, Maarten and Sick, Bernhard and Fingscheidt, Tim and Z\"{o}llner, Marius},
     title     = {{Description of Corner Cases in Automated Driving: Goals and Challenges}},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
-    pages     = {1023-1028},
     year      = {2021}
 }
 
@@ -344,7 +343,7 @@ Low Botherline
 &nbsp;
 &nbsp;
 ### Taxonomy and Survey on Remote Human Input Systems for Driving Automation Systems
-2021 • Daniel Bogdoll, Stefan Orf, Lars Töttel and J. Marius Zöllner
+09/2021 • Daniel Bogdoll, Stefan Orf, Lars Töttel, and J. Marius Zöllner
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/150287894-21e34522-03d8-4d34-98b5-4d630b3d1644.png">
 
@@ -438,8 +437,85 @@ No
 
 &nbsp;
 &nbsp;
+### KIGLIS: Smart Networks for Smart Cities
+05/2021 • Daniel Bogdoll, Patrick Matalla, Christoph Füllner, Christian Raack, Shi Li, Tobias Käfer, Stefan Orf, Marc René Zofka, Finn Sartoris, Christoph Schweikert, Thomas Pfeiffer, André Richter, Sebastian Randel, and Rene Bonk
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/152385032-b1dc7720-7b22-4ead-b1cd-0b3665edf4fc.png">
+
+
+[PDF](https://arxiv.org/pdf/2106.04549.pdf) | [arXiv](https://arxiv.org/abs/2106.04549) | [Proceedings](https://ieeexplore.ieee.org/abstract/document/9562826)
+
+:heavy_check_mark: Accepted at [IEEE International Smart Cities Conference (ISC2)](https://attend.ieee.org/isc2-2021/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_KIGLIS_2021_ISC2,
+    author    = {Bogdoll, Daniel and Matalla, Patrick and F\"{u}llner, Christoph and Raack, Christian and Li, Shi and K\"{a}fer, Tobias and Orf, Stefan and Zofka, Marc Ren\'{e} and Sartoris, Finn and Schweikert, Christoph and Pfeiffer, Thomas and Richter, Andr\'{e} and Randel, Sebastian and Bonk, Rene},
+    title     = {{KIGLIS: Smart Networks for Smart Cities}},
+    booktitle = {IEEE International Smart Cities Conference (ISC2)},
+    year      = {2021}
+}
+
+}
+
+  ```
+</details>
+
+<details>
+  <summary>
+    :-1: Single-Blind
+    :orange_book: Medium Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+##### Comments to authors* Please assess the contribution of this submission (if any). Please provide comments to the authors to help them improve their work, or to explain your recommendation.
+The authors want to show the challenges and goals of machine interpretable definitions of corner cases for automated driving by presenting six research questions.
+
+Main feedback
+- The contribution beyond state-of-the-art is not clear. Roughly 2.75 pages of 5 (excluding references) are filled with introduction and related work. Additionally, the remaining pages read like state-of-the-art since any valuable information is either a reference to other papers or unproven. The paper only contains general ideas without any indication on how to address the problems that need to be solved (e.g. how to keep the corner case description so flexible to represent any corner case, but rigid enough to be useful for machine interpretation, how to generate the descriptions, etc.).
+- The authors cite reference 7,8 and especially 16 a lot, these papers are from one research group. Reference 8 and 16 are only available on arXiv, so they are not published and not peer-reviewed. Reference 16 is cited 14 times within the paper. The left image in figure 2 is the exact same as in reference 16 except for the car color, but it is not cited.
+- Abstract contains little more information about the content of the paper than the title, i.e. information on the process and the results
+
+Other notes:
+- Paper ID is missing
+- Chapter 1: Contribution is not mentioned / unclear. It is claimed that corner case description can improve the performance of ML models, but this remains unproven
+- Line 50-51: Should be elaborated more.
+- Line 117-120: Missing reference
+- The relevance of listing different frameworks for defining street scenarios (chapter 2.1.1-2.1.4) in not apparent
+- Line 264: Why quotes?
+- Line 285: "CCD can ... act as a trigger during fleet recordings" should be elaborated a bit more to convey the usefulness. Is this intended as live interpretation of the current driving scenario and saving either an annotation or the corner case description?
+- Chapter 3 & 4: Would be the contribution of the paper, but contain many unproven assumptions, like "we can automatically describe CC and generate them", "With CCD as an extension, this becomes possible, improving upon existing approaches drastically", etc. This is worded like it already working, but it is never presented/proven.
+- Figure 2: As written above. The left image in figure 2 is the exact same as in reference 16 except for the car color, but it is not cited neither exists any indication that the generation of the image was part of the current work.
+- Line 426: "To improve this situation, first, a CCD is necessary." The wording should be more humble. This is a very theoretical paper without showing any working solution.
+
+##### Overall quality assessment* Select one option from the list
+Reject
+  
+### Reviewer 2
+  
+##### Comments to authors* Please assess the contribution of this submission (if any). Please provide comments to the authors to help them improve their work, or to explain your recommendation.
+Positive: The paper is well written and structured. It gives a good overview over the research area of corner cases and existing state of the art. The core message is formulated research questions for further work.
+
+Negative: I would like to see a larger and more application focussed section 4 with empirical examples of failure due to CC, or graphs/media to visually underline the text. The high occurence of abbreviations makes the text difficult to read.
+
+##### Overall quality assessment* Select one option from the list
+Accept
+
+### Reviewer 3
+##### Comments to authors* Please assess the contribution of this submission (if any). Please provide comments to the authors to help them improve their work, or to explain your recommendation.
+This paper propose an approach for corner case detection guided by best-practice. The general idea is very relevant and is certainly worthy of further exploration. However, the authors essentially describes a research outline to the problem and provides very abstract solutions only. The potential of corner case descriptions (CCD) for three challenging situations becomes apparent to the reader, but the solutions still seem to be very vague.
+
+##### Overall quality assessment* Select one option from the list
+Low Botherline
+</details>
+
+&nbsp;
+&nbsp;
 ### AUREATE: An Augmented Reality Test Environment for Realistic Simulations
-2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel and Gautham Sholingar
+04/2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel and Gautham Sholingar
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152373346-99b6d881-4543-494c-80de-f0e196f6c1c0.png">
 
