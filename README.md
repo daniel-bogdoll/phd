@@ -39,7 +39,7 @@ Detection and Handling of Corner Cases in Autonomous Driving
 
 &nbsp;
 &nbsp;
-### WIP | ad-datasets: a meta-collection of data sets for autonomous driving
+### ad-datasets: a meta-collection of data sets for autonomous driving
 02/2022 • Daniel Bogdoll*, Felix Schreyer*, and J. Marius Zöllner
 
 [PDF]() | [arXiv]() | [Code](https://ad-datasets.com) | [Proceeding]()
@@ -65,9 +65,80 @@ Detection and Handling of Corner Cases in Autonomous Driving
     :orange_circle: Medium Quality Reviews
 </summary>
   
+Scale: 1:Lowest Value; 6:Highest Value
+
 ### Reviewer 1
 
-##### 
+##### Relevance:	Paper fits one or more of the topic areas?
+5
+##### Originality:	Newness of the ideas expressed
+5
+##### Technical Quality:	Theoretical soundness/methodology
+4
+##### Significance:	Is the problem worth the given attention?
+5
+##### Presentation:	Structure/Length/English
+4
+##### Overall Rating:	Weighted value of above items
+4
+##### Abstract and Introduction are adequate?
+Yes
+##### Needs more experimental results?
+No
+##### Needs comparative evaluation?
+No
+##### Improve critical discussion ?	validation
+Yes
+##### Figures are adequate ?	in number and quality
+Yes
+##### Conclusions/Future Work are convincing?
+Yes
+##### References are up-to-date and appropriate?
+No
+##### Paper formatting needs adjustment?
+Yes
+##### Improve English?
+Yes
+
+##### Observations for Author
+This a kind of review paper for data available for autonomous driving. It could be useful with the knowledge that it contains. The references need refinement - to contain all necessary details and adding images to demonstrate what is in the data bases could be useful.
+
+### Reviewer 2
+  
+##### Relevance:	Paper fits one or more of the topic areas?
+4
+##### Originality:	Newness of the ideas expressed
+3
+##### Technical Quality:	Theoretical soundness/methodology
+3
+##### Significance:	Is the problem worth the given attention?
+3
+##### Presentation:	Structure/Length/English
+5
+##### Overall Rating	Weighted value of above items
+3
+##### Abstract and Introduction are adequate?
+Yes
+##### Needs more experimental results?
+Yes
+##### Needs comparative evaluation?	
+No
+##### Improve critical discussion ?	validation
+Yes
+##### Figures are adequate ?	in number and quality
+No
+##### Conclusions/Future Work are convincing?
+Yes
+##### References are up-to-date and appropriate?
+Yes
+##### Paper formatting needs adjustment?
+No
+##### Improve English?
+No
+
+##### Observations for Author
+The paper proposes an online tool for a comprehensive, up-to-date overview of existing data sets in the field of autonomous driving. The datasets are categorized based on a number of aspects (which resulted from an expert survey). Based on the proposed framework, the authors provide a preliminary analysis of 40 datasets considering the 31 most popular datasets plus 9 random dataset. The project is interesting and is supposed to provide an added value to the community. The paper is well written. However, my feeling is that the technical content of the paper is fairly limited overall. In addition, a number of aspects should be better clarified, as reported in the following. Some aspects related to the analysis of the 40 datasets are not clear. How “popularity” has been measured? The nature of the mentioned expert survey should be clarified. Indeed, knowing for instance if it comes from experts from academia/industry (how many different companies are involved) would provide useful context. The analyses reported in sec. 4 are somehow misleading. Specifically, if the data analyzed refer to the 31+9 datasets, it is not clear why the total amount of dataset considered does not sum up to 40, even when considering mutually exclusive labels (see Fig. 4,5,6). Authors are suggested to better clarify the methodology of the analysis.
+
 </details>
 
 :x: Previous version rejected at [AAMAS International Conference on Autonomous Agents and Multiagent Systems](https://aamas2022-conference.auckland.ac.nz/)
