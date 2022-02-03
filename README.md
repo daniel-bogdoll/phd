@@ -464,8 +464,8 @@ No
 
 <details>
   <summary>
-    🔴: Single-Blind
-    :orange_circle: Medium Quality Reviews
+   :red_circle: Single-Blind
+   :orange_circle: Medium Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -557,7 +557,7 @@ Accept (1)
 
 <details>
   <summary>
-    🔴: Single-Blind Reviews
+   :red_circle: Single-Blind Reviews
 </summary>
 I no longer have access to the reviews
 </details>
@@ -588,7 +588,7 @@ I no longer have access to the reviews
 
 <details>
   <summary>
-    :-1: Single-Blind :closed_book: Low Quality Review
+    :red_circle: Single-Blind :red_circle: Low Quality Review
 </summary>
   
 ### Reviewer 1
