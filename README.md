@@ -272,7 +272,7 @@ Reject
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152381191-25bea065-3f4b-4fae-ac3c-76111cf9083f.png">
 
-[PDF](https://openaccess.thecvf.com/content/ICCV2021W/ERCVAD/papers/Bogdoll_Description_of_Corner_Cases_in_Automated_Driving_Goals_and_Challenges_ICCVW_2021_paper.pdf) | [arXiv](https://arxiv.org/abs/2109.09607)
+[PDF](https://openaccess.thecvf.com/content/ICCV2021W/ERCVAD/papers/Bogdoll_Description_of_Corner_Cases_in_Automated_Driving_Goals_and_Challenges_ICCVW_2021_paper.pdf) | [arXiv](https://arxiv.org/abs/2109.09607) | [Proceedings](https://openaccess.thecvf.com/ICCV2021_workshops/ERCVAD)
 
 :heavy_check_mark: Accepted at [ICCV Workshop on Embedded and Real-World Computer Vision in Autonomous Driving](https://www.ki-deltalearning.de/event/ercvad2021)
 
