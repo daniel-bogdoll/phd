@@ -28,8 +28,8 @@ Detection and Handling of Corner Cases in Autonomous Driving
 
 <details>
   <summary>
-    :+1: Double-Blind
-    :orange_book: Medium Quality Reviews
+    :orange_circle: Double-Blind
+    :orange_circle: Medium Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -41,8 +41,8 @@ Detection and Handling of Corner Cases in Autonomous Driving
 
 <details>
   <summary>
-    :+1: Double-Blind
-    :green_book: High Quality Reviews
+    :orange_circle: Double-Blind
+    :green_circle: High Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -153,8 +153,8 @@ The paper describes the creation of a web site containing a list of data sets co
 
 <details>
   <summary>
-    :+1: Double-Blind
-    :orange_book: Medium Quality Reviews
+    :orange_circle: Double-Blind
+    :orange_circle: Medium Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -292,8 +292,8 @@ Reject
 
 <details>
   <summary>
-    :+1: Double-Blind
-    :orange_book: Medium Quality Reviews
+    :orange_circle: Double-Blind
+    :orange_circle: Medium Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -366,8 +366,8 @@ Low Botherline
 
 <details>
   <summary>
-    :+1: Double-Blind
-    :closed_book: Low Quality Reviews
+    :orange_circle: Double-Blind
+    :red_circle: Low Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -464,8 +464,8 @@ No
 
 <details>
   <summary>
-    :-1: Single-Blind
-    :orange_book: Medium Quality Reviews
+    🔴: Single-Blind
+    :orange_circle: Medium Quality Reviews
 </summary>
   
 ### Reviewer 1
@@ -557,7 +557,7 @@ Accept (1)
 
 <details>
   <summary>
-    :-1: Single-Blind Reviews
+    🔴: Single-Blind Reviews
 </summary>
 I no longer have access to the reviews
 </details>
