@@ -5,6 +5,7 @@ Detection and Handling of Corner Cases in Autonomous Driving
 ##### \* denotes equal contribution
 
 ----------------------------------------------------------- 2022 -----------------------------------------------------------
+&nbsp;
 
 ### ad-datasets: a meta-collection of data sets for autonomous driving
 2021 • Daniel Bogdoll*, Felix Schreyer* and J. Marius Zöllner
@@ -126,10 +127,10 @@ As discussed in the detailed comments, while potentially a useful tool, what pro
 ### Meta Review
 The paper describes the creation of a web site containing a list of data sets collected by others. This is helpful, but the list alone does not comprise enough content for this to be an acceptable paper. It is also unclear how the resource described provides a contribution to the community beyond existing web-based resources. As it stands, the analysis and value of the resource is limited. The domain is autonomous driving. The content is not sufficient for an academic paper and has limited value to the AAMAS community.
 </details>
-&nbsp;
-&nbsp;
 
+&nbsp;
 ----------------------------------------------------------- 2021 -----------------------------------------------------------
+&nbsp;
 
 ### Compressing Sensor Data for Remote Assistance of Autonomous Vehicles using Deep Generative Models
 2021 • Daniel Bogdoll*, Johannes Jestram*, Jonas Rauch*, Christin Scheib*, Moritz Wittig* and J. Marius Zöllner
@@ -363,11 +364,10 @@ No
 
 </details>
 
-
+&nbsp;
 ----------------------------------------------------------- 2018 -----------------------------------------------------------
+&nbsp;
 
-&nbsp;
-&nbsp;
 ### AUREATE: An Augmented Reality Test Environment for Realistic Simulations
 2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel and Gautham Sholingar
 
@@ -393,10 +393,10 @@ No
 
 I no longer have access to the reviews
 
+&nbsp;
 ----------------------------------------------------------- Template -----------------------------------------------------------
+&nbsp;
 
-&nbsp;
-&nbsp;
 ### Title (Template)
 Year • Authors
 
