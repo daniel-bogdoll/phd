@@ -591,427 +591,427 @@ Strong Accept
 
 ##### The Review
 
-    This paper presents a visual analytics approach to analyzing automated driving's
-    safety-critical scenes. Automated driving is emerging as a powerful platform for
-    transportation services in the near future. Thus, tackling its safety issues would
-    be a valuable research topic.
-    The proposed approach allows end-users to detect and explore criticality scenes
-    from multiple perspectives,  including 2D visualizations for objective analyses
-    and VR-based close-up subjective analyses. Overall, using VR technologies to
-    construct multi-perspective scene visualizations is intriguing, which can help
-    users understand driving corner-cases more straightforwardly and even obtain more
-    profound insights.
+This paper presents a visual analytics approach to analyzing automated driving's
+safety-critical scenes. Automated driving is emerging as a powerful platform for
+transportation services in the near future. Thus, tackling its safety issues would
+be a valuable research topic.
+The proposed approach allows end-users to detect and explore criticality scenes
+from multiple perspectives,  including 2D visualizations for objective analyses
+and VR-based close-up subjective analyses. Overall, using VR technologies to
+construct multi-perspective scene visualizations is intriguing, which can help
+users understand driving corner-cases more straightforwardly and even obtain more
+profound insights.
 
-    However, the following issues significantly reduce the quality of this paper.
-    1. The proposed visual analytics (VA) approach needs further clarification for its
-    end-users and analytical task details. Who will benefit from the proposed visual
-    analytics workflow? What are the deeper insights immersive VR views can provide
-    but conventional 2D views cannot? How can this information improve end users'
-    decision-making? I don't locate answers to these questions in the manuscript.
-    2. It is vague regarding how the proposed VR-based views can handle the
-    scalability issue. For example, Section 4.1's third paragraph mentions using a
-    threshold to control the number of participants in a visualization. How is the
-    threshold set? Can end users interactively adjust it? In addition, 3D
-    visualization suffers some challenges, e.g., occlusion of objects. Does the
-    proposed approach have this issue?
-    3. The presented visual analytics framework lacks details regarding user
-    interactions. The evaluation part (Section 5) reveals that the proposed approach
-    is a mixture of 2D and 3D visualizations. Do the two sides host in the same system
-    or reside in separate systems? How do the two sides communicate end users'
-    interactions and data exploration activities? More details or supplementary
-    materials (e.g., a video) are strongly recommended to help readers better
-    understand the interactivities between the proposed visual analytics approach and
-    users.
-    4. The evaluation (Section 5) is not sufficient to support this paper's novelty,
-    as it uses only one single dataset to conduct a case study. Thus,  it is hard to
-    predict whether the proposed approach is generic to other automated driving
-    datasets. More efforts are required, e.g., domain user feedbacks.
-    5. This paper's writing needs significant improvements, including but not limited
-    to the following:
-    5.1 The concepts of some terms (e.g, RViz, V2X) do not have a literature reference
-    or sentences to explain.
-    5.2 Some sentences are vague. For example, there is a sentence in Section 3.2, "On
-    basis of the road topology given by the HD map, traffic participants can be
-    brought into mutual relation." What does "mutual relation" mean?
-    5.3 Section 3.6 describes the implementation of VR scenes. Section 4.2 mainly
-    introduces the realization of the proposed VR-based visualization. Why does
-    Section 3.6 is separated from Section 4.2?
-    6. Regarding the literature, the related work section misses some VR-based visual
-    analytics work, including but not limited to:
-    B. Lee, D. Brown, B. Lee, C. Hurter, S. Drucker and T. Dwyer, "Data
-    Visceralization: Enabling Deeper Understanding of Data Using Virtual Reality," in
-    IEEE Transactions on Visualization and Computer Graphics, vol. 27, no. 2, pp.
-    1095-1105, Feb. 2021, doi: 10.1109/TVCG.2020.3030435.
-    F. Yang, J. Qian, J. Novotny, D. Badre, C. Jackson and D. Laidlaw, "A Virtual
-    Reality Memory Palace Variant Aids Knowledge Retrieval from Scholarly Articles,"
-    in IEEE Transactions on Visualization and Computer Graphics, doi:
-    10.1109/TVCG.2020.3009003.
-    M. Chen, K. Gaither, N. W. John and B. Mccann, "An Information-Theoretic Approach
-    to the Cost-benefit Analysis of Visualization in Virtual Environments," in IEEE
-    Transactions on Visualization and Computer Graphics, vol. 25, no. 1, pp. 32-42,
-    Jan. 2019, doi: 10.1109/TVCG.2018.2865025.
+However, the following issues significantly reduce the quality of this paper.
+1. The proposed visual analytics (VA) approach needs further clarification for its
+end-users and analytical task details. Who will benefit from the proposed visual
+analytics workflow? What are the deeper insights immersive VR views can provide
+but conventional 2D views cannot? How can this information improve end users'
+decision-making? I don't locate answers to these questions in the manuscript.
+2. It is vague regarding how the proposed VR-based views can handle the
+scalability issue. For example, Section 4.1's third paragraph mentions using a
+threshold to control the number of participants in a visualization. How is the
+threshold set? Can end users interactively adjust it? In addition, 3D
+visualization suffers some challenges, e.g., occlusion of objects. Does the
+proposed approach have this issue?
+3. The presented visual analytics framework lacks details regarding user
+interactions. The evaluation part (Section 5) reveals that the proposed approach
+is a mixture of 2D and 3D visualizations. Do the two sides host in the same system
+or reside in separate systems? How do the two sides communicate end users'
+interactions and data exploration activities? More details or supplementary
+materials (e.g., a video) are strongly recommended to help readers better
+understand the interactivities between the proposed visual analytics approach and
+users.
+4. The evaluation (Section 5) is not sufficient to support this paper's novelty,
+as it uses only one single dataset to conduct a case study. Thus,  it is hard to
+predict whether the proposed approach is generic to other automated driving
+datasets. More efforts are required, e.g., domain user feedbacks.
+5. This paper's writing needs significant improvements, including but not limited
+to the following:
+5.1 The concepts of some terms (e.g, RViz, V2X) do not have a literature reference
+or sentences to explain.
+5.2 Some sentences are vague. For example, there is a sentence in Section 3.2, "On
+basis of the road topology given by the HD map, traffic participants can be
+brought into mutual relation." What does "mutual relation" mean?
+5.3 Section 3.6 describes the implementation of VR scenes. Section 4.2 mainly
+introduces the realization of the proposed VR-based visualization. Why does
+Section 3.6 is separated from Section 4.2?
+6. Regarding the literature, the related work section misses some VR-based visual
+analytics work, including but not limited to:
+B. Lee, D. Brown, B. Lee, C. Hurter, S. Drucker and T. Dwyer, "Data
+Visceralization: Enabling Deeper Understanding of Data Using Virtual Reality," in
+IEEE Transactions on Visualization and Computer Graphics, vol. 27, no. 2, pp.
+1095-1105, Feb. 2021, doi: 10.1109/TVCG.2020.3030435.
+F. Yang, J. Qian, J. Novotny, D. Badre, C. Jackson and D. Laidlaw, "A Virtual
+Reality Memory Palace Variant Aids Knowledge Retrieval from Scholarly Articles,"
+in IEEE Transactions on Visualization and Computer Graphics, doi:
+10.1109/TVCG.2020.3009003.
+M. Chen, K. Gaither, N. W. John and B. Mccann, "An Information-Theoretic Approach
+to the Cost-benefit Analysis of Visualization in Virtual Environments," in IEEE
+Transactions on Visualization and Computer Graphics, vol. 25, no. 1, pp. 32-42,
+Jan. 2019, doi: 10.1109/TVCG.2018.2865025.
 
 ##### Overall Rating
 
-    Reject. The paper is not ready for publication in IEEE VIS. The
-    work may have some value but the paper requires major revisions or additional work
-    that are not possible within the conference review cycle to meet the quality
-    standard. Without them I will not be able to recommend accept.
+Reject. The paper is not ready for publication in IEEE VIS. The
+work may have some value but the paper requires major revisions or additional work
+that are not possible within the conference review cycle to meet the quality
+standard. Without them I will not be able to recommend accept.
 
 ##### Justification
 
-    The main contributions and strengths are:
+The main contributions and strengths are:
 
-    1. The research topic is quite intriguing.
-    2. The presented 2D-and-3D mixed visual analytics framework provides a
-    comprehensive data analysis environment.
-    3. VR-based visual analytics provides a close-up inspection of critical scenes.
+1. The research topic is quite intriguing.
+2. The presented 2D-and-3D mixed visual analytics framework provides a
+comprehensive data analysis environment.
+3. VR-based visual analytics provides a close-up inspection of critical scenes.
 
 
-    The most important issues or flaws are:
+The most important issues or flaws are:
 
-    1. This paper is vague regarding end-users, characterization of the problem space,
-    and particular analytic tasks.
-    2. The evaluation section is not sufficient to support its claims.
-    3. The paper writing requires significant improvements.
+1. This paper is vague regarding end-users, characterization of the problem space,
+and particular analytic tasks.
+2. The evaluation section is not sufficient to support its claims.
+3. The paper writing requires significant improvements.
 
 ##### Expertise
 
-    Knowledgeable
+Knowledgeable
 
 ##### Confidence
 
-    Very confident
+Very confident
 
 ### Reviewer 2
 
 ##### The Review
 
-    This work presents an interesting application, close-up scenario analysis using VR
-    to reconstruct automated driven scenes. The authors claim this is the work of such
-    a work. While I am not familiar with this application, I agree that the chosen set
-    up is very appropriate for this application.
+This work presents an interesting application, close-up scenario analysis using VR
+to reconstruct automated driven scenes. The authors claim this is the work of such
+a work. While I am not familiar with this application, I agree that the chosen set
+up is very appropriate for this application.
 
-    The main paper describes the system components, including the analysis framework,
-    criticality measures, scenario recreation in VR. The evaluation provides a summary
-    of using TTC, RSS and SFF in analysis. The conclusion from the example is that the
-    critical scene resulted from two vehicles driving in parallel and very close to
-    each other.
+The main paper describes the system components, including the analysis framework,
+criticality measures, scenario recreation in VR. The evaluation provides a summary
+of using TTC, RSS and SFF in analysis. The conclusion from the example is that the
+critical scene resulted from two vehicles driving in parallel and very close to
+each other.
 
-    The visualization component is rather limited in this work. Based on the space
-    time cubes, vehicles/humans/bikes are visualized as boxes/spheres and the travel
-    paths are rendered as lines in the scene visualization. These visual
-    representations are appropriate. However, this is the most relevant portion to
-    visualization.
+The visualization component is rather limited in this work. Based on the space
+time cubes, vehicles/humans/bikes are visualized as boxes/spheres and the travel
+paths are rendered as lines in the scene visualization. These visual
+representations are appropriate. However, this is the most relevant portion to
+visualization.
 
-    Based on the technical contribution of the paper, I would suggest the authors to
-    consider VR conferences, which are more suitable than visualization conferences.
+Based on the technical contribution of the paper, I would suggest the authors to
+consider VR conferences, which are more suitable than visualization conferences.
 
 ##### Overall Rating
 
-    Reject. The paper is not ready for publication in IEEE VIS.The
-    work may have some value but the paper requires major revisions or additional work
-    that are not possible within the conference review cycle to meet the quality
-    standard. Without them I will not be able to recommend accept.
+Reject. The paper is not ready for publication in IEEE VIS.The
+work may have some value but the paper requires major revisions or additional work
+that are not possible within the conference review cycle to meet the quality
+standard. Without them I will not be able to recommend accept.
 
 ##### Justification
 
-    This work presents an interesting application. The system is well constructed and
-    described.
+This work presents an interesting application. The system is well constructed and
+described.
 
-    However, the visualization component follows the concept of space time cube
-    directly. I think this work is more suitable for VR conferences or a short paper
-    for the upcoming short paper deadline.
+However, the visualization component follows the concept of space time cube
+directly. I think this work is more suitable for VR conferences or a short paper
+for the upcoming short paper deadline.
 
 ##### Expertise
 
-    Knowledgeable
+Knowledgeable
 
 ##### Confidence
 
-    Very confident
+Very confident
 
 ### Reviewer 3
 
 ##### The Review
 
-    This paper proposed a novel pipeline to analyse automated driving dataset. The
-    pipeline contains of two steps: objective analysis and subjective analysis.
-    Objective analysis aims at visualizing the criticality analysis result from the
-    semantic scene graph generated from the dataset. Subjective analysis then allow
-    analytics to immerse into the reconstructed historical scene for more in-depth
-    analysis. The authors evaluated their methodology by providing a case study of
-    finding reasons behind a critical situation.
+This paper proposed a novel pipeline to analyse automated driving dataset. The
+pipeline contains of two steps: objective analysis and subjective analysis.
+Objective analysis aims at visualizing the criticality analysis result from the
+semantic scene graph generated from the dataset. Subjective analysis then allow
+analytics to immerse into the reconstructed historical scene for more in-depth
+analysis. The authors evaluated their methodology by providing a case study of
+finding reasons behind a critical situation.
 
-    Positive
-    -       The author proposed a novel framework combining visual analytics with VR
-    technology to provide both objective and subjective analytics, which is a timely
-    topic.
-    -       The paper is easy to read.
+Positive
+-       The author proposed a novel framework combining visual analytics with VR
+technology to provide both objective and subjective analytics, which is a timely
+topic.
+-       The paper is easy to read.
 
-    Negative
-    -       The contribution is a bit limited for the VIS community. The authors
-    proposed a novel framework for automated driving dataset by involving a subjective
-    analysis using VR after the visual analytics, which seems to be a simple
-    combinatorial approach of visual analytics and VR. I suggest the authors should do
-    more in-depth analysis in either visual analytics or VR. For example, what is the
-    pain point in visual analytics for automated driving dataset and what is the
-    challenge of recreating a historical scene in VR. Besides, blending visual
-    analytics and VR, not just treating them as a separation component, could be
-    another direction. For instance, it would be interesting to see how to present the
-    time-space cube in the VR traffic scene for the analytics to do in-depth
-    subjective analysis, while still be able to refer to the objective data.
-    -       The evaluation is not sufficient. The authors only presented one case
-    study in the paper to evaluate the usefulness of the pipeline, which is hard to
-    tell the usefulness in a more general sense. I suggested that the authors could
-    evaluated their pipeline with domain experts to see if the proposed pipeline is
-    useful. Moreover, the case study did not cover all the functionality of the
-    proposed system. The Spatio-Temporal Scenario Visualization in Sec 3.4.2 is not
-    presented in the case study, which its usefulness cannot be evaluated. I suggest
-    the authors to find a case with all functionalities or provide more case studies
-    to cover the complete set of function proposed in the paper.
+Negative
+-       The contribution is a bit limited for the VIS community. The authors
+proposed a novel framework for automated driving dataset by involving a subjective
+analysis using VR after the visual analytics, which seems to be a simple
+combinatorial approach of visual analytics and VR. I suggest the authors should do
+more in-depth analysis in either visual analytics or VR. For example, what is the
+pain point in visual analytics for automated driving dataset and what is the
+challenge of recreating a historical scene in VR. Besides, blending visual
+analytics and VR, not just treating them as a separation component, could be
+another direction. For instance, it would be interesting to see how to present the
+time-space cube in the VR traffic scene for the analytics to do in-depth
+subjective analysis, while still be able to refer to the objective data.
+-       The evaluation is not sufficient. The authors only presented one case
+study in the paper to evaluate the usefulness of the pipeline, which is hard to
+tell the usefulness in a more general sense. I suggested that the authors could
+evaluated their pipeline with domain experts to see if the proposed pipeline is
+useful. Moreover, the case study did not cover all the functionality of the
+proposed system. The Spatio-Temporal Scenario Visualization in Sec 3.4.2 is not
+presented in the case study, which its usefulness cannot be evaluated. I suggest
+the authors to find a case with all functionalities or provide more case studies
+to cover the complete set of function proposed in the paper.
 
-    To conclude, this paper presented a novel framework for analyzing the automated
-    driving dataset, which is an emerging topic. However, the paper currently did not
-    provide sufficient contribution to the VIS community and evaluation for the
-    usefulness of the proposed methodology. As a result, I am on the side of rejecting
-    this paper by giving a rating of 2.
+To conclude, this paper presented a novel framework for analyzing the automated
+driving dataset, which is an emerging topic. However, the paper currently did not
+provide sufficient contribution to the VIS community and evaluation for the
+usefulness of the proposed methodology. As a result, I am on the side of rejecting
+this paper by giving a rating of 2.
 
 ##### Overall Rating
 
-    Reject. The paper is not ready for publication in IEEE VIS. The
-    work may have some value but the paper requires major revisions or additional work
-    that are not possible within the conference review cycle to meet the quality
-    standard. Without them I will not be able to recommend accept.
+Reject. The paper is not ready for publication in IEEE VIS. The
+work may have some value but the paper requires major revisions or additional work
+that are not possible within the conference review cycle to meet the quality
+standard. Without them I will not be able to recommend accept.
 
 ##### Justification
 
-    The paper presents a novel framework combining objective analysis using
-    visualization and subjective analysis using VR for driving dataset. It is a timely
-    research topic which combines automated driving and VR.
+The paper presents a novel framework combining objective analysis using
+visualization and subjective analysis using VR for driving dataset. It is a timely
+research topic which combines automated driving and VR.
 
-    But the paper does not have sufficient contribution and also the evaluation is not
-    solid.
+But the paper does not have sufficient contribution and also the evaluation is not
+solid.
 
 ##### Expertise
 
-    Knowledgeable
+Knowledgeable
 
 ##### Confidence
 
-    Very confident
+Very confident
 
 ### Reviewer 4
 
 ##### The Review
 
-    This paper presents an unnamed VR visualization system for reconstructing
-    automated driving scenarios using naturalistic motion traffic data. Per their
-    abstract, the motivation for the authors' implementation is to "detect critical
-    scenarios and generate knowledge" to the end of improving automated driving
-    models. The contribution of this paper is a novel one, and I am impressed with the
-    engineering that has gone into the system architecture, which is clearly laid out
-    in Sections 3 and 4 with sufficient detail regarding the models, calculations, and
-    development tools used in its construction. Section 3 in general in particular is
-    very well-reasoned and does an excellent job of justifying and explaining the
-    models, measures, and data transformations implemented in the system. These
-    elements of the system are sufficiently validated in Section 5 using measures
-    consistent with the discussion of criticality measures throughout the paper, which
-    adds cohesion to the submission.
+This paper presents an unnamed VR visualization system for reconstructing
+automated driving scenarios using naturalistic motion traffic data. Per their
+abstract, the motivation for the authors' implementation is to "detect critical
+scenarios and generate knowledge" to the end of improving automated driving
+models. The contribution of this paper is a novel one, and I am impressed with the
+engineering that has gone into the system architecture, which is clearly laid out
+in Sections 3 and 4 with sufficient detail regarding the models, calculations, and
+development tools used in its construction. Section 3 in general in particular is
+very well-reasoned and does an excellent job of justifying and explaining the
+models, measures, and data transformations implemented in the system. These
+elements of the system are sufficiently validated in Section 5 using measures
+consistent with the discussion of criticality measures throughout the paper, which
+adds cohesion to the submission.
 
-    However, I have significant concerns about this paper, and I do not believe that
-    the revisions that would be required are achievable within the conference review
-    cycle.
+However, I have significant concerns about this paper, and I do not believe that
+the revisions that would be required are achievable within the conference review
+cycle.
 
-    The authors' application of their selection of criticality measures to reconstruct
-    a scenarios in a VR replay view from multiple perspectives specifically for the
-    use-case of automated driving is, to the best of this reviewer's knowledge, indeed
-    a novel one, as the authors state in the second-to-last paragraph of the
-    INTRODUCTION Section. However, it is not the first VR visualization system for
-    semantic, relational, temporal data: See Hoobler, et al's "Visualizing Competitive
-    Behaviors in Multi-User Virtual Environments" (2004); Einsfeld, et al's "Modified
-    Virtual Reality for Intuitive Semantic Information Visualization" (2008); Halpin,
-    et al's "Redgraph" (2008); or Cailhol, et al's "multi-layer approach for
-    interactive path planning" (2014). Additionally, while the publications by Han, et
-    al (2020) and Park, et al (2021) noted below, along with van den Berg, et al's
-    "Virtualized Traffic" (2009), don't exactly overlap with this submission, they
-    would be worth a read by the authors.
+The authors' application of their selection of criticality measures to reconstruct
+a scenarios in a VR replay view from multiple perspectives specifically for the
+use-case of automated driving is, to the best of this reviewer's knowledge, indeed
+a novel one, as the authors state in the second-to-last paragraph of the
+INTRODUCTION Section. However, it is not the first VR visualization system for
+semantic, relational, temporal data: See Hoobler, et al's "Visualizing Competitive
+Behaviors in Multi-User Virtual Environments" (2004); Einsfeld, et al's "Modified
+Virtual Reality for Intuitive Semantic Information Visualization" (2008); Halpin,
+et al's "Redgraph" (2008); or Cailhol, et al's "multi-layer approach for
+interactive path planning" (2014). Additionally, while the publications by Han, et
+al (2020) and Park, et al (2021) noted below, along with van den Berg, et al's
+"Virtualized Traffic" (2009), don't exactly overlap with this submission, they
+would be worth a read by the authors.
 
-    That none of the items listed above are cited by the authors speak to my most
-    significant concern with this submission: A lack of grounding in prior research.
+That none of the items listed above are cited by the authors speak to my most
+significant concern with this submission: A lack of grounding in prior research.
 
-    This may sound cantankerous, but I believe it needs to be said: VIS is not just a
-    place to submit rejected CVPR papers that have an interface component. It is the
-    premier venue for visualization research. The authors have cited virtually no
-    literature from the visualization community, and their absence is reflected
-    throughout the entire paper. The authors should take some time to draw lessons
-    from existing visualization research--particularly the extremely relevant,
-    emerging field of immersive analytics (IA). I believe that their implementation,
-    evaluation, and discussion would all have been greatly improved if they had done
-    so prior to developing their system.
+This may sound cantankerous, but I believe it needs to be said: VIS is not just a
+place to submit rejected CVPR papers that have an interface component. It is the
+premier venue for visualization research. The authors have cited virtually no
+literature from the visualization community, and their absence is reflected
+throughout the entire paper. The authors should take some time to draw lessons
+from existing visualization research--particularly the extremely relevant,
+emerging field of immersive analytics (IA). I believe that their implementation,
+evaluation, and discussion would all have been greatly improved if they had done
+so prior to developing their system.
 
-    The authors should reframe their work to ground it in existing work in IA,
-    including:
+The authors should reframe their work to ground it in existing work in IA,
+including:
 
-        Fonnet, Adrien, and Yannick Prié. "Survey of immersive analytics." IEEE
-    transactions on visualization and computer graphics (2019).
+Fonnet, Adrien, and Yannick Prié. "Survey of immersive analytics." IEEE
+transactions on visualization and computer graphics (2019).
 
-        Batch, Andrea, et al. "There is no spoon: Evaluating performance, space use,
-    and presence with expert domain users in immersive analytics." IEEE transactions
-    on visualization and computer graphics 26.1 (2019): 536-546.
+Batch, Andrea, et al. "There is no spoon: Evaluating performance, space use,
+and presence with expert domain users in immersive analytics." IEEE transactions
+on visualization and computer graphics 26.1 (2019): 536-546.
 
-        Cordeil, Maxime, et al. "IATK: An immersive analytics toolkit." 2019 IEEE
-    Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, 2019.
+Cordeil, Maxime, et al. "IATK: An immersive analytics toolkit." 2019 IEEE
+Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, 2019.
 
-        Butcher, Peter, et al. "VRIA: A web-based framework for creating immersive
-    analytics experiences." IEEE transactions on visualization and computer graphics
-    (2020).
+Butcher, Peter, et al. "VRIA: A web-based framework for creating immersive
+analytics experiences." IEEE transactions on visualization and computer graphics
+(2020).
 
-        Whitlock, Matt, et al. "Graphical perception for immersive analytics." 2020
-    IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, 2020.
+Whitlock, Matt, et al. "Graphical perception for immersive analytics." 2020
+IEEE Conference on Virtual Reality and 3D User Interfaces (VR). IEEE, 2020.
 
-        Han, Lei, et al. "Live Semantic 3D Perception for Immersive Augmented
-    Reality." IEEE transactions on visualization and computer graphics 26.5 (2020):
-    2012-2022.
+Han, Lei, et al. "Live Semantic 3D Perception for Immersive Augmented
+Reality." IEEE transactions on visualization and computer graphics 26.5 (2020):
+2012-2022.
 
-        Park, Jinwoo, et al. "Instant Panoramic Texture Mapping with Semantic Object
-    Matching for Large-Scale Urban Scene Reproduction." IEEE Transactions on
-    Visualization and Computer Graphics 27.5 (2021): 2746-2756.
+Park, Jinwoo, et al. "Instant Panoramic Texture Mapping with Semantic Object
+Matching for Large-Scale Urban Scene Reproduction." IEEE Transactions on
+Visualization and Computer Graphics 27.5 (2021): 2746-2756.
 
-    It may also be worth the authors' time to review the 2018 book on Immersive
-    Analytics by Marriott, et al.
+It may also be worth the authors' time to review the 2018 book on Immersive
+Analytics by Marriott, et al.
 
-    From the broader domain of visualization research, the authors should additionally
-    consider familiarizing themselves with the subjects of design space and
-    requirements, with system and technique evaluation methods, and some of the
-    fundamentals of information visualization, perhaps starting with:
-       
-        Plaisant, Catherine. "The challenge of information visualization evaluation."
-    Proceedings of the working conference on Advanced visual interfaces. 2004.
+From the broader domain of visualization research, the authors should additionally
+consider familiarizing themselves with the subjects of design space and
+requirements, with system and technique evaluation methods, and some of the
+fundamentals of information visualization, perhaps starting with:
 
-        Munzner, Tamara. "A nested model for visualization design and validation."
-    IEEE transactions on visualization and computer graphics 15.6 (2009): 921-928.
+Plaisant, Catherine. "The challenge of information visualization evaluation."
+Proceedings of the working conference on Advanced visual interfaces. 2004.
 
-        Elmqvist, Niklas, and Ji Soo Yi. "Patterns for visualization evaluation."
-    Information Visualization 14.3 (2015): 250-269.
+Munzner, Tamara. "A nested model for visualization design and validation."
+IEEE transactions on visualization and computer graphics 15.6 (2009): 921-928.
 
-        Shneiderman, Ben. "The eyes have it: A task by data type taxonomy for
-    information visualizations." The craft of information visualization. Morgan
-    Kaufmann, 2003. 364-371.
+Elmqvist, Niklas, and Ji Soo Yi. "Patterns for visualization evaluation."
+Information Visualization 14.3 (2015): 250-269.
 
-        Card, Stuart K., and Jock Mackinlay. "The structure of the information
-    visualization design space." Proceedings of VIZ'97: Visualization Conference,
-    Information Visualization Symposium and Parallel Rendering Symposium. IEEE, 1997.
+Shneiderman, Ben. "The eyes have it: A task by data type taxonomy for
+information visualizations." The craft of information visualization. Morgan
+Kaufmann, 2003. 364-371.
 
-
-    The absence of an explicit connection with relevant work within the discipline is
-    not the only problem with this paper. My second most pressing concern about this
-    submission is the lack of validation of the stated purpose of their VR interface,
-    or indeed any mention thereof.
-
-    The VR component of the system is given a central focus in this paper, and its
-    purpose---as well as one of the two motivations for developing the entire system
-    ---is to "generate knowledge." Cognitive science perspectives on what exactly it
-    means to use a visual interface to "generate knowledge" aside, there is never any
-    discussion by the authors about validating the correctness, accuracy, speed, or
-    even the user experience aspects of data analysis within the VR environment
-    implemented in this paper.
-
-    The authors either need to conduct a user study or reframe the paper. If the
-    authors choose to reframe the paper such that subjective analysis in the VR view
-    is no longer a central focus, then it begs the question "what makes this paper
-    appropriate for VIS?"
-
-    In response to that question, I believe that the authors may be able to make it
-    relevant by focusing instead on the contribution of the 3D scene generation
-    itself, but only if they go into significantly greater detail in describing their
-    design space and contextualizing it with prior work, clearly defining their design
-    requirements and linking those requirements to the techniques implemented (not
-    just for the models on the backend but for the VR interface as well), and
-    justifying their design decisions. Ideally, this would be done in addition to an
-    evaluation of the VR view, but without the evaluation it really is necessary.
+Card, Stuart K., and Jock Mackinlay. "The structure of the information
+visualization design space." Proceedings of VIZ'97: Visualization Conference,
+Information Visualization Symposium and Parallel Rendering Symposium. IEEE, 1997.
 
 
-    I don't like having to score this paper poorly because I genuinely think that this
-    could be a significant contribution to the VIS, VR, and intelligent systems
-    communities, but I once again cannot in good conscience say that the revisions
-    that would be required in order for it to be an appropriate publication in VIS are
-    possible within the review cycle.
+The absence of an explicit connection with relevant work within the discipline is
+not the only problem with this paper. My second most pressing concern about this
+submission is the lack of validation of the stated purpose of their VR interface,
+or indeed any mention thereof.
 
-    Beyond that, please consider the minor issues and suggestions below.
+The VR component of the system is given a central focus in this paper, and its
+purpose---as well as one of the two motivations for developing the entire system
+---is to "generate knowledge." Cognitive science perspectives on what exactly it
+means to use a visual interface to "generate knowledge" aside, there is never any
+discussion by the authors about validating the correctness, accuracy, speed, or
+even the user experience aspects of data analysis within the VR environment
+implemented in this paper.
 
-    ------------------------------------------------
-    STYLE/ORGANIZATION/MISC
-    ------------------------------------------------
-    • GENERAL:
-    - Consider beginning each section with a summary of the most important points from
-    the section to follow instead of beginning each section with a subsection header.
-    - A paragraph usually has more than 2 sentences (unless you are writing a review
-    like I am right now).
-    • ABSTRACT: Don't put a line break in your abstract.
-    • INTRODUCTION: You do not need to state the paper outline at the end of your
-    introduction; the last paragraph of this section can be removed to end it on the
-    much stronger note of the authors' novel contribution. This will improve your
-    introduction. Sometimes less is indeed more.
-    • RELATED WORK: If your subsections are each a paragraph or less in length, your
-    section does not need subsections. Alternatively, this section could be extended
-    with information visualization research, particularly with IA research, as noted
-    above.
-    • LIMITATIONS: This paper will need a more thorough discussion of its limitations,
-    which it will absolutely still have If it is to be turned around quickly for this
-    or another closely-related conference or journal within the next few months.
-    • SUPPLEMENTAL MATERIALS: Please consider submitting a video demonstration of your
-    work as supplemental material.
+The authors either need to conduct a user study or reframe the paper. If the
+authors choose to reframe the paper such that subjective analysis in the VR view
+is no longer a central focus, then it begs the question "what makes this paper
+appropriate for VIS?"
+
+In response to that question, I believe that the authors may be able to make it
+relevant by focusing instead on the contribution of the 3D scene generation
+itself, but only if they go into significantly greater detail in describing their
+design space and contextualizing it with prior work, clearly defining their design
+requirements and linking those requirements to the techniques implemented (not
+just for the models on the backend but for the VR interface as well), and
+justifying their design decisions. Ideally, this would be done in addition to an
+evaluation of the VR view, but without the evaluation it really is necessary.
+
+
+I don't like having to score this paper poorly because I genuinely think that this
+could be a significant contribution to the VIS, VR, and intelligent systems
+communities, but I once again cannot in good conscience say that the revisions
+that would be required in order for it to be an appropriate publication in VIS are
+possible within the review cycle.
+
+Beyond that, please consider the minor issues and suggestions below.
+
+------------------------------------------------
+STYLE/ORGANIZATION/MISC
+------------------------------------------------
+• GENERAL:
+- Consider beginning each section with a summary of the most important points from
+the section to follow instead of beginning each section with a subsection header.
+- A paragraph usually has more than 2 sentences (unless you are writing a review
+like I am right now).
+• ABSTRACT: Don't put a line break in your abstract.
+• INTRODUCTION: You do not need to state the paper outline at the end of your
+introduction; the last paragraph of this section can be removed to end it on the
+much stronger note of the authors' novel contribution. This will improve your
+introduction. Sometimes less is indeed more.
+• RELATED WORK: If your subsections are each a paragraph or less in length, your
+section does not need subsections. Alternatively, this section could be extended
+with information visualization research, particularly with IA research, as noted
+above.
+• LIMITATIONS: This paper will need a more thorough discussion of its limitations,
+which it will absolutely still have If it is to be turned around quickly for this
+or another closely-related conference or journal within the next few months.
+• SUPPLEMENTAL MATERIALS: Please consider submitting a video demonstration of your
+work as supplemental material.
 
 ##### Overall Rating
 
-    Reject. The paper is not ready for publication in IEEE VIS. The
-    work may have some value but the paper requires major revisions or additional work
-    that are not possible within the conference review cycle to meet the quality
-    standard. Without them I will not be able to recommend accept.
+Reject. The paper is not ready for publication in IEEE VIS. The
+work may have some value but the paper requires major revisions or additional work
+that are not possible within the conference review cycle to meet the quality
+standard. Without them I will not be able to recommend accept.
 
 ##### Justification
 
-    The most important flaw in this submission is its lack of grounding in prior
-    visualization work, particularly in immersive analytics and interface evaluation.
-    This flaw has resulted in the second most significant issue with the paper: The
-    lack of both a) _validation_ and b) _design space parameterization_ of the VR view
-    designed by the authors. If the paper had one or the other, it could be published
-    with revisions that would be achievable within the review cycle.
+The most important flaw in this submission is its lack of grounding in prior
+visualization work, particularly in immersive analytics and interface evaluation.
+This flaw has resulted in the second most significant issue with the paper: The
+lack of both a) _validation_ and b) _design space parameterization_ of the VR view
+designed by the authors. If the paper had one or the other, it could be published
+with revisions that would be achievable within the review cycle.
 
-    A number of aspects of the authors' contribution are indeed novel and compelling,
-    and I would be delighted to see them published after appropriate steps are taken
-    to turn this into a visualization paper.
+A number of aspects of the authors' contribution are indeed novel and compelling,
+and I would be delighted to see them published after appropriate steps are taken
+to turn this into a visualization paper.
 
 ##### Expertise
 
-    Expert
+Expert
 
 ##### Confidence
 
-    Very confident
+Very confident
 
 ### The Summary Review
 
 ##### The Review
   
-    All four reviewers gave "2". Though the reviewers find the application itself is
-    interesting and there are some novel parts of the paper,  the following major
-    flaws have been raised by the reviewers:
-    1. The visualization component is rather limited in this work (R2, R3, R4)
-    2. The evaluation/validation is insufficient (R1, R2, R4)
-    3. The presentation requires significant improvements (R1, R4)
+All four reviewers gave "2". Though the reviewers find the application itself is
+interesting and there are some novel parts of the paper,  the following major
+flaws have been raised by the reviewers:
+1. The visualization component is rather limited in this work (R2, R3, R4)
+2. The evaluation/validation is insufficient (R1, R2, R4)
+3. The presentation requires significant improvements (R1, R4)
 
-    The paper cannot be accepted to IEEE VIS. The authors may consider submitting to a
-    VR conference or significantly strengthen the visualization part and then submit
-    to a visualization conference.
+The paper cannot be accepted to IEEE VIS. The authors may consider submitting to a
+VR conference or significantly strengthen the visualization part and then submit
+to a visualization conference.
 
 ##### Summary Rating
 
-    Reject. The paper is not ready for publication in IEEE VIS.The work
-    may have some value but the paper requires major revisions or additional work that
-    are not possible within the conference review cycle to meet the quality standard.
-    Without them I will not be able to recommend accept.
+Reject. The paper is not ready for publication in IEEE VIS.The work
+may have some value but the paper requires major revisions or additional work that
+are not possible within the conference review cycle to meet the quality standard.
+Without them I will not be able to recommend accept.
   
 </details>
 
