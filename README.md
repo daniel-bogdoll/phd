@@ -442,7 +442,6 @@ No
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152385032-b1dc7720-7b22-4ead-b1cd-0b3665edf4fc.png">
 
-
 [PDF](https://arxiv.org/pdf/2106.04549.pdf) | [arXiv](https://arxiv.org/abs/2106.04549) | [Proceedings](https://ieeexplore.ieee.org/abstract/document/9562826)
 
 :heavy_check_mark: Accepted at [IEEE International Smart Cities Conference (ISC2)](https://attend.ieee.org/isc2-2021/)
@@ -471,45 +470,64 @@ No
   
 ### Reviewer 1
 
-##### Comments to authors* Please assess the contribution of this submission (if any). Please provide comments to the authors to help them improve their work, or to explain your recommendation.
-The authors want to show the challenges and goals of machine interpretable definitions of corner cases for automated driving by presenting six research questions.
+##### Comments to the author: Summarize the strengths and weaknesses of the paper. Provide a rationale for your rating, and suggested improvements (if appropriate).
+The authors introduce the smart networks for smart cities, including the smart city services and architectures. Then, AI based smart network applications are presented to show the further directions. This paper is well written and organized.
+ 
+##### Familiarity: Rate your familiarity with the topic of the paper.
+Truly expert in this area of research (1)
+ 
+##### Relevance to the track and timeliness: Rate the importance and timeliness of the topic addressed in the paper within its area of research.
+Excellent (1)
 
-Main feedback
-- The contribution beyond state-of-the-art is not clear. Roughly 2.75 pages of 5 (excluding references) are filled with introduction and related work. Additionally, the remaining pages read like state-of-the-art since any valuable information is either a reference to other papers or unproven. The paper only contains general ideas without any indication on how to address the problems that need to be solved (e.g. how to keep the corner case description so flexible to represent any corner case, but rigid enough to be useful for machine interpretation, how to generate the descriptions, etc.).
-- The authors cite reference 7,8 and especially 16 a lot, these papers are from one research group. Reference 8 and 16 are only available on arXiv, so they are not published and not peer-reviewed. Reference 16 is cited 14 times within the paper. The left image in figure 2 is the exact same as in reference 16 except for the car color, but it is not cited.
-- Abstract contains little more information about the content of the paper than the title, i.e. information on the process and the results
+##### Technical content and scientific rigour: Rate the technical content of the paper, its scientific rigour and novelty.
+Excellent work and outstanding technical content. (1)
 
-Other notes:
-- Paper ID is missing
-- Chapter 1: Contribution is not mentioned / unclear. It is claimed that corner case description can improve the performance of ML models, but this remains unproven
-- Line 50-51: Should be elaborated more.
-- Line 117-120: Missing reference
-- The relevance of listing different frameworks for defining street scenarios (chapter 2.1.1-2.1.4) in not apparent
-- Line 264: Why quotes?
-- Line 285: "CCD can ... act as a trigger during fleet recordings" should be elaborated a bit more to convey the usefulness. Is this intended as live interpretation of the current driving scenario and saving either an annotation or the corner case description?
-- Chapter 3 & 4: Would be the contribution of the paper, but contain many unproven assumptions, like "we can automatically describe CC and generate them", "With CCD as an extension, this becomes possible, improving upon existing approaches drastically", etc. This is worded like it already working, but it is never presented/proven.
-- Figure 2: As written above. The left image in figure 2 is the exact same as in reference 16 except for the car color, but it is not cited neither exists any indication that the generation of the image was part of the current work.
-- Line 426: "To improve this situation, first, a CCD is necessary." The wording should be more humble. This is a very theoretical paper without showing any working solution.
-
-##### Overall quality assessment* Select one option from the list
-Reject
-  
+##### Quality of presentation: Rate the paper organization, the clearness of text and figures, the completeness and accuracy of references.
+Excellent. (1)
+ 
+##### Overall evaluation: Please judge whether the paper should be accepted or rejected
+Accept (1)
+ 
 ### Reviewer 2
-  
-##### Comments to authors* Please assess the contribution of this submission (if any). Please provide comments to the authors to help them improve their work, or to explain your recommendation.
-Positive: The paper is well written and structured. It gives a good overview over the research area of corner cases and existing state of the art. The core message is formulated research questions for further work.
-
-Negative: I would like to see a larger and more application focussed section 4 with empirical examples of failure due to CC, or graphs/media to visually underline the text. The high occurence of abbreviations makes the text difficult to read.
-
-##### Overall quality assessment* Select one option from the list
-Accept
-
+ 
+##### Comments to the author: Summarize the strengths and weaknesses of the paper. Provide a rationale for your rating, and suggested improvements (if appropriate).
+In this paper, the authors present early results on the process of collecting smart city requirements for communication networks, which will lead towards reference infrastructure and architecture solutions. They also suggest directions in which artificial intelligence will improve smart city networks. It will be more interesting if more research results are provided and the novelty over existing schemes can be introduced more clearly.
+ 
+##### Familiarity: Rate your familiarity with the topic of the paper.
+Very limited expertise (4)
+ 
+##### Relevance to the track and timeliness: Rate the importance and timeliness of the topic addressed in the paper within its area of research.
+Good (2)
+ 
+##### Technical content and scientific rigour: Rate the technical content of the paper, its scientific rigour and novelty.
+Marginal work and simple contribution. (4)
+ 
+##### Quality of presentation: Rate the paper organization, the clearness of text and figures, the completeness and accuracy of references.
+Excellent. (1)
+ 
+##### Overall evaluation: Please judge whether the paper should be accepted or rejected
+Borderline paper (3)
+ 
 ### Reviewer 3
-##### Comments to authors* Please assess the contribution of this submission (if any). Please provide comments to the authors to help them improve their work, or to explain your recommendation.
-This paper propose an approach for corner case detection guided by best-practice. The general idea is very relevant and is certainly worthy of further exploration. However, the authors essentially describes a research outline to the problem and provides very abstract solutions only. The potential of corner case descriptions (CCD) for three challenging situations becomes apparent to the reader, but the solutions still seem to be very vague.
-
-##### Overall quality assessment* Select one option from the list
-Low Botherline
+ 
+##### Comments to the author: Summarize the strengths and weaknesses of the paper. Provide a rationale for your rating, and suggested improvements (if appropriate).
+ 
+Authors present KIGLIS research project which addresses the optimization of fiber-optic networks using artificial intelligence, considering 3 research directions, namely (1) AI for improving digital signal processing (2) AI for traffic management, and (3) AI for infrastructure planning. They enumerate multiple services affected by the enhancements as well as typical network architectures. The paper is well-written, Authors focus on network infrastruture while other aspects could be also described such as big data processing infrastructure,
+ 
+##### Familiarity: Rate your familiarity with the topic of the paper.
+Working in this area of research (2)
+ 
+##### Relevance to the track and timeliness: Rate the importance and timeliness of the topic addressed in the paper within its area of research.
+Good (2)
+ 
+##### Technical content and scientific rigour: Rate the technical content of the paper, its scientific rigour and novelty.
+Solid work of notable importance. (2)
+ 
+##### Quality of presentation: Rate the paper organization, the clearness of text and figures, the completeness and accuracy of references.
+Excellent. (1)
+ 
+##### Overall evaluation: Please judge whether the paper should be accepted or rejected
+Accept (1)
 </details>
 
 &nbsp;
