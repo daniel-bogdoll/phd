@@ -37,7 +37,7 @@ Detection and Handling of Corner Cases in Autonomous Driving
 ##### 
 </details>
 
-:x: Rejected at [AAMAS International Conference on Autonomous Agents and Multiagent Systems](https://aamas2022-conference.auckland.ac.nz/)
+:x: Previous version rejected at [AAMAS International Conference on Autonomous Agents and Multiagent Systems](https://aamas2022-conference.auckland.ac.nz/)
 
 <details>
   <summary>
@@ -580,7 +580,7 @@ and other road users.
 Strong Accept
 </details>
 
-:x: Rejected at [IEEE VIS](http://ieeevis.org/)
+:x: Previous version rejected at [IEEE VIS](http://ieeevis.org/)
 
 <details>
   <summary>
