@@ -7,7 +7,7 @@ Detection and Handling of Corner Cases in Autonomous Driving
 &nbsp;
 &nbsp;
 ### ad-datasets: a meta-collection of data sets for autonomous driving
-2022 • Daniel Bogdoll*, Felix Schreyer* and J. Marius Zöllner
+02/2022 • Daniel Bogdoll*, Felix Schreyer* and J. Marius Zöllner
 
 [PDF]() | [arXiv]() | [Code](https://ad-datasets.com) | [Proceeding]()
 
@@ -130,7 +130,7 @@ The paper describes the creation of a web site containing a list of data sets co
 &nbsp;
 &nbsp;
 ### Compressing Sensor Data for Remote Assistance of Autonomous Vehicles using Deep Generative Models
-2021 • Daniel Bogdoll*, Johannes Jestram*, Jonas Rauch*, Christin Scheib*, Moritz Wittig* and J. Marius Zöllner
+11/2021 • Daniel Bogdoll*, Johannes Jestram*, Jonas Rauch*, Christin Scheib*, Moritz Wittig* and J. Marius Zöllner
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/150287374-0c4b3081-62b9-46f2-8d32-cb733cd7c762.png">
 
@@ -263,6 +263,81 @@ Using learning-based methods for low-latency compression for teleoperated vehicl
 
 ##### Your overall assessment?
 Reject
+</details>
+
+&nbsp;
+&nbsp;
+### Description of Corner Cases in Automated Driving: Goals and Challenges
+09/2021 • Daniel Bogdoll*, Jasmin Breitenstein*, Florian Heidecker*, Maarten Bieshaar, Bernhard Sick, Tim Fingscheidt, J. Marius Zöllner
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/152381191-25bea065-3f4b-4fae-ac3c-76111cf9083f.png">
+
+[PDF](https://arxiv.org/pdf/2111.03201.pdf) | [arXiv](https://arxiv.org/abs/2111.03201) | [Code](https://github.com/daniel-bogdoll/deep_generative_models) | [Workshop](https://ml4ad.github.io/)
+
+:heavy_check_mark: Accepted at [ICCV Workshop on Embedded and Real-World Computer Vision in Autonomous Driving](https://www.ki-deltalearning.de/event/ercvad2021)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Description_2021_ICCV,
+    author    = {Bogdoll, Daniel and Breitenstein, Jasmin and Heidecker, Florian and Bieshaar, Maarten and Sick, Bernhard and Fingscheidt, Tim and Z\"{o}llner, Marius},
+    title     = {{Description of Corner Cases in Automated Driving: Goals and Challenges}},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    pages     = {1023-1028},
+    year      = {2021}
+}
+
+  ```
+</details>
+
+<details>
+  <summary>
+    :+1: Double-Blind
+    :orange_book: Medium Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+##### Comments to authors* Please assess the contribution of this submission (if any). Please provide comments to the authors to help them improve their work, or to explain your recommendation.
+The authors want to show the challenges and goals of machine interpretable definitions of corner cases for automated driving by presenting six research questions.
+
+Main feedback
+- The contribution beyond state-of-the-art is not clear. Roughly 2.75 pages of 5 (excluding references) are filled with introduction and related work. Additionally, the remaining pages read like state-of-the-art since any valuable information is either a reference to other papers or unproven. The paper only contains general ideas without any indication on how to address the problems that need to be solved (e.g. how to keep the corner case description so flexible to represent any corner case, but rigid enough to be useful for machine interpretation, how to generate the descriptions, etc.).
+- The authors cite reference 7,8 and especially 16 a lot, these papers are from one research group. Reference 8 and 16 are only available on arXiv, so they are not published and not peer-reviewed. Reference 16 is cited 14 times within the paper. The left image in figure 2 is the exact same as in reference 16 except for the car color, but it is not cited.
+- Abstract contains little more information about the content of the paper than the title, i.e. information on the process and the results
+
+Other notes:
+- Paper ID is missing
+- Chapter 1: Contribution is not mentioned / unclear. It is claimed that corner case description can improve the performance of ML models, but this remains unproven
+- Line 50-51: Should be elaborated more.
+- Line 117-120: Missing reference
+- The relevance of listing different frameworks for defining street scenarios (chapter 2.1.1-2.1.4) in not apparent
+- Line 264: Why quotes?
+- Line 285: "CCD can ... act as a trigger during fleet recordings" should be elaborated a bit more to convey the usefulness. Is this intended as live interpretation of the current driving scenario and saving either an annotation or the corner case description?
+- Chapter 3 & 4: Would be the contribution of the paper, but contain many unproven assumptions, like "we can automatically describe CC and generate them", "With CCD as an extension, this becomes possible, improving upon existing approaches drastically", etc. This is worded like it already working, but it is never presented/proven.
+- Figure 2: As written above. The left image in figure 2 is the exact same as in reference 16 except for the car color, but it is not cited neither exists any indication that the generation of the image was part of the current work.
+- Line 426: "To improve this situation, first, a CCD is necessary." The wording should be more humble. This is a very theoretical paper without showing any working solution.
+
+##### Overall quality assessment* Select one option from the list
+Reject
+  
+### Reviewer 2
+  
+##### Comments to authors* Please assess the contribution of this submission (if any). Please provide comments to the authors to help them improve their work, or to explain your recommendation.
+Positive: The paper is well written and structured. It gives a good overview over the research area of corner cases and existing state of the art. The core message is formulated research questions for further work.
+
+Negative: I would like to see a larger and more application focussed section 4 with empirical examples of failure due to CC, or graphs/media to visually underline the text. The high occurence of abbreviations makes the text difficult to read.
+
+##### Overall quality assessment* Select one option from the list
+Accept
+
+### Reviewer 3
+##### Comments to authors* Please assess the contribution of this submission (if any). Please provide comments to the authors to help them improve their work, or to explain your recommendation.
+This paper propose an approach for corner case detection guided by best-practice. The general idea is very relevant and is certainly worthy of further exploration. However, the authors essentially describes a research outline to the problem and provides very abstract solutions only. The potential of corner case descriptions (CCD) for three challenging situations becomes apparent to the reader, but the solutions still seem to be very vague.
+
+##### Overall quality assessment* Select one option from the list
+Low Botherline
 </details>
 
 
