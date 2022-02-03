@@ -528,37 +528,6 @@ Excellent. (1)
 Accept (1)
 </details>
 
-&nbsp;
-&nbsp;
-### AUREATE: An Augmented Reality Test Environment for Realistic Simulations
-04/2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel, and Gautham Sholingar
-
-<img width="100%" src="https://user-images.githubusercontent.com/19552411/152373346-99b6d881-4543-494c-80de-f0e196f6c1c0.png">
-
-[Proceeding](https://www.sae.org/publications/technical-papers/content/2018-01-1080/)
-
-:heavy_check_mark: Accepted at [SAE WCX World Congress Experience](https://www.sae.org/attend/wcx)
-
-<details>
-  <summary markdown="span">BibTeX Citation</summary>
-  
-  ```
-  @InProceedings{Koduri_Aureate_2018_WCX,
-    author    = {Koduri, Tejaswi and Bogdoll, Daniel and Paudel, Shreyasha and Sholingar, Gautham},
-    title     = {{AUREATE: An Augmented Reality Test Environment for Realistic Simulations}},
-    booktitle = {WCX World Congress Experience},
-    publisher = {SAE International},
-    year      = {2018}
-}
-  ```
-</details>
-
-<details>
-  <summary>
-   :red_circle: Single-Blind Reviews
-</summary>
-I no longer have access to the reviews
-</details>
 
 &nbsp;
 &nbsp;
@@ -1158,6 +1127,38 @@ Well written. (2)
 
 ##### Overall evaluation: Please judge whether the paper should be accepted or rejected
 Weak accept (2)
+</details>
+
+&nbsp;
+&nbsp;
+### AUREATE: An Augmented Reality Test Environment for Realistic Simulations
+04/2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel, and Gautham Sholingar
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/152373346-99b6d881-4543-494c-80de-f0e196f6c1c0.png">
+
+[Proceeding](https://www.sae.org/publications/technical-papers/content/2018-01-1080/)
+
+:heavy_check_mark: Accepted at [SAE WCX World Congress Experience](https://www.sae.org/attend/wcx)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Koduri_Aureate_2018_WCX,
+    author    = {Koduri, Tejaswi and Bogdoll, Daniel and Paudel, Shreyasha and Sholingar, Gautham},
+    title     = {{AUREATE: An Augmented Reality Test Environment for Realistic Simulations}},
+    booktitle = {WCX World Congress Experience},
+    publisher = {SAE International},
+    year      = {2018}
+}
+  ```
+</details>
+
+<details>
+  <summary>
+   :red_circle: Single-Blind Reviews
+</summary>
+I no longer have access to the reviews
 </details>
 
 &nbsp;
