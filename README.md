@@ -533,7 +533,7 @@ Accept (1)
 &nbsp;
 &nbsp;
 ### AUREATE: An Augmented Reality Test Environment for Realistic Simulations
-04/2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel and Gautham Sholingar
+04/2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel, and Gautham Sholingar
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152373346-99b6d881-4543-494c-80de-f0e196f6c1c0.png">
 
@@ -555,7 +555,37 @@ Accept (1)
   ```
 </details>
 
+<details>
+  <summary>
+    :-1: Single-Blind Reviews
+</summary>
 I no longer have access to the reviews
+</details>
+
+&nbsp;
+&nbsp;
+### US20190065933A1: Augmenting Real Sensor Recordings With Simulated Sensor Data
+08/2017 • Daniel Bogdoll, Shreyasha Paudel, and Tejaswi Koduri
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/152391191-8769338f-f697-4abc-835c-416319bb11e1.png">
+
+[Patent](https://patents.google.com/patent/US20190065933A1/en) | [Status](https://patentcenter.uspto.gov/#!/applications/15693265/ifw/docs)
+
+:grey_question: On Appeal -- Awaiting Decision by the Board of Appeals
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @patent{Bogdoll_Augmenting_2017_US,
+    author    = {Bogdoll, Daniel and Paudel, Shreyasha and Koduri, Tejaswi},
+    title     = {{Augmenting Real Sensor Recordings With Simulated Sensor Data}},
+    number    = {US20190065933A1},
+    year      = {2017}
+}
+  ```
+</details>
+
 
 &nbsp;
 &nbsp;
