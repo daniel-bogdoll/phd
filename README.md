@@ -564,6 +564,90 @@ I no longer have access to the reviews
 
 &nbsp;
 &nbsp;
+### Reliving the Dataset: Combining the Visualization of Road Users' Interactions with Scenario Reconstruction in Virtual Reality
+05/2021 • Lars Töttel, Maximilian Zipfl, Daniel Bogdoll, Marc René Zofka, and J. Marius Zöllner
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/152392764-0a5553a7-cba0-4ccc-aef0-9bde156f614e.png">
+
+[PDF](https://arxiv.org/pdf/2105.01610.pdf) | [arXiv](https://arxiv.org/abs/2105.01610) | [Proceeding]()
+
+:heavy_check_mark: Accepted at [International Conference on Intelligent Transportation Engineering (ICITE)](http://www.icite.org/icite2021.html)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @article{Toettel_Reliving_2021_arXiv,
+    author    = {T\"{o}ttel, Lars and Zipfl, Maximilian and Bogdoll, Daniel and Zofka, Marc Ren\'{e} and Z\"{o}llner, J. Marius},    
+    title     = {{Reliving the Dataset: Combining the Visualization of Road Users' Interactions with Scenario Reconstruction in Virtual Reality}}, 
+    journal   = {arXiv preprint:2105.01610},
+    year      = {2021}
+}
+  ```
+</details>
+
+<details>
+  <summary>
+    :-1: Single-Blind :closed_book: Low Quality Review
+</summary>
+  
+### Reviewer 1
+
+##### Expertise: Explain your rating by discussing the strengths and weaknesses of the submission, contributions, and the potential impacts of the paper. Include suggestions for improvement and publication alternatives, if appropriate. Be thorough. Be fair. Be courteous. Your evaluation will be forwarded to the authors during the rebuttal period.
+1. Thank you for the opportunity to review the paper, Reliving the Dataset: Combining the
+Visualization of Road Users’ Interactions with Scenario Reconstruction in Virtual Reality. This paper
+proposed a combination of the analysis of interactive driving scenarios from naturalistic motion
+datasets, using various criticality measures, with 2 types of visualization approaches.
+2. The paper is well written and organized. The Technical contend of the paper is very sound and
+strong. There are high quality images and illustrations to enhance the readers’ understanding. The
+list of reference is also extensive with a good range. I will recommend the paper to be strongly
+accept to the conference.
+3. The OA and SA are well described in the paper.
+4. The use of VR to recreate and reconstruct automated driving related datasets for close up
+scenarios analysis is very useful for multiple perspectives analysis. This allows the user to be
+immersed in the almost real yet safe environment.
+5. I look forward to reading the follow up studies on automated vehicles, non-automated vehicles
+and other road users.
+  
+##### Recommendation to Editors
+Strong Accept
+</details>
+
+
+&nbsp;
+&nbsp;
+### AUREATE: An Augmented Reality Test Environment for Realistic Simulations
+04/2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel, and Gautham Sholingar
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/152373346-99b6d881-4543-494c-80de-f0e196f6c1c0.png">
+
+[Proceeding](https://www.sae.org/publications/technical-papers/content/2018-01-1080/) | [Conference](https://www.sae.org/news/press-room/2018/04/successful-sae-international-wcx-world-congress-experience-featured-global-thought-leaders-and-innovative-engineering-technology)
+
+:heavy_check_mark: Accepted at [SAE WCX World Congress Experience](https://www.sae.org/attend/wcx)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Koduri_Aureate_2018_WCX,
+    author    = {Koduri, Tejaswi and Bogdoll, Daniel and Paudel, Shreyasha and Sholingar, Gautham},
+    title     = {{AUREATE: An Augmented Reality Test Environment for Realistic Simulations}},
+    booktitle = {WCX World Congress Experience},
+    publisher = {SAE International},
+    year      = {2018}
+}
+  ```
+</details>
+
+<details>
+  <summary>
+    :-1: Single-Blind Reviews
+</summary>
+I no longer have access to the reviews
+</details>
+
+&nbsp;
+&nbsp;
 ### US20190065933A1: Augmenting Real Sensor Recordings With Simulated Sensor Data
 08/2017 • Daniel Bogdoll, Shreyasha Paudel, and Tejaswi Koduri
 
@@ -608,8 +692,8 @@ Year • Authors
 
 <details>
   <summary>
-    :-1::+1::raised_hands: Single-Blind/Double-Blind/Open Peer
-    :green_book::orange_book::closed_book: High/Medium/Low Quality Reviews
+    :red_circle::orange_circle::green_circle: Single-Blind/Double-Blind/Open Peer
+    :green_circle::orange_circle::red_circle:	 High/Medium/Low Quality Reviews
 </summary>
   
 ### Reviewer 1
