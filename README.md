@@ -616,34 +616,115 @@ Strong Accept
 
 &nbsp;
 &nbsp;
-### AUREATE: An Augmented Reality Test Environment for Realistic Simulations
-04/2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel, and Gautham Sholingar
+### Towards Sensor Data Abstraction of Autonomous Vehicle Perception Systems
+05/2021 • Hannes Reichert*, Lukas Lang*, Kevin Rösch*, Daniel Bogdoll*, Konrad Doll, Bernhard Sick, Hans-Christian Reuss, Christoph Stiller, and J. Marius Zöllner
 
-<img width="100%" src="https://user-images.githubusercontent.com/19552411/152373346-99b6d881-4543-494c-80de-f0e196f6c1c0.png">
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/152395620-1803bb50-7310-47aa-ae0f-b08b6fee0473.png">
 
-[Proceeding](https://www.sae.org/publications/technical-papers/content/2018-01-1080/) | [Conference](https://www.sae.org/news/press-room/2018/04/successful-sae-international-wcx-world-congress-experience-featured-global-thought-leaders-and-innovative-engineering-technology)
+[PDF](https://arxiv.org/pdf/2105.06896.pdf) | [arXiv](https://arxiv.org/abs/2105.06896) | [Proceeding](https://ieeexplore.ieee.org/document/9562912)
 
-:heavy_check_mark: Accepted at [SAE WCX World Congress Experience](https://www.sae.org/attend/wcx)
+:heavy_check_mark: Accepted at [IEEE International Smart Cities Conference (ISC2)](https://attend.ieee.org/isc2-2021/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @InProceedings{Koduri_Aureate_2018_WCX,
-    author    = {Koduri, Tejaswi and Bogdoll, Daniel and Paudel, Shreyasha and Sholingar, Gautham},
-    title     = {{AUREATE: An Augmented Reality Test Environment for Realistic Simulations}},
-    booktitle = {WCX World Congress Experience},
-    publisher = {SAE International},
-    year      = {2018}
+  @InProceedings{Reichert_Towards_2021_ISC2,  
+    author    = {Reichert, Hannes and Lang, Lukas and R\"{o}sch, Kevin and Bogdoll, Daniel and Doll, Konrad and Sick, Bernhard and Reuss, Hans-Christian and Stiller, Christoph and Z\"{o}llner, J. Marius},
+    title     = {{Towards Sensor Data Abstraction of Autonomous Vehicle Perception Systems}},
+    booktitle = {IEEE International Smart Cities Conference (ISC2)},
+    year      = {2021}
 }
   ```
 </details>
 
 <details>
   <summary>
-    :-1: Single-Blind Reviews
+    :red_circle: Single-Blind
+    :orange_circle: Medium Quality Reviews
 </summary>
-I no longer have access to the reviews
+
+### Reviewer 1
+  
+##### Comments to the author: Summarize the strengths and weaknesses of the paper. Provide a rationale for your rating, and suggested improvements (if appropriate).
+
+This work fits in the context of full-stack autonomous driving perception requiring multiple sensor data-driven models. The authors state the bias problem -- resulting from the sensor setup used for data acquisition -- that can seriously alter the environment perception accuracy by impairing the perception models' transferability to new sensor setups.
+
+The authors envision a unified and sensor-independent abstraction of sensor data, enabling a general perception pipeline for different sensor setups. They state a core research question, in which sensors combinations and the positions of new ones can be altered without effects on the abstract representation.
+
+
+The pros:
+
+1/ this work copes with the challenging problem of environment perception in autonomous driving context from various sensors data acquisition and fusion.
+
+2/ the topic of sensor data abstraction is properly contextualized in the literature, and the body of related works is fairly complete in my opinion; the authors outline the feasibility of a joint sensor abstraction and highlight early results in this research field.
+
+3/ their approach of data abstraction based on a joint unified and sensor-independent pipelines is clearly a relevant solution for the bias problem of sensor setups impacting the environment AI perception.
+
+4/ the paper is well-written.
+
+The cons:
+
+1/ lack of examples, I know that short papers have not enough space, but providing schematic examples would be very helpful for the reviewers; mainly two: the first illustrates the bias problem and the second shows how the problem could be resolved by following the authors' sensor data abstraction method.
+
+2/ the authors don't provide sufficient perspectives about their abstraction method implementation.
+
+##### Familiarity: Rate your familiarity with the topic of the paper.
+Familiar with this area of research (3)
+
+##### Relevance to the track and timeliness: Rate the importance and timeliness of the topic addressed in the paper within its area of research.
+Excellent (1)
+
+##### Technical content and scientific rigour: Rate the technical content of the paper, its scientific rigour and novelty.
+Solid work of notable importance. (2)
+
+##### Quality of presentation: Rate the paper organization, the clearness of text and figures, the completeness and accuracy of references.
+Well written. (2)
+
+##### Overall evaluation: Please judge whether the paper should be accepted or rejected
+Accept (1)
+
+### Reviewer 2
+
+##### Comments to the author: Summarize the strengths and weaknesses of the paper. Provide a rationale for your rating, and suggested improvements (if appropriate).
+
+The authors study a review of sensor data abstraction for the field of automotive applications. The article is well-written with a clear explanation. However, the paper does not contribute to the existing literature. Additionally, the reference list is poor, and literature with high impact was not cited. The authors need to select papers to cite carefully.
+
+##### Familiarity: Rate your familiarity with the topic of the paper.
+Familiar with this area of research (3)
+
+##### Relevance to the track and timeliness: Rate the importance and timeliness of the topic addressed in the paper within its area of research.
+Acceptable (3)
+
+##### Technical content and scientific rigour: Rate the technical content of the paper, its scientific rigour and novelty.
+Valid work but limited contribution. (3)
+
+##### Quality of presentation: Rate the paper organization, the clearness of text and figures, the completeness and accuracy of references.
+Well written. (2)
+
+##### Overall evaluation: Please judge whether the paper should be accepted or rejected
+Borderline paper (3)
+
+### Reviewer 3
+
+##### Comments to the author: Summarize the strengths and weaknesses of the paper. Provide a rationale for your rating, and suggested improvements (if appropriate).
+
+Paper provides a well-structured short overview of the sensor data abstraction for Highly Automated Driving setup. Work is well structured and gives a good glimpse into the problem of decoupling the various sensors' raw data generated by HAD from perception layer/application. The current approaches towards tackling this problem are also summarised in the manuscript. One suggestion would be to highlight the nature of the work (overview, summary) in the title of the manuscript.
+
+##### Familiarity: Rate your familiarity with the topic of the paper.
+Very limited expertise (4)
+
+##### Relevance to the track and timeliness: Rate the importance and timeliness of the topic addressed in the paper within its area of research.
+Good (2)
+
+##### Technical content and scientific rigour: Rate the technical content of the paper, its scientific rigour and novelty.
+Valid work but limited contribution. (3)
+
+##### Quality of presentation: Rate the paper organization, the clearness of text and figures, the completeness and accuracy of references.
+Well written. (2)
+
+##### Overall evaluation: Please judge whether the paper should be accepted or rejected
+Weak accept (2)
 </details>
 
 &nbsp;
@@ -668,36 +749,4 @@ I no longer have access to the reviews
     year      = {2017}
 }
   ```
-</details>
-
-
-&nbsp;
-&nbsp;
-### Title (Template)
-Year • Authors
-
-(image 1600x300)
-<img width="100%" src="https://user-images.githubusercontent.com/19552411/150287374-0c4b3081-62b9-46f2-8d32-cb733cd7c762.png">
-
-[PDF]() | [arXiv]() | [Code]() | [Proceeding]()
-
-:heavy_check_mark::x: Accepted/Rejected at []()
-
-<details>
-  <summary markdown="span">Citation</summary>
-  
-  ```
-  ```
-</details>
-
-<details>
-  <summary>
-    :red_circle::orange_circle::green_circle: Single-Blind/Double-Blind/Open Peer
-    :green_circle::orange_circle::red_circle:	 High/Medium/Low Quality Reviews
-</summary>
-  
-### Reviewer 1
-
-##### Question 1
-Answer 1
 </details>
