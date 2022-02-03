@@ -6,12 +6,8 @@ Detection and Handling of Corner Cases in Autonomous Driving
 
 &nbsp;
 &nbsp;
------------------------------------------------------------ 2022 -----------------------------------------------------------
-&nbsp;
-&nbsp;
-
 ### ad-datasets: a meta-collection of data sets for autonomous driving
-2021 • Daniel Bogdoll*, Felix Schreyer* and J. Marius Zöllner
+2022 • Daniel Bogdoll*, Felix Schreyer* and J. Marius Zöllner
 
 [PDF]() | [arXiv]() | [Code](https://ad-datasets.com) | [Proceeding]()
 
@@ -130,10 +126,6 @@ As discussed in the detailed comments, while potentially a useful tool, what pro
 ### Meta Review
 The paper describes the creation of a web site containing a list of data sets collected by others. This is helpful, but the list alone does not comprise enough content for this to be an acceptable paper. It is also unclear how the resource described provides a contribution to the community beyond existing web-based resources. As it stands, the analysis and value of the resource is limited. The domain is autonomous driving. The content is not sufficient for an academic paper and has limited value to the AAMAS community.
 </details>
-
-&nbsp;
-&nbsp;
------------------------------------------------------------ 2021 -----------------------------------------------------------
 
 &nbsp;
 &nbsp;
@@ -371,10 +363,6 @@ No
 
 &nbsp;
 &nbsp;
------------------------------------------------------------ 2018 -----------------------------------------------------------
-
-&nbsp;
-&nbsp;
 ### AUREATE: An Augmented Reality Test Environment for Realistic Simulations
 2018 • Tejaswi Koduri, Daniel Bogdoll, Shreyasha Paudel and Gautham Sholingar
 
@@ -401,10 +389,6 @@ No
 I no longer have access to the reviews
 
 &nbsp;
-&nbsp;
------------------------------------------------------------ Template -----------------------------------------------------------
-
-nbsp;
 &nbsp;
 ### Title (Template)
 Year • Authors
