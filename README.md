@@ -6,8 +6,41 @@ Detection and Handling of Corner Cases in Autonomous Driving
 
 &nbsp;
 &nbsp;
-### ad-datasets: a meta-collection of data sets for autonomous driving
-02/2022 • Daniel Bogdoll*, Felix Schreyer* and J. Marius Zöllner
+### WIP | Quantification of Actual Road User Behavior on the Basis of Given Traffic Rules
+02/2022 • Daniel Bogdoll*, Moritz Nekolla*, Tim Joseph, and J. Marius Zöllner
+
+[PDF]() | [arXiv]() | [Code]() | [Proceeding]()
+
+:heavy_check_mark: Accepted at [IEEE Intelligent Vehicles Symposium (IV)](https://iv2022.com/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @article{Bogdoll_Compressing_2021_NeurIPS,
+      author    = {Bogdoll, Daniel and Jestram, Johannes and Rauch, Jonas and Scheib, Christin and Wittig, Moritz and Z\"{o}llner, J. Marius},
+      title     = {{Compressing Sensor Data for Remote Assistance of Autonomous Vehicles using Deep Generative Models}},
+      journal   = {NeurIPS Conference on Neural Information Processing Systems Workshop on Machine Learning for Autonomous Driving (ML4AD)},
+      year      = {2021},
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :orange_circle: Medium Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+##### 
+</details>
+
+&nbsp;
+&nbsp;
+### WIP | ad-datasets: a meta-collection of data sets for autonomous driving
+02/2022 • Daniel Bogdoll*, Felix Schreyer*, and J. Marius Zöllner
 
 [PDF]() | [arXiv]() | [Code](https://ad-datasets.com) | [Proceeding]()
 
