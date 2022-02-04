@@ -42,6 +42,8 @@ Detection and Handling of Corner Cases in Autonomous Driving
 ### ad-datasets: a meta-collection of data sets for autonomous driving
 02/2022 • Daniel Bogdoll*, Felix Schreyer*, and J. Marius Zöllner
 
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/152450128-123a1c6d-08a9-4d89-9421-339c5a566552.png">
+
 [PDF]() | [arXiv]() | [Code](https://ad-datasets.com) | [Proceeding]()
 
 :heavy_check_mark: Accepted at [VEHITS International Conference on Vehicle Technology and Intelligent Transport Systems](https://vehits.scitevents.org/)
