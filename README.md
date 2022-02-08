@@ -52,11 +52,11 @@ Detection and Handling of Corner Cases in Autonomous Driving
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @article{Bogdoll_Compressing_2021_NeurIPS,
-      author    = {Bogdoll, Daniel and Jestram, Johannes and Rauch, Jonas and Scheib, Christin and Wittig, Moritz and Z\"{o}llner, J. Marius},
-      title     = {{Compressing Sensor Data for Remote Assistance of Autonomous Vehicles using Deep Generative Models}},
-      journal   = {NeurIPS Conference on Neural Information Processing Systems Workshop on Machine Learning for Autonomous Driving (ML4AD)},
-      year      = {2021},
+  @article{Bogdoll_Addatasets_2022_VEHITS,
+      author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
+      title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
+      journal   = {arXiv preprint:2202.01909},
+      year      = {2022},
   }
   ```
 </details>
