@@ -462,7 +462,7 @@ Low Botherline
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/150287894-21e34522-03d8-4d34-98b5-4d630b3d1644.png">
 
-[PDF](https://arxiv.org/pdf/2109.08599) | [arXiv](https://arxiv.org/abs/2109.08599) | [Proceeding]()
+[PDF](https://arxiv.org/pdf/2109.08599) | [arXiv](https://arxiv.org/abs/2109.08599) | [Proceeding](https://link.springer.com/chapter/10.1007/978-3-030-98015-3_6)
 
 :heavy_check_mark: Accepted at [FICC Future of Information and Communication Conference](https://saiconference.com/FICC)
 
@@ -470,11 +470,12 @@ Low Botherline
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @article{Bogdoll_Taxonomy_2021_arXiv,
+  @InProceedings{Bogdoll_Taxonomy_2021_arXiv,
       author    = {Bogdoll, Daniel and Orf, Stefan and T\"{o}ttel, Lars and Z\"{o}llner, J. Marius},
       title     = {{Taxonomy and Survey on Remote Human Input Systems for Driving Automation Systems}}, 
-      journal   = {arXiv preprint:2109.08599},
-      year      = {2021}
+      booktitle = {Advances in Information and Communication},
+      publisher = {Springer International Publishing},
+      year      = {2022}
   }
   ```
 </details>
