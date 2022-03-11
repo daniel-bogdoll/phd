@@ -470,7 +470,7 @@ Low Botherline
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @InProceedings{Bogdoll_Taxonomy_2021_arXiv,
+  @InProceedings{Bogdoll_Taxonomy_2022_FICC,
       author    = {Bogdoll, Daniel and Orf, Stefan and T\"{o}ttel, Lars and Z\"{o}llner, J. Marius},
       title     = {{Taxonomy and Survey on Remote Human Input Systems for Driving Automation Systems}}, 
       booktitle = {Advances in Information and Communication},
