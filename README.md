@@ -6,22 +6,22 @@ Detection and Handling of Corner Cases in Autonomous Driving
 
 &nbsp;
 &nbsp;
-### WIP | Quantification of Actual Road User Behavior on the Basis of Given Traffic Rules
+### Quantification of Actual Road User Behavior on the Basis of Given Traffic Rules
 02/2022 • Daniel Bogdoll*, Moritz Nekolla*, Tim Joseph, and J. Marius Zöllner
 
-[PDF]() | [arXiv](https://arxiv.org/abs/2202.09269) | [Code]() | [Proceeding]()
+[PDF](https://arxiv.org/pdf/2202.09269.pdf) | [arXiv](https://arxiv.org/abs/2202.09269) | [Code]() | [Proceeding]()
 
-:heavy_check_mark: Accepted at [IEEE Intelligent Vehicles Symposium (IV)](https://iv2022.com/)
+:heavy_check_mark: Accepted at [XXXX]()
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @article{Bogdoll_Compressing_2021_NeurIPS,
-      author    = {Bogdoll, Daniel and Jestram, Johannes and Rauch, Jonas and Scheib, Christin and Wittig, Moritz and Z\"{o}llner, J. Marius},
-      title     = {{Compressing Sensor Data for Remote Assistance of Autonomous Vehicles using Deep Generative Models}},
-      journal   = {NeurIPS Conference on Neural Information Processing Systems Workshop on Machine Learning for Autonomous Driving (ML4AD)},
-      year      = {2021},
+  @article{Bogdoll_Quantification_2022_arXiv,
+    author    = {Bogdoll, Daniel and Nekolla, Moritz and Joseph, Tim and Z\"{o}llner, J. Marius},
+    title     = {{Quantification of Actual Road User Behavior on the Basis of Given Traffic Rules}}, 
+    journal   = {arXiv preprint:2202.09269},
+    year      = {2022}
   }
   ```
 </details>
@@ -56,7 +56,7 @@ Detection and Handling of Corner Cases in Autonomous Driving
       author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
       title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
       journal   = {arXiv preprint:2202.01909},
-      year      = {2022},
+      year      = {2022}
   }
   ```
 </details>
