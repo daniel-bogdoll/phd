@@ -21,7 +21,7 @@ I focus on the detection and handling of corner cases in the field of autonomous
 
 [PDF](https://arxiv.org/pdf/2202.09269.pdf) | [arXiv](https://arxiv.org/abs/2202.09269) | [Code]() | [Proceeding]()
 
-:heavy_check_mark: Accepted/Rejected at [XXXX]()
+Accepted/Rejected at [XXXX]()
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
