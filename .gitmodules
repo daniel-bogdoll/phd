@@ -1,3 +1,6 @@
 [submodule "phd-thesis"]
 	path = phd-thesis
 	url = https://github.com/daniel-bogdoll/phd-thesis.git
+[submodule "ConferenceTemplate"]
+	path = ConferenceTemplate
+	url = https://github.com/daniel-bogdoll/ConferenceTemplate.git
