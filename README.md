@@ -9,6 +9,8 @@ Detection and Handling of Corner Cases in Autonomous Driving
 ### Quantification of Actual Road User Behavior on the Basis of Given Traffic Rules
 02/2022 • Daniel Bogdoll*, Moritz Nekolla*, Tim Joseph, and J. Marius Zöllner
 
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/157830612-0251e8d5-ab8b-4248-aa5f-f6ea4ddf4eb7.png">
+
 [PDF](https://arxiv.org/pdf/2202.09269.pdf) | [arXiv](https://arxiv.org/abs/2202.09269) | [Code]() | [Proceeding]()
 
 :heavy_check_mark: Accepted at [XXXX]()
