@@ -1,0 +1,3 @@
+[submodule "phd-thesis"]
+	path = phd-thesis
+	url = https://github.com/daniel-bogdoll/phd-thesis.git
