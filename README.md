@@ -474,7 +474,7 @@ Low Botherline
       author    = {Bogdoll, Daniel and Orf, Stefan and T\"{o}ttel, Lars and Z\"{o}llner, J. Marius},
       title     = {{Taxonomy and Survey on Remote Human Input Systems for Driving Automation Systems}}, 
       booktitle = {Advances in Information and Communication},
-      publisher = {Springer International Publishing},
+      publisher = {Springer},
       year      = {2022}
   }
   ```
