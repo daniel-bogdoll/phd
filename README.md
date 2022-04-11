@@ -21,7 +21,7 @@ I focus on the detection and handling of corner cases in the field of autonomous
 
 [PDF](https://arxiv.org/pdf/2202.09269.pdf) | [arXiv](https://arxiv.org/abs/2202.09269) | [Code]() | [Proceeding]()
 
-Accepted/Rejected at [XXXX]()
+:heavy_check_mark: Accepted at [IV IEEE Intelligent Vehicles Symposium](https://iv2022.com/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -38,10 +38,96 @@ Accepted/Rejected at [XXXX]()
 
 <details>
   <summary>
-    WIP: Reviews
+    :red_circle: Single-Blind
+    :orange_circle: Medium Quality Reviews
 </summary>
   
 ### Reviewer 1
+  
+Paper organization (page 1): Chapter should be changed to
+Section
+
+The paper will benefit from a thorough proof-read, as the
+quality of the write-up needs a bit of improvement
+
+Why the data-set was not analyzed for 1 Hz? 
+
+What are the sources for the formula used in the paper? If
+they are not from other sources, the relational for using
+those formula need to be justified 
+
+### Reviewer 2  
+ 
+This article proposed a quantitive analysis method to study
+traffic rules conformity for human drivers. A few
+quantitive features are introduced. The experiments show
+the usage of the features. Not only the feature itself, but
+the authors also implemented the data cleaning method,
+which is also a help to practical applications.
+
+However, there are a few concerns from the readers' side. 
+1. Why the RC distribution is assumed to be Gaussian? Is
+there some theoretical analysis on the distribution? What's
+the relationship to the Big-Number theorem? 
+
+In Sec II-A, it mentioned the area A_{Ptk} covered by
+another vehicle k. Is it the current occupied area or the
+future projected area? It could be better to use the
+prediction area, instead of the current one, since it is
+unreality for the ego car to suddenly observe a leading
+vehicle three sec ahead. 
+
+For the "Rule Conformity for Safety Distances", the average
+overtime may ignore some instances that the two vehicles
+are close (with dangerous). This kind of event is crucial
+but the quantitive effects could be eliminated by
+time-averaging and vehicle number average. The authors
+could propose a more event-sensitive feature. 
+
+### Reviewer 3
+
+Dear authors, my main concerns regarding this manuscript
+mainly come from the theory depths, those evaluation
+indexes presented in this study are just basic ones while
+without considering random factors of driving behaviors. It
+also only covers the safe distance and speed limits, which
+cannot include the evaluation of daily driving behaviors. 
+Overall, from the reviewer's point, it might lack
+sufficient mathematical backgrounds for those evaluation
+indexes, nor comparative study to show the effectiveness of
+the proposed evaluation index. 
+  
+### Reviewer 4
+  
+This paper illustrated a way to quantify knowledge about
+human behavior in respect to traffic rules. While the
+research direction is worth noting, the contribution in
+this paper is quite limited. Moreover, what has been
+accomplished is not as significant the paper claimed.
+Specifically, the paper only addressed the quantification
+of two straightforward rules (or behaviors), safety
+distance and speed limit, and did not touch on how to
+generalize or scale to other situations. To say it performs
+the “Quantification of Actual Road User Behavior ….”, as
+the title suggested, is clearly an overstatement.  I would
+advise the authors to modify the paper title to reflect
+what has been accomplished as opposed to what they aspire
+to accomplish.
+
+A technical flaw I noticed is in the rule conformity
+distribution. While normal distribution is used by the
+authors, their data does not shown a normal distribution.
+Please address this in the statistical analysis.
+As for the literature review, it seems to be comprehensive
+but unrelated. There is no clear connection, gap, and
+comparison between the paper and the reviewed publication. 
+
+### Associate Editor
+  
+The contributions of the paper are interesting but it would be suitable: 
+- to give more details regarding how to generalize or to scale the approach to other situations. The notion of
+metric genericity is very important to evaluate its pertinence.
+- to justify better some theoretical assumptions, such as the adopted normal distribution.
 
 ##### 
 </details>
