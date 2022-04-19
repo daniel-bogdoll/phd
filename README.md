@@ -14,6 +14,73 @@ I focus on the detection and handling of corner cases in the field of autonomous
 
 &nbsp;
 &nbsp;
+### Anomaly Detection in Autonomous Driving: A Survey
+04/2022 • Daniel Bogdoll*, Maximilian Nitsche*, and J. Marius Zöllner
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/163943035-470f6b82-72a9-4ede-9741-edf12a41aa99.png">
+
+[PDF](https://arxiv.org/pdf/2204.07974.pdf) | [arXiv](https://arxiv.org/abs/2204.07974) | [Code]() | [Proceeding]()
+
+:heavy_check_mark: Accepted at [CVPR Workshop on Autonomous Driving](https://cvpr2022.wad.vision/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @article{Bogdoll_Anomaly_2022_CVPR,
+    author    = {Bogdoll, Daniel and Nitsche, Maximilian and Z\"{o}llner, J. Marius},
+    title     = {{Anomaly Detection in Autonomous Driving: A Survey}}, 
+    journal   = {arXiv preprint:2204.07974},
+    year      = {2022}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :orange_circle: Medium Quality Reviews
+</summary>
+  
+### Reviewer 1
+  
+#### [Summary] Please summarize the main claims/contributions of the paper in your own words
+This paper presents an extensive overview of literature on anomaly detection in autonomous driving applications.
+The 50+ related works are classed in 5 groups, according to the specific sensing technology (camera, lidar, radar) or aspect of the driving scene (multimodal, object level) handled in the anomaly detection method.
+The systematization for each of these groups envisages 5 other categories grouping similar works, which declines in : confidence score, reconstructive, generative, feature extraction, prediction.
+For each group, specific attributes are selected for comparison within the group (such as used Datasets and Online compatibility).
+The article claims of, other than presenting the overview of the literature, pointing out the research gaps for each group.
+
+#### [Detailed comments] Describe the strengths and weaknesses of the work
+Strengths:
+- the amount of work for retrieving the information from every article in literature is remarkable- most works are recent which delivers and actually up-to-date overview of the literature
+- the systematization is well suited for easy comparison and access to the literature
+- the two groups for multimodal and object-level anomaly detection methods spotlight works where multiple sensors are exploited which are important to be reviewed as much as mono-sensor works
+
+Weaknesses :- camera works strongly prevail in this categorization (half of the review papers), although this is due to the generally higher interest in this technology in the AD domain where deep learning can be leveraged- visibility in printed version might be challenging for the reader in Figure 1 and Table 1 = consider re-paginating, in the case it is feasible
+
+### Reviewer 2  
+ 
+#### [Summary] Please summarize the main claims/contributions of the paper in your own words
+The paper presents a survey for anomalies detection based on the major sensor camera lidar radar and based on the fusion of multiple sensors object-level data. The research which has been done so far, and addresses the gaps which are still needed to fill.
+
+#### [Detailed comments] Describe the strengths and weaknesses of the work
+Overall the work is interesting and could be of important value. The authors clearly identified their addition and contribution. The writing language is clear, but I have the following comments:
+The survey addresses almost major works which have been done so far related to anomaly detection for autonomous driving.
+The author needs to add further comparison related to fusing the multi-modalities by emphasizing on camera and radar sensor especially.
+
+### Reviewer 3
+
+#### [Summary] Please summarize the main claims/contributions of the paper in your own words
+This paper gives a thorough overview of anomaly detection methods for autonomous driving across sensor modalities.
+
+#### [Detailed comments] Describe the strengths and weaknesses of the work
+The main section of this survey paper is formulated as 5 section corresponding to 5 different data modalities. And for each type modality of anomaly detection, the methods are further grouped into 5 categories: confidence score, reconstructive, generative, feature extractor, or prediction based. Overall, the paper outlines the
+state-of-the-art for different sensor modalities and point out current research gaps, which is valuable for the community.
+</details>
+
+&nbsp;
+&nbsp;
 ### Quantification of Actual Road User Behavior on the Basis of Given Traffic Rules
 02/2022 • Daniel Bogdoll*, Moritz Nekolla*, Tim Joseph, and J. Marius Zöllner
 
@@ -128,8 +195,6 @@ The contributions of the paper are interesting but it would be suitable:
 - to give more details regarding how to generalize or to scale the approach to other situations. The notion of
 metric genericity is very important to evaluate its pertinence.
 - to justify better some theoretical assumptions, such as the adopted normal distribution.
-
-##### 
 </details>
 
 &nbsp;
