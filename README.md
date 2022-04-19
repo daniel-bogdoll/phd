@@ -94,7 +94,7 @@ state-of-the-art for different sensor modalities and point out current research 
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @article{Bogdoll_Quantification_2022_arXiv,
+  @article{Bogdoll_Quantification_2022_IV,
     author    = {Bogdoll, Daniel and Nekolla, Moritz and Joseph, Tim and Z\"{o}llner, J. Marius},
     title     = {{Quantification of Actual Road User Behavior on the Basis of Given Traffic Rules}}, 
     journal   = {arXiv preprint:2202.09269},
