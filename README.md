@@ -19,7 +19,7 @@ I focus on the detection and handling of corner cases in the field of autonomous
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/163943035-470f6b82-72a9-4ede-9741-edf12a41aa99.png">
 
-[PDF](https://arxiv.org/pdf/2204.07974.pdf) | [arXiv](https://arxiv.org/abs/2204.07974) | [Code]() | [Proceeding]()
+[PDF](https://arxiv.org/pdf/2204.07974.pdf) | [arXiv](https://arxiv.org/abs/2204.07974) | [Proceeding]()
 
 :heavy_check_mark: Accepted at [CVPR Workshop on Autonomous Driving](https://cvpr2022.wad.vision/)
 
