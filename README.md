@@ -1454,4 +1454,11 @@ I no longer have access to the reviews
 
 ## Supervised Theses
 
-- 03/2022 | BA | Stefani Guneshka | Ontology-based corner case scenario simulation for autonomous driving
+&nbsp;
+&nbsp;
+### Ontology-based corner case scenario simulation for autonomous driving
+03/2022 • Bachelor Thesis • Stefani Guneshka
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/163943035-470f6b82-72a9-4ede-9741-edf12a41aa99.png">
+
+[KITopen](https://publikationen.bibliothek.kit.edu/1000144811) | [Code]()
