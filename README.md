@@ -12,8 +12,6 @@ I focus on the detection and handling of corner cases in the field of autonomous
 ## List of Publications
 ##### \* denotes equal contribution
 
-&nbsp;
-&nbsp;
 ### Anomaly Detection in Autonomous Driving: A Survey
 04/2022 • Daniel Bogdoll*, Maximilian Nitsche*, and J. Marius Zöllner
 
@@ -1454,11 +1452,12 @@ I no longer have access to the reviews
 
 ## Supervised Theses
 
-&nbsp;
-&nbsp;
 ### Ontology-based corner case scenario simulation for autonomous driving
 03/2022 • Bachelor Thesis • Stefani Guneshka
 
-<img width="100%" src="https://user-images.githubusercontent.com/19552411/163943035-470f6b82-72a9-4ede-9741-edf12a41aa99.png">
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/164217267-a749a849-2e9f-459d-a123-51edf3608193.png">
 
 [KITopen](https://publikationen.bibliothek.kit.edu/1000144811) | [Code]()
+
+&nbsp;
+&nbsp;
