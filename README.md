@@ -10,7 +10,7 @@ I am pursuing my PhD under the supervision of [Prof. Dr.-Ing. J. Marius Zöllner
 I focus on the detection and handling of corner cases in the field of autonomous driving. Method-wise, I primarily work with deep, model-based reinforcement learning agents in the CARLA simulation environment. Here, reconstruction, prediction and latent-space based corner case detection methods are of most interest to me. I rely on the works of [Breitenstein et al.](https://ieeexplore.ieee.org/document/9304789) and [Heidecker et al.](https://arxiv.org/abs/2103.03678) in terms of what corner cases are.
 
 ## List of Publications
-##### \* denotes equal contribution
+##### Overview on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao). \* denotes equal contribution.
 
 ### Anomaly Detection in Autonomous Driving: A Survey
 04/2022 • Daniel Bogdoll*, Maximilian Nitsche*, and J. Marius Zöllner
