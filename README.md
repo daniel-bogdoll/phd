@@ -202,7 +202,7 @@ metric genericity is very important to evaluate its pertinence.
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152450128-123a1c6d-08a9-4d89-9421-339c5a566552.png">
 
-[PDF]() | [arXiv]() | [Code](https://ad-datasets.com) | [Proceeding]()
+[PDF](https://arxiv.org/pdf/2202.01909.pdf) | [arXiv](https://arxiv.org/abs/2202.01909) | [Code](https://ad-datasets.com) | [Proceeding](https://www.scitepress.org/PublicationsDetail.aspx?ID=OP38drynoWQ=&t=1)
 
 :heavy_check_mark: Accepted at [VEHITS International Conference on Vehicle Technology and Intelligent Transport Systems](https://vehits.scitevents.org/)
 
@@ -213,7 +213,7 @@ metric genericity is very important to evaluate its pertinence.
   @article{Bogdoll_Addatasets_2022_VEHITS,
       author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
       title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
-      journal   = {arXiv preprint:2202.01909},
+      journal   = {Proceedings of the 8th International Conference on Vehicle Technology and Intelligent Transport Systems},
       year      = {2022}
   }
   ```
