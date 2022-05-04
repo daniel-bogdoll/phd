@@ -12,6 +12,28 @@ I focus on the detection and handling of corner cases in the field of autonomous
 ## List of Publications
 ##### Overview on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao). \* denotes equal contribution.
 
+### Multimodal Detection of Unknown Objects on Roads for Autonomous Driving
+05/2022 • Daniel Bogdoll*, Enrico Eisen*, Maximilian Nitsche*, Christin Scheib*, and J. Marius Zöllner
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/166636960-a2dc91aa-c4a9-4e38-abd1-b4d8578684fc.png">
+
+[PDF](https://arxiv.org/pdf/2205.01414.pdf) | [arXiv](https://arxiv.org/abs/2205.01414)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @article{Bogdoll_Multimodal_2022_arXiv,
+    author    = {Bogdoll, Daniel and Eisen, Enrico and Scheib, Christin and Nitsche, Maximilian and Z\"{o}llner, J. Marius},
+    title     = {{Multimodal Detection of Unknown Objects on Roads for Autonomous Driving}}, 
+    journal   = {arXiv preprint:2205.01414},
+    year      = {2022}
+  }
+  ```
+</details>
+
+&nbsp;
+&nbsp;
 ### Anomaly Detection in Autonomous Driving: A Survey
 04/2022 • Daniel Bogdoll*, Maximilian Nitsche*, and J. Marius Zöllner
 
