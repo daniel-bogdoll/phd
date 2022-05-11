@@ -15,7 +15,7 @@ I focus on the detection and handling of corner cases in the field of autonomous
 ### Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey
 05/2022 • Julian Wörmann et al.
 
-<img width="100%" src="https://user-images.githubusercontent.com/19552411/166636960-a2dc91aa-c4a9-4e38-abd1-b4d8578684fc.png">
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/167864149-426026e2-f6b9-461a-905a-24031642c7fe.png">
 
 [PDF](https://arxiv.org/pdf/2205.04712.pdf) | [arXiv](https://arxiv.org/abs/2205.04712)
 
