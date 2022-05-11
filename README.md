@@ -34,6 +34,8 @@ I focus on the detection and handling of corner cases in the field of autonomous
   ```
 </details>
 
+&nbsp;
+&nbsp;
 ### Multimodal Detection of Unknown Objects on Roads for Autonomous Driving
 05/2022 • Daniel Bogdoll*, Enrico Eisen*, Maximilian Nitsche*, Christin Scheib*, and J. Marius Zöllner
 
