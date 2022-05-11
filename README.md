@@ -26,7 +26,13 @@ I focus on the detection and handling of corner cases in the field of autonomous
   
   ```
   @article{Woermann_Knowledge_2022_arXiv,
-     author    = {Wörmann, Julian and Bogdoll, Daniel and Bührle, Etienne and Chen, Han and Chuo, Evaristus Fuh and Cvejoski, Kostadin and van Elst, Ludger and                        Gleißner, Tobias and Gottschall, Philip and Griesche, Stefan and Hellert, Christian and Hesels, Christian and Houben, Sebastian and Joseph, Tim and                    Keil, Niklas and Kelsch, Johann and Königshof, Hendrik and Kraft, Erwin and Kreuser, Leonie and Krone, Kevin and Latka, Tobias and Mattern, Denny and                  Matthes, Stefan and Munir, Mohsin and Nekolla, Moritz and Paschke, Adrian and Pintz, Maximilian Alexander and Qiu, Tianming and Qureishi, Faraz and                    Rizvi, Syed Tahseen Raza and Reichardt, Jörg and von Rueden, Laura and Rudolph, Stefan and Sagel, Alexander and Schunk, Gerhard and Shen, Hao and                      Stapelbroek, Hendrik and Stehr, Vera and Srinivas, Gurucharan and Tran, Anh Tuan and Vivekanandan, Abhishek and Wang, Ya and Wasserrab, Florian and                    Werner, Tino and Wirth, Christian and Zwicklbauer, Stefan},
+     author    = {Wörmann, Julian and Bogdoll, Daniel and Bührle, Etienne and Chen, Han and Chuo, Evaristus Fuh and Cvejoski, Kostadin and van Elst, Ludger and
+  Gleißner, Tobias and Gottschall, Philip and Griesche, Stefan and Hellert, Christian and Hesels, Christian and Houben, Sebastian and Joseph, Tim and
+  Keil, Niklas and Kelsch, Johann and Königshof, Hendrik and Kraft, Erwin and Kreuser, Leonie and Krone, Kevin and Latka, Tobias and Mattern, Denny and
+  Matthes, Stefan and Munir, Mohsin and Nekolla, Moritz and Paschke, Adrian and Pintz, Maximilian Alexander and Qiu, Tianming and Qureishi, Faraz and
+  Rizvi, Syed Tahseen Raza and Reichardt, Jörg and von Rueden, Laura and Rudolph, Stefan and Sagel, Alexander and Schunk, Gerhard and Shen, Hao and
+  Stapelbroek, Hendrik and Stehr, Vera and Srinivas, Gurucharan and Tran, Anh Tuan and Vivekanandan, Abhishek and Wang, Ya and Wasserrab, Florian and
+  Werner, Tino and Wirth, Christian and Zwicklbauer, Stefan},
      title     = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}}, 
      journal   = {arXiv preprint:2205.04712},
      year      = {2022}
