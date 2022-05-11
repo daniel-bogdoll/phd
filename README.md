@@ -12,6 +12,28 @@ I focus on the detection and handling of corner cases in the field of autonomous
 ## List of Publications
 ##### Overview on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao). \* denotes equal contribution.
 
+### Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey
+05/2022 • Julian Wörmann et al.
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/166636960-a2dc91aa-c4a9-4e38-abd1-b4d8578684fc.png">
+
+[PDF](https://arxiv.org/pdf/2205.04712.pdf) | [arXiv](https://arxiv.org/abs/2205.04712)
+
+❔ No ongoing submission
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @article{Woermann_Knowledge_2022_arXiv,
+     author    = {Wörmann, Julian and Bogdoll, Daniel and Bührle, Etienne and Chen, Han and Chuo, Evaristus Fuh and Cvejoski, Kostadin and van Elst, Ludger and                        Gleißner, Tobias and Gottschall, Philip and Griesche, Stefan and Hellert, Christian and Hesels, Christian and Houben, Sebastian and Joseph, Tim and                    Keil, Niklas and Kelsch, Johann and Königshof, Hendrik and Kraft, Erwin and Kreuser, Leonie and Krone, Kevin and Latka, Tobias and Mattern, Denny and                  Matthes, Stefan and Munir, Mohsin and Nekolla, Moritz and Paschke, Adrian and Pintz, Maximilian Alexander and Qiu, Tianming and Qureishi, Faraz and                    Rizvi, Syed Tahseen Raza and Reichardt, Jörg and von Rueden, Laura and Rudolph, Stefan and Sagel, Alexander and Schunk, Gerhard and Shen, Hao and                      Stapelbroek, Hendrik and Stehr, Vera and Srinivas, Gurucharan and Tran, Anh Tuan and Vivekanandan, Abhishek and Wang, Ya and Wasserrab, Florian and                    Werner, Tino and Wirth, Christian and Zwicklbauer, Stefan},
+     title     = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}}, 
+     journal   = {arXiv preprint:2205.04712},
+     year      = {2022}
+}
+  ```
+</details>
+
 ### Multimodal Detection of Unknown Objects on Roads for Autonomous Driving
 05/2022 • Daniel Bogdoll*, Enrico Eisen*, Maximilian Nitsche*, Christin Scheib*, and J. Marius Zöllner
 
