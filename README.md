@@ -267,7 +267,7 @@ metric genericity is very important to evaluate its pertinence.
   @inProceedings{Bogdoll_Addatasets_2022_VEHITS,
       author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
       title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
-      journal   = {Proceedings of the 8th International Conference on Vehicle Technology and Intelligent Transport Systems},
+      booktitle = {Proceedings of the 8th International Conference on Vehicle Technology and Intelligent Transport Systems},
       year      = {2022}
   }
   ```
