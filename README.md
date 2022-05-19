@@ -73,7 +73,7 @@ I focus on the detection and handling of corner cases in the field of autonomous
 
 [PDF](https://arxiv.org/pdf/2204.07974.pdf) | [arXiv](https://arxiv.org/abs/2204.07974) | [Proceeding]()
 
-:heavy_check_mark: Accepted at [CVPR Workshop on Autonomous Driving](https://cvpr2022.wad.vision/)
+:white_check_mark: Accepted at [CVPR Workshop on Autonomous Driving](https://cvpr2022.wad.vision/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -140,7 +140,7 @@ state-of-the-art for different sensor modalities and point out current research 
 
 [PDF](https://arxiv.org/pdf/2202.09269.pdf) | [arXiv](https://arxiv.org/abs/2202.09269) | [Code](https://github.com/fzi-forschungszentrum-informatik/quantification_road_user_behavior) | [Proceeding]()
 
-:heavy_check_mark: Accepted at [IV IEEE Intelligent Vehicles Symposium](https://iv2022.com/)
+:white_check_mark: Accepted at [IV IEEE Intelligent Vehicles Symposium](https://iv2022.com/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -258,7 +258,7 @@ metric genericity is very important to evaluate its pertinence.
 
 [PDF](https://arxiv.org/pdf/2202.01909.pdf) | [arXiv](https://arxiv.org/abs/2202.01909) | [Code](https://ad-datasets.com) | [Proceeding](https://www.scitepress.org/PublicationsDetail.aspx?ID=OP38drynoWQ=&t=1)
 
-:heavy_check_mark: Accepted at [VEHITS International Conference on Vehicle Technology and Intelligent Transport Systems](https://vehits.scitevents.org/)
+:white_check_mark: Accepted at [VEHITS International Conference on Vehicle Technology and Intelligent Transport Systems](https://vehits.scitevents.org/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -454,7 +454,7 @@ The paper describes the creation of a web site containing a list of data sets co
 
 [PDF](https://arxiv.org/pdf/2111.03201.pdf) | [arXiv](https://arxiv.org/abs/2111.03201) | [Code](https://github.com/daniel-bogdoll/deep_generative_models)
 
-:heavy_check_mark: Accepted at [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
+:white_check_mark: Accepted at [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -592,7 +592,7 @@ Reject
 
 [PDF](https://openaccess.thecvf.com/content/ICCV2021W/ERCVAD/papers/Bogdoll_Description_of_Corner_Cases_in_Automated_Driving_Goals_and_Challenges_ICCVW_2021_paper.pdf) | [arXiv](https://arxiv.org/abs/2109.09607) | [Proceeding](https://www.computer.org/csdl/proceedings-article/iccvw/2021/019100b023/1yNinKDWqcg)
 
-:heavy_check_mark: Accepted at [ICCV Workshop on Embedded and Real-World Computer Vision in Autonomous Driving](https://www.ki-deltalearning.de/event/ercvad2021)
+:white_check_mark: Accepted at [ICCV Workshop on Embedded and Real-World Computer Vision in Autonomous Driving](https://www.ki-deltalearning.de/event/ercvad2021)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -667,7 +667,7 @@ Low Botherline
 
 [PDF](https://arxiv.org/pdf/2109.08599) | [arXiv](https://arxiv.org/abs/2109.08599) | [Proceeding](https://link.springer.com/chapter/10.1007/978-3-030-98015-3_6)
 
-:heavy_check_mark: Accepted at [FICC Future of Information and Communication Conference](https://saiconference.com/FICC)
+:white_check_mark: Accepted at [FICC Future of Information and Communication Conference](https://saiconference.com/FICC)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -763,7 +763,7 @@ No
 
 [PDF](https://arxiv.org/pdf/2106.04549.pdf) | [arXiv](https://arxiv.org/abs/2106.04549) | [Proceeding](https://ieeexplore.ieee.org/abstract/document/9562826)
 
-:heavy_check_mark: Accepted at [IEEE International Smart Cities Conference (ISC2)](https://attend.ieee.org/isc2-2021/)
+:white_check_mark: Accepted at [IEEE International Smart Cities Conference (ISC2)](https://attend.ieee.org/isc2-2021/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -857,7 +857,7 @@ Accept (1)
 
 [PDF](https://arxiv.org/pdf/2105.01610.pdf) | [arXiv](https://arxiv.org/abs/2105.01610) | [Proceeding]()
 
-:heavy_check_mark: Accepted at [International Conference on Intelligent Transportation Engineering (ICITE)](http://www.icite.org/icite2021.html)
+:white_check_mark: Accepted at [International Conference on Intelligent Transportation Engineering (ICITE)](http://www.icite.org/icite2021.html)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -1344,7 +1344,7 @@ Without them I will not be able to recommend accept.
 
 [PDF](https://arxiv.org/pdf/2105.06896.pdf) | [arXiv](https://arxiv.org/abs/2105.06896) | [Proceeding](https://ieeexplore.ieee.org/document/9562912)
 
-:heavy_check_mark: Accepted at [IEEE International Smart Cities Conference (ISC2)](https://attend.ieee.org/isc2-2021/)
+:white_check_mark: Accepted at [IEEE International Smart Cities Conference (ISC2)](https://attend.ieee.org/isc2-2021/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -1457,7 +1457,7 @@ Weak accept (2)
 
 [Proceeding](https://www.sae.org/publications/technical-papers/content/2018-01-1080/)
 
-:heavy_check_mark: Accepted at [SAE WCX World Congress Experience](https://www.sae.org/attend/wcx)
+:white_check_mark: Accepted at [SAE WCX World Congress Experience](https://www.sae.org/attend/wcx)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
