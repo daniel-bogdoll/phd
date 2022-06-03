@@ -855,7 +855,7 @@ Accept (1)
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152392764-0a5553a7-cba0-4ccc-aef0-9bde156f614e.png">
 
-[PDF](https://arxiv.org/pdf/2105.01610.pdf) | [arXiv](https://arxiv.org/abs/2105.01610) | [Proceeding]()
+[PDF](https://arxiv.org/pdf/2105.01610.pdf) | [arXiv](https://arxiv.org/abs/2105.01610) | [Proceeding](https://link.springer.com/chapter/10.1007/978-981-19-2259-6_39)
 
 :white_check_mark: Accepted at [International Conference on Intelligent Transportation Engineering (ICITE)](http://www.icite.org/icite2021.html)
 
@@ -863,11 +863,11 @@ Accept (1)
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @article{Toettel_Reliving_2021_arXiv,
+  @inProceedings{Toettel_Reliving_2022_ICITE,
     author    = {T\"{o}ttel, Lars and Zipfl, Maximilian and Bogdoll, Daniel and Zofka, Marc Ren\'{e} and Z\"{o}llner, J. Marius},    
     title     = {{Reliving the Dataset: Combining the Visualization of Road Users' Interactions with Scenario Reconstruction in Virtual Reality}}, 
-    journal   = {arXiv preprint:2105.01610},
-    year      = {2021}
+    booktitle = {6th International Conference on Intelligent Transportation Engineering (ICITE)},
+    year      = {2022}
 }
   ```
 </details>
