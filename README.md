@@ -1519,7 +1519,7 @@ I no longer have access to the reviews
 ### Anomaly Detection in Lidar Data by Combining Supervised and Self-Supervised Methods
 06/2022 • Bachelor Thesis • Finn Sartoris
 
-<img width="100%" src="https://user-images.githubusercontent.com/19552411/164217267-a749a849-2e9f-459d-a123-51edf3608193.png">
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/172143930-78b95336-48ee-4bfd-abdc-ba2ac84a6d9a.png">
 
 [KITopen]() | [Code]()
 
