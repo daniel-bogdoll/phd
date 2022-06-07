@@ -1521,7 +1521,7 @@ I no longer have access to the reviews
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/172143930-78b95336-48ee-4bfd-abdc-ba2ac84a6d9a.png">
 
-[KITopen]() | [Code]()
+[KITopen](https://publikationen.bibliothek.kit.edu/1000147668) | [Code]()
 
 &nbsp;
 &nbsp;
