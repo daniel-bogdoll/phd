@@ -1513,6 +1513,20 @@ I no longer have access to the reviews
 
 [KITopen](https://publikationen.bibliothek.kit.edu/1000144811) | [Code]()
 
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Guneshka_Ontology_2022_BA,
+    author    = {Guneshka, Stefani},
+    title     = {{Ontology-based corner case scenario simulation for autonomous driving}},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
+    year      = {2022},
+    type      = {Bachelor's Thesis}
+}
+  ```
+</details>
+
 &nbsp;
 &nbsp;
 
@@ -1522,6 +1536,21 @@ I no longer have access to the reviews
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/172143930-78b95336-48ee-4bfd-abdc-ba2ac84a6d9a.png">
 
 [KITopen](https://publikationen.bibliothek.kit.edu/1000147668) | [Code]()
+
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Sartoris_Anomaly_2022_BA,
+    author    = {Sartoris, Finn},
+    title     = {{Anomaly Detection in Lidar Data by Combining Supervised and Self-Supervised Methods}},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
+    year      = {2022},
+    type      = {Bachelor's Thesis}
+}
+  ```
+</details>
 
 &nbsp;
 &nbsp;
