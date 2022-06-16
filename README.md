@@ -1522,7 +1522,7 @@ I no longer have access to the reviews
     title     = {{Ontology-based corner case scenario simulation for autonomous driving}},
     school    = {{Karlsruhe Institute of Technology (KIT)}},
     year      = {2022},
-    type      = {Bachelor's Thesis}
+    type      = {Bachelor Thesis}
 }
   ```
 </details>
@@ -1547,7 +1547,32 @@ I no longer have access to the reviews
     title     = {{Anomaly Detection in Lidar Data by Combining Supervised and Self-Supervised Methods}},
     school    = {{Karlsruhe Institute of Technology (KIT)}},
     year      = {2022},
-    type      = {Bachelor's Thesis}
+    type      = {Bachelor Thesis}
+}
+  ```
+</details>
+
+&nbsp;
+&nbsp;
+
+### Anomaly detection in 3D space for autonomous driving
+06/2022 • Master Thesis • Marcus Schilling
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/174027056-e09ed341-aa52-48dc-9ff5-93a8a2ed9861.png">
+
+[KITopen]() | [Code]()
+
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Schilling_Anomaly_2022_MA,
+    author    = {Schilling, Marcus},
+    title     = {{Anomaly Detection in Lidar Data by Combining Supervised and Self-Supervised Methods}},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
+    year      = {2022},
+    type      = {Master Thesis}
 }
   ```
 </details>
