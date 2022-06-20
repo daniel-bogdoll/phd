@@ -71,7 +71,7 @@ I focus on the detection and handling of corner cases in the field of autonomous
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/163943035-470f6b82-72a9-4ede-9741-edf12a41aa99.png">
 
-[PDF](https://arxiv.org/pdf/2204.07974.pdf) | [arXiv](https://arxiv.org/abs/2204.07974) | [Proceeding]()
+[PDF](https://arxiv.org/pdf/2204.07974.pdf) | [arXiv](https://arxiv.org/abs/2204.07974) | [Proceeding](https://openaccess.thecvf.com/CVPR2022_workshops/WAD)
 
 :white_check_mark: Accepted at [CVPR Workshop on Autonomous Driving](https://cvpr2022.wad.vision/)
 
@@ -79,10 +79,10 @@ I focus on the detection and handling of corner cases in the field of autonomous
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @article{Bogdoll_Anomaly_2022_CVPR,
+  @InProceedings{Bogdoll_Anomaly_2022_CVPR,
     author    = {Bogdoll, Daniel and Nitsche, Maximilian and Z\"{o}llner, J. Marius},
     title     = {{Anomaly Detection in Autonomous Driving: A Survey}}, 
-    journal   = {arXiv preprint:2204.07974},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
     year      = {2022}
   }
   ```
