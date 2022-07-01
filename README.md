@@ -39,7 +39,7 @@ I focus on the detection and handling of corner cases in the field of autonomous
 }
   
 @inbook{Bogdoll_Situation_2022_Knowledge,
-    author     = {Bogdoll, Daniel and Vivekanandan, Abhishek and Qureishi, Faraz and Schunk, Gerhard",
+    author     = {Bogdoll, Daniel and Vivekanandan, Abhishek and Qureishi, Faraz and Schunk, Gerhard},
     title      = {{Overview Use Case Domains: Situation Interpretation}},
     booktitle  = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
     publisher  = {arXiv},
@@ -48,7 +48,7 @@ I focus on the detection and handling of corner cases in the field of autonomous
 }
 
 inbook{Rudolph_Reinforcement_2022_Knowledge,
-    author       = {Rudolph, Stefan and Bogdoll, Daniel and Joseph, Tim",
+    author       = {Rudolph, Stefan and Bogdoll, Daniel and Joseph, Tim},
     title        = {{Knowledge Integration: Reinforcement Learning}},
     booktitle    = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
     publisher    = {arXiv},
