@@ -67,7 +67,7 @@ inbook{Rudolph_Reinforcement_2022_Knowledge,
 
 [PDF](https://arxiv.org/pdf/2205.01414.pdf) | [arXiv](https://arxiv.org/abs/2205.01414)
 
-❔ Under Review
+:white_check_mark: Accepted at [SMC International Conference on Systems, Man, and Cybernetics]([https://cvpr2022.wad.vision/](https://ieeesmc2022.org/))
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -81,6 +81,34 @@ inbook{Rudolph_Reinforcement_2022_Knowledge,
   }
   ```
 </details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :red_circle: Low Quality Reviews
+</summary>
+  
+### Reviewer 1
+  
+The work looks interesting. Congratulation for the authors
+achieving this target. 
+
+### Reviewer 2  
+ 
+An interesting paper combining lidar and camera data to
+detect obstacles, but a simple google search on "combining
+camera and lidar for detecting obstacles"
+leads to several reasonably recent papers that the authors
+do not cite and do not compare, e.g., the paper
+"Lidar-camera Based 3D Obstacle Detection for UGVs" in
+Xplore. These papers need to be cited and compared. 
+
+### Associate Editor
+Congratulations to the authors on their good job in this
+paper. It is especially interesting to see the paper extended to
+other publications.
+</details>
+
 
 &nbsp;
 &nbsp;
@@ -1507,7 +1535,7 @@ I no longer have access to the reviews
 
 [Patent](https://patents.google.com/patent/US20190065933A1/en) | [Status](https://patentcenter.uspto.gov/#!/applications/15693265/ifw/docs)
 
-:grey_question: On Appeal -- Awaiting Decision by the Board of Appeals
+:grey_question: Notice of Allowance Mailed
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
