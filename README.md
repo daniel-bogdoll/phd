@@ -186,7 +186,7 @@ state-of-the-art for different sensor modalities and point out current research 
 
 [PDF](https://arxiv.org/pdf/2202.09269.pdf) | [arXiv](https://arxiv.org/abs/2202.09269) | [Code](https://github.com/fzi-forschungszentrum-informatik/quantification_road_user_behavior) | [Proceeding]()
 
-:white_check_mark: Accepted at [IV IEEE Intelligent Vehicles Symposium](https://iv2022.com/)
+:white_check_mark: Accepted at [IV Intelligent Vehicles Symposium](https://iv2022.com/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -809,7 +809,7 @@ No
 
 [PDF](https://arxiv.org/pdf/2106.04549.pdf) | [arXiv](https://arxiv.org/abs/2106.04549) | [Proceeding](https://ieeexplore.ieee.org/abstract/document/9562826)
 
-:white_check_mark: Accepted at [IEEE International Smart Cities Conference (ISC2)](https://attend.ieee.org/isc2-2021/)
+:white_check_mark: Accepted at [ISC2 International Smart Cities Conference](https://attend.ieee.org/isc2-2021/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -945,7 +945,7 @@ and other road users.
 Strong Accept
 </details>
 
-:x: Previous version rejected at [IEEE VIS](http://ieeevis.org/)
+:x: Previous version rejected at [VIS](http://ieeevis.org/)
 
 <details>
   <summary>
@@ -1390,7 +1390,7 @@ Without them I will not be able to recommend accept.
 
 [PDF](https://arxiv.org/pdf/2105.06896.pdf) | [arXiv](https://arxiv.org/abs/2105.06896) | [Proceeding](https://ieeexplore.ieee.org/document/9562912)
 
-:white_check_mark: Accepted at [IEEE International Smart Cities Conference (ISC2)](https://attend.ieee.org/isc2-2021/)
+:white_check_mark: Accepted at [ISC2 International Smart Cities Conference](https://attend.ieee.org/isc2-2021/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
