@@ -903,7 +903,7 @@ Accept (1)
 
 [PDF](https://arxiv.org/pdf/2105.01610.pdf) | [arXiv](https://arxiv.org/abs/2105.01610) | [Proceeding](https://link.springer.com/chapter/10.1007/978-981-19-2259-6_39)
 
-:white_check_mark: Accepted at [International Conference on Intelligent Transportation Engineering (ICITE)](http://www.icite.org/icite2021.html)
+:white_check_mark: Accepted at [ICITE International Conference on Intelligent Transportation Engineering](http://www.icite.org/icite2021.html)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
