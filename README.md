@@ -67,7 +67,7 @@ inbook{Rudolph_Reinforcement_2022_Knowledge,
 
 [PDF](https://arxiv.org/pdf/2205.01414.pdf) | [arXiv](https://arxiv.org/abs/2205.01414)
 
-:white_check_mark: Accepted at [SMC International Conference on Systems, Man, and Cybernetics]([https://cvpr2022.wad.vision/](https://ieeesmc2022.org/))
+:white_check_mark: Accepted at [SMC International Conference on Systems, Man, and Cybernetics](https://ieeesmc2022.org/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
