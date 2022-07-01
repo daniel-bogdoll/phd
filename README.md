@@ -304,7 +304,7 @@ metric genericity is very important to evaluate its pertinence.
 
 [PDF](https://arxiv.org/pdf/2202.01909.pdf) | [arXiv](https://arxiv.org/abs/2202.01909) | [Code](https://ad-datasets.com) | [Proceeding](https://www.scitepress.org/PublicationsDetail.aspx?ID=OP38drynoWQ=&t=1)
 
-:white_check_mark: Accepted at [VEHITS International Conference on Vehicle Technology and Intelligent Transport Systems](https://vehits.scitevents.org/)
+:white_check_mark: Accepted at [VEHITS International Conference on Vehicle Technology and Intelligent Transport Systems](https://vehits.scitevents.org/?y=2022)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
