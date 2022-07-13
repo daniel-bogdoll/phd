@@ -12,6 +12,182 @@ I focus on the detection and handling of corner cases in the field of autonomous
 ## List of Publications
 ##### Overview on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao). \* denotes equal contribution.
 
+### DLCSS: Dynamic Longest Common Subsequences
+07/2022 • Daniel Bogdoll, Jonas Rauch, J. Marius Zöllner
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/178706603-068bd38e-cfd9-47ad-b587-85c5b29cd5e8.png">
+
+[PDF]() | [arXiv]()
+
+:white_check_mark: Accepted at [ICECCME International Conference on Electrical, Computer, Communications and Mechatronics Engineering](http://www.iceccme.com/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @article{Bogdoll_DLCSS_2022_arXiv,
+    author    = {Bogdoll, Daniel and Rauch, Jonas and Z\"{o}llner, J. Marius},
+    title     = {{DLCSS: Dynamic Longest Common Subsequences}}, 
+    journal   = {arXiv preprint:XXXX.XXXXX},
+    year      = {2022}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :red_circle: Low Quality Reviews
+</summary>
+  
+### Reviewer 1
+  
+In this study, Dynamic Longest Common Queues algorithm is proposed for fast and cost-effective comparison of two routes in terms of compatibility. The algorithm and its results are explained in detail.
+
+### Reviewer 2  
+ 
+Overall article is very Good.
+Below are few suggestion(s) for Author(s)
+There are very minor plagiarism in the manusript. Can Author(s) paraphrase the statements?
+Please find the document at
+https://drive.google.com/drive/folders/1uZAOWBuzK4_UEuUHg6Kjesl4iIwHCgfx?usp=sharing
+Rest looks good to me.
+
+### Reviewer 3
+The work 'DLCSS: Dynamic Longest Common Subsequences' is not novel, so more related current literature review may enhance the quality of work; The future scope of work is missing; Request to recheck the grammartical errors.
+</details>
+
+&nbsp;
+&nbsp;
+### Experiments on Anomaly Detection in Autonomous Driving by Forward-Backward Style Transfers
+07/2022 • Daniel Bogdoll*, Meng Zhang*, Maximilian Nitsche, J. Marius Zöllner
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/178707046-c72b831c-7c6e-4e95-b25c-f2eb6c7f4039.png">
+
+[PDF]() | [arXiv]()
+
+:white_check_mark: Accepted at [ICECCME International Conference on Electrical, Computer, Communications and Mechatronics Engineering](http://www.iceccme.com/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @article{Bogdoll_Experiments_2022_arXiv,
+    author    = {Bogdoll, Daniel and Zhang, Meng and Nitsche, Maximilian and Z\"{o}llner, J. Marius},
+    title     = {{Experiments on Anomaly Detection in Autonomous Driving by Forward-Backward Style Transfers}}, 
+    journal   = {arXiv preprint:XXXX.XXXXX},
+    year      = {2022}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :orange_circle: Medium Quality Reviews
+</summary>
+  
+### Reviewer 1
+  
+the paper is well-written, include more related works at least 10 studies for justification of the work. there is a sufficient number of references.
+
+### Reviewer 2  
+ 
+In the paper "Experiments on Anomaly Detection in Autonomous Driving by Forward-Backward Style Transfers" the authors provided great insight into anomaly detection based on generative imaging and style transfer. Although the results are not positive, I believe that the findings presented in the paper are of great use to the scientific community. However, I have two remarks that I would like the authors to address.
+
+The first remark is focused on the evaluation presented in the paper. The authors state: "As we performed the experiments as a first step to determine whether the methodology is suitable for anomaly detection, we omitted a quantitative analysis afterwards.". Therefore, there is no quantitative analysis, which is a big issue. No objective metrics were used to see if the tested method works (or rather, doesn't work). From my understanding, all the author(s) did was visually compare their results and then decided not to do any statistical tests. They only used subjective visual comparisons, so this paper lacks a proper analysis. This issue perseveres in later sections of the paper, where the author(s) say there were "no significant differences" and that they performed a "detailed analysis" yet show no metrics to support these claims.
+
+The second remarks are focused on grammar and citation:
+
+INTRODUCTION, PARAGRAPH 2:
+- "This hypothesis to detect anomalies is based on an assumption in respect to reconstruction errors with generative models, ...", "in respect to" should be replaced by "with respect to".
+
+RELATED WORK, PARAGRAPH 1:
+- "Subsequently, we will give an overview over style transfer methods." I think "...over style transfer..." should be replaced by "...of style transfer..."
+
+RELATED WORK, Camera-based Anomaly Detection
+- "Moreover, Du et al. [16] focus on the calibration of the neural network's confidence score to differentiate in- and outliers more thoroughly by shaping the decision boundary via virtual outliers sampled from a learned feature distribution [16]." Please rephrase this (and/or simplify this by splitting into two or more sentences) as it is difficult to follow/understand in its current form.
+- the author(s) should define what it means to "predict normality in autonomous driving."
+
+RELATED WORK, Image-to-Image Style Transfer
+- "However, due to the principle of image iteration, this approach could not be employed for large-scale style transformations." Please reference related work which supports this claim.
+</details>
+
+:x: Previous version rejected at [IJCAI-ECAI Workshop on Artificial Intelligence for Autonomous Driving](https://learn-to-race.org/workshop-ai4ad-ijcai2022/)
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :green_circle: High Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+#### What's is your overall impression of the submission? How well does it align with artificial intelligence for autonomous driving, e.g., based on the paper subject areas?
+In this paper, the authors' preliminary hypothesis is based on the fact that using style transfer on the image and then removing the added style will make it easier to detect anomalies within the input image.
+The overall approach is novel, but I would like to have seen stronger theoretical justification to their approach. Furthermore, the authors could have added additional numerical details with respect to the results as well as the type of anomaly detection performed.
+In addition, I would have liked to see an in depth analysis of why the authors believe their approach did not work and how could they have changed their approach to get better results.
+The current work does fit with the overall theme of autonomous driving but it lacks the theoretical backing and the empirical rigor required to help the scientific community.
+
+#### Is the work presented in the manuscript novel? Are the task(s), theory, methodology, dataset(s), or simulator(s) new? Is it clear how this work differs from prior art?
+Yes
+
+#### Does this manuscript address a difficult task in a way that is better than prior art?
+No
+
+#### Is the writing clear?
+No
+
+#### Are the claims supported by theoretical analysis and/or empirical results?
+No
+
+#### Are the authors honest about evaluating both the strengths and weaknesses of their approach?
+Yes
+
+#### Are others likely to use or extend the work presented in the manuscript? Why or why not?
+Overall, the idea is pretty interesting. If the anomalies lie on a different manifold, capturing a transformation that could make separating the anomalies from ordinary data could help boost the performance of classifiers.
+
+#### What could the authors do to improve clarity, theory, or experiments?
+The authors could have made use of a stronger theoretical backing for their experiments.
+After going through the paper, it felt that the methodology came before actually looking at the data and then devising the right approach to tackle the problem.
+In addition, the authors could have provided some additional information on the metrics that they had obtained for each of their experiments. Without the presence of numerical results, it is difficult to quantify the results that they have obtained within the experiments.
+
+#### Your overall rating for this manuscript
+Reject
+
+### Reviewer 2
+
+#### What's is your overall impression of the submission? How well does it align with artificial intelligence for autonomous driving, e.g., based on the paper subject areas?
+The idea of detecting anomalies using image resynthesis from style transfer could be useful in autonomous driving setting. While the paper does mention that the hypothesis is proven wrong, it would be useful for the reader to have a quantitative analysis of the results in the experimental settings mentioned. The paper provides a good intuitive explanation of the hypothesis but fails to provide enough evidence that support or deny the hypothesis.
+
+#### Is the work presented in the manuscript novel? Are the task(s), theory, methodology, dataset(s), or simulator(s) new? Is it clear how this work differs from prior art?
+Yes
+
+#### Does this manuscript address a difficult task in a way that is better than prior art?
+No
+
+#### Is the writing clear?
+Yes
+
+#### Are the claims supported by theoretical analysis and/or empirical results?
+No
+
+#### Are the authors honest about evaluating both the strengths and weaknesses of their approach?
+Yes
+
+#### Are others likely to use or extend the work presented in the manuscript? Why or why not?
+This idea presented in this work is extensible due to the fact that the idea presented is simple and novel. The use of open source datasets and pre-trained models makes the work reproducible and verifiable.
+
+#### What could the authors do to improve clarity, theory, or experiments?
+1. The hypothesis was made on the grounds that successive style transfers may distort anomalies and make them easy to find. This hypothesis could be better supported by examples from literature or by providing clearer theoretical explanation.
+2. Even though the submission claims that the hypothesis is invalidated, there could be stronger empirical evidence to support the same. The paper lacks explanation supported by metrics as to why the hypothesis is invalidated.
+
+#### Your overall rating for this manuscript
+Weak Reject
+</details>
+
+&nbsp;
+&nbsp;
 ### Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey
 05/2022 • Julian Wörmann et al.
 
