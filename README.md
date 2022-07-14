@@ -215,21 +215,19 @@ Weak Reject
 }
   
 @InBook{Bogdoll_Situation_2022_Knowledge,
-    author     = {Bogdoll, Daniel and Vivekanandan, Abhishek and Qureishi, Faraz and Schunk, Gerhard},
-    title      = {{Overview Use Case Domains: Situation Interpretation}},
-    booktitle  = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
-    publisher  = {arXiv},
-    pages      = {5--6},
-    year       = {2022}
+     author     = {Bogdoll, Daniel and Vivekanandan, Abhishek and Qureishi, Faraz and Schunk, Gerhard},
+     chapter    = {{Overview Use Case Domains: Situation Interpretation}},
+     title      = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
+     publisher  = {arXiv},
+     year       = {2022}
 }
 
 @InBook{Rudolph_Reinforcement_2022_Knowledge,
-    author       = {Rudolph, Stefan and Bogdoll, Daniel and Joseph, Tim},
-    title        = {{Knowledge Integration: Reinforcement Learning}},
-    booktitle    = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
-    publisher    = {arXiv},
-    pages        = {25--28},
-    year         = {2022}
+     author    = {Rudolph, Stefan and Bogdoll, Daniel and Joseph, Tim},
+     chapter   = {{Knowledge Integration: Reinforcement Learning}},
+     title     = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
+     publisher = {arXiv},
+     year      = {2022}
 }  
   ```
 </details>
