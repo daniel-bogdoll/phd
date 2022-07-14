@@ -214,7 +214,7 @@ Weak Reject
      year      = {2022}
 }
   
-@inbook{Bogdoll_Situation_2022_Knowledge,
+@InBook{Bogdoll_Situation_2022_Knowledge,
     author     = {Bogdoll, Daniel and Vivekanandan, Abhishek and Qureishi, Faraz and Schunk, Gerhard},
     title      = {{Overview Use Case Domains: Situation Interpretation}},
     booktitle  = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
@@ -223,7 +223,7 @@ Weak Reject
     year       = {2022}
 }
 
-@inbook{Rudolph_Reinforcement_2022_Knowledge,
+@InBook{Rudolph_Reinforcement_2022_Knowledge,
     author       = {Rudolph, Stefan and Bogdoll, Daniel and Joseph, Tim},
     title        = {{Knowledge Integration: Reinforcement Learning}},
     booktitle    = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
