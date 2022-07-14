@@ -223,7 +223,7 @@ Weak Reject
     year       = {2022}
 }
 
-inbook{Rudolph_Reinforcement_2022_Knowledge,
+@inbook{Rudolph_Reinforcement_2022_Knowledge,
     author       = {Rudolph, Stefan and Bogdoll, Daniel and Joseph, Tim},
     title        = {{Knowledge Integration: Reinforcement Learning}},
     booktitle    = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
