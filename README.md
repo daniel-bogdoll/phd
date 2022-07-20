@@ -1,4 +1,4 @@
-Detection and Handling of Corner Cases in Autonomous Driving
+ADAD: Anomaly Detection in Autonomous Driving
 ==========
 
 ## Introduction
