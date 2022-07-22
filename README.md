@@ -10,7 +10,7 @@ I am pursuing my PhD under the supervision of [Prof. Dr.-Ing. J. Marius Zöllner
 I focus on the detection of corner cases in the field of autonomous driving. Method-wise, I find world-models for the detection in multimodal data extremely interesting. Here, reconstruction, prediction, and latent-space based corner case detection methods are of most interest to me. I build upon the works of [Breitenstein et al.](https://ieeexplore.ieee.org/document/9304789) and [Heidecker et al.](https://ieeexplore.ieee.org/document/9575933), who did tremendous work in the field of corner case taxonomies.
 
 ## List of Publications
-##### Overview on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao). \* denotes equal contribution.
+##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
 ### DLCSS: Dynamic Longest Common Subsequences
 07/2022 • Daniel Bogdoll, Jonas Rauch, J. Marius Zöllner
