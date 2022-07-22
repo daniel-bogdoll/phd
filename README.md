@@ -1726,7 +1726,7 @@ I no longer have access to the reviews
 
 ## Supervised Theses
 
-### Ontology-based corner case scenario simulation for autonomous driving
+### Ontology-based Corner Case Scenario Simulation for Autonomous Driving
 03/2022 • Bachelor Thesis • Stefani Guneshka
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/164217267-a749a849-2e9f-459d-a123-51edf3608193.png">
@@ -1775,12 +1775,12 @@ I no longer have access to the reviews
 &nbsp;
 &nbsp;
 
-### Anomaly detection in 3D space for autonomous driving
+### Anomaly Detection in 3D Space for Autonomous Driving
 06/2022 • Master Thesis • Marcus Schilling
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/174027056-e09ed341-aa52-48dc-9ff5-93a8a2ed9861.png">
 
-[KITopen]() | [Code]()
+[KITopen](https://publikationen.bibliothek.kit.edu/1000148848) | [Code]()
 
 
 <details>
@@ -1789,7 +1789,7 @@ I no longer have access to the reviews
   ```
   @mastersthesis{Schilling_Anomaly_2022_MA,
     author    = {Schilling, Marcus},
-    title     = {{Anomaly Detection in Lidar Data by Combining Supervised and Self-Supervised Methods}},
+    title     = {{Anomaly Detection in 3D Space for Autonomous Driving}},
     school    = {{Karlsruhe Institute of Technology (KIT)}},
     year      = {2022},
     type      = {Master Thesis}
