@@ -1724,6 +1724,8 @@ I no longer have access to the reviews
   ```
 </details>
 
+&nbsp;
+&nbsp;
 ## Supervised Theses
 
 ### Ontology-based Corner Case Scenario Simulation for Autonomous Driving
