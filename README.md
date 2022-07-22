@@ -471,7 +471,7 @@ metric genericity is very important to evaluate its pertinence.
 
 &nbsp;
 &nbsp;
-### ad-datasets: a meta-collection of data sets for autonomous driving
+### AD-Datasets: A Meta-Collection of Data Sets for Autonomous Driving
 02/2022 • Daniel Bogdoll*, Felix Schreyer*, and J. Marius Zöllner
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152450128-123a1c6d-08a9-4d89-9421-339c5a566552.png">
@@ -486,7 +486,7 @@ metric genericity is very important to evaluate its pertinence.
   ```
   @inProceedings{Bogdoll_Addatasets_2022_VEHITS,
       author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
-      title     = {{ad-datasets: a meta-collection of data sets for autonomous driving}},
+      title     = {{AD-Datasets: A Meta-Collection of Data Sets for Autonomous Driving}},
       booktitle = {Proceedings of the 8th International Conference on Vehicle Technology and Intelligent Transport Systems},
       year      = {2022}
   }
@@ -1741,7 +1741,7 @@ I no longer have access to the reviews
   ```
   @mastersthesis{Guneshka_Ontology_2022_BA,
     author    = {Guneshka, Stefani},
-    title     = {{Ontology-based corner case scenario simulation for autonomous driving}},
+    title     = {{Ontology-based Corner Case Scenario Simulation for Autonomous Driving}},
     school    = {{Karlsruhe Institute of Technology (KIT)}},
     year      = {2022},
     type      = {Bachelor Thesis}
