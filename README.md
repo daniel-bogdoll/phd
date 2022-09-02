@@ -12,6 +12,204 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+### One Ontology to Rule Them All: Corner Case Scenarios for Autonomous Driving
+09/2022 • Daniel Bogdoll, Stefani Guneshka, J. Marius Zöllner
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/188085474-d281a2d7-e378-4797-8d25-a82f499528e4.png">
+
+[PDF](https://arxiv.org/pdf/2209.00342.pdf) | [arXiv](https://arxiv.org/abs/2209.00342)
+
+:white_check_mark: Accepted at [ECCV Workshop on Safe Artificial Intelligence for Automated Driving](https://sites.google.com/view/saiad2022)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @article{Bogdoll_Ontology_2022_arXiv,
+    author    = {Bogdoll, Daniel and Guneshka, Stefani and Z\"{o}llner, J. Marius},
+    title     = {{One Ontology to Rule Them All: Corner Case Scenarios for Autonomous Driving}}, 
+    journal   = {arXiv preprint:2209.00342},
+    year      = {2022}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :green_circle: High Quality Reviews
+</summary>
+  
+### Reviewer 1
+  
+#### [Paper Summary] What is the paper about? (3 to 5 sentences)
+The authors propose a technique for generating a variety of corner cases relevant for AD. Using an ontology "template" (master ontology) and input from a human "scenario designer", scenarios can be specified ("scenario ontologies") and, in a subsequent step, simulated in the CARLA framework. This pipeline is used to generate 10 illustrative corner cases.
+
+####How does it fit with the workshop topic (safe AI for AD)?
+The paper addresses rare (so-called long-tail) scenarios that are widely agreed to be one of the main obstacles on the way to safe AD at scale.
+
+#### [Contribution] Does the contribution (sufficiently) differ from related work?
+The scope and the usability of the proposed ontology appear to be significantly larger/higher compared to existing works in the field (compare Table 1 and the related-work section).
+
+#### Are claims well supported by experimental results or theoretical analysis?
+The authors claim that the "proposed master ontology is capable to model scenarios from all common corner case categories found in the literature". They justify this statement by generating diverse corner cases (Table 3), building on an existing corner case categorization (“Breitenstein et al.”). Moreover, they claim that the generated corner cases help to improve "robustness to anomalies". While this claim does not seem implausible, no evidence (in the form of a quantitative evaluation) is presented that supports it.
+
+#### Are the conclusions drawn from the experiments correct?
+The experiments, more specifically, the showcasing of the scenario generation, is of qualitative nature. The 10 generated corner case scenarios look plausible and relevant.
+
+#### Do the authors also address weaknesses and drawbacks of their work?
+The authors address limitations of their approach in the concluding section. However, the mentioned limitations are not on a conceptual level but purely technical ("focused on camera-related corner cases", "subsequent scripts ... are currently not triggered automatically"). It would be more interesting to discuss general difficulties of ontology-based approaches, particularly their enormous complexity and resulting consequences. In this context, it seems worthwhile to contrast them with learning-based approaches for scenario generation (like Meta-Sim and variants, see [1]).
+
+[1] Jeevan Devaranjan, Amlan Kar, Sanja Fidler: Meta-Sim2: Unsupervised Learning of Scene Structure for Synthetic Data Generation. ECCV (17) 2020: 715-733
+
+#### What could the authors do to improve the paper?
+- It would be helpful to introduce a "minimal viable example" in the beginning and use it to illustrate the technical descriptions in the following sections.
+- One may add a quantitative evaluation to confirm the claim that the generated corner cases contribute to "increase[d] robustness to anomalies".
+(Example setup: training on a "standard" dataset vs. training on a "corner-case-extended" dataset --> how do the two resulting models perform on a test set i) of standard scenes, ii) of corner cases that are structurally similar to those used for training, iii) on structurally different corner cases?
+Minor remarks:
+- The scenario descriptions on p. 10 (l. 435 and following) partially deviate from what is shown in Fig. 4 on p. 11 (see scenarios d) and e)).
+- It seems that the word "be" is missing in the sentence "In Section 4, we demonstrate how different, concrete scenarios can be derived from the master ontology and how the resulting ontologies can [be] used to execute these in simulation." (p.2).
+- One may use "consider" instead of "conducted" in the sentence "For the selection of the exemplary corner case scenarios, we conducted three types of sources." (p.9).
+- One may consider using backticks as opening quote symbols.
+
+#### Is the paper valuable for a practical application?
+It definitely is, particularly due to the OpenSCENARIO conversion module that allows for the simulation of scenario ontologies in the popular CARLA framework. The authors, moreover, state that their code base (and data) is publicly available on Github, which is another plus.
+
+#### [Final recommendation]
+Strong Accept
+
+#### [Justification of the recommendation]
+The paper fits nicely to the scope of the SAIAD workshop and is well structured. By enabling the systematic generation of corner cases for AD, it appears to be valuable for both academic researchers and industry practitioners. As mentioned above, I recommend that the authors substantiate/concretize the claim that corner case scenarios contribute to "improved robustness to anomalies".
+
+### Reviewer 2  
+ 
+#### [Paper Summary] What is the paper about? (3 to 5 sentences)
+The authors of the paper propose a new ontology, which is capable to describe all desired scenarios for testing algorithms in context of autonomous driving. It is even possible to model corner case scenarios with the proposed master ontology. The scenario creation happens in an automated fashion from the proposed master ontology and the output in OpenSCENARIO format is practical usable by simulation engines like CARLA.
+
+#### How does it fit with the workshop topic (safe AI for AD)?
+Systematical testing might be a right step in the direction of safe AI. As the proposed master ontology provides a way to describe and helps to automatically generate scenarios for testing and improving AI, it fits well the safe AI topic.
+
+#### [Contribution] Does the contribution (sufficiently) differ from related work?
+Comparison to related work shows that there is not such an overall ontology that also includes corner case categorization. So yes, it differs from related work.
+
+#### Are claims well supported by experimental results or theoretical analysis?
+The authors explain the ontology well and compare it with existing approaches.
+
+#### Are the conclusions drawn from the experiments correct?
+The scenario example in the paper and the examples in the GitHub repository show the usability of the master ontology. In general, it is not possible to verify that the proposed ontology fulfills all (upcoming) requirements. As the authors already stated in the conclusion, a modification of the master ontology might be necessary.
+
+#### Do the authors also address weaknesses and drawbacks of their work?
+They authors address some limitations, e.g. the focus on camera related corner cases.
+
+#### What could the authors do to improve the paper?
+The examples in the paper are about camera-related corner cases. A more general view in the evaluation would improve the paper.
+
+#### Is the paper valuable for a practical application?
+Yes, the paper shows examples and links to a GitHub repository where the template for the ontology and code for the generation is available.
+
+#### [Final recommendation]
+Weak Accept
+
+#### [Justification of the recommendation]
+The paper provides a novel ontology for describing scenarios. It includes corner cases as well and it is possible to generate scenarios in OPENScenario format automatically. This helps to generate corner cases for training and systematic testing of AI.
+
+### Reviewer 3
+
+#### [Paper Summary] What is the paper about? (3 to 5 sentences)
+The paper describes a generic ontology structure that can be tailored to very diverse AD scenarios, supporting corner cases from two corner case categorization schemes. A pipeline is implemented including a library for creating scenario-specific ontologies, tools for automatic scenario merging, conversion into the OpenSCENARIO scene description language, and simulation using CARLA. The pipeline is demonstrated on 9 representatives of interesting corner case categories.
+
+Note on reviewer expertise: Basic knowledge in modelling, ontologies, and data simulation; expertise in computer vision and safety argumentation
+
+#### How does it fit with the workshop topic (safe AI for AD)?
+Proper modelling frameworks for data simulation, in particular covering corner cases, is highly relevant for safe AD.
+
+#### [Contribution] Does the contribution (sufficiently) differ from related work?
+The generic ontology (Master ontology) as a whole seems to be new in its generalizability. Also, it is claimed no other method so far allows to model with both custom environments and objects, and model all categories of corner cases considered in the paper, as demonstrated in a short literature study.
+
+Besides the diligent work of compiling the master ontology and implementing the modelling and simulation pipeline, only few pieces of new work seem to have been conducted. The corner case categories were compiled out of two sources ([10] and [20]), and the structure of the ontology is mostly (and naturally) inspired by the OpenSCENARIO language. However, given that this paper primarily announces the implementation of the scene generation and simulation pipeline, the degree of novelty is sufficient from my point of view.
+
+It should be noted that the authors frequently reference an anonymized source for graphics and further details. My assumption would be that this work contains supplementary material and no prior work, which would make a lot of sense for the presented content. However, I could not check the content of this source (due to anonymization) and cannot tell, why no anonymized version thereof was linked as for the source code.
+
+#### Are claims well supported by experimental results or theoretical analysis?
+Novelty claims are properly supported by a thorough literature review and comparison according to clearly defined requirements.
+
+Feasibility is nicely demonstrated by broad and well-chosen exemplary corner cases that are fully simulated through the proposed pipeline, and simplification of scenario definition via sensible defaults is made clear by the given examples.
+
+However, it is not immediately clear to readers not deeply familiar with ontology definitions, what benefits users have over directly specifying scenarios in the generic and well established OpenSCENARIO scenario description language. This might be remedied by proper definition of the term ontology (which is quite differently understood in literature), and by pointing out the differences to the other formats in the pipeline.
+
+Also, in my point of view, the core claim is not proven or argued: It is claimed that scenario generation is eased for "scenario designers" that are unfamiliar with ontology generation. This is hard to check from the single-line code example in the paper and a lack of examples how this would traditionally be solved (why is the ontology necessary?), but I expect the advertised good documentation of the published library to remedy this.
+
+The abstract claims improved robustness of machine learning models through the approach. This isn't tested or shown, so that part should better be reformulated for clarity.
+
+#### Are the conclusions drawn from the experiments correct?
+No experiments were conducted except for a qualitative evaluation of feasibility.
+
+#### Do the authors also address weaknesses and drawbacks of their work?
+Yes, a sufficient discussion is well-placed in the conclusion section.
+
+#### What could the authors do to improve the paper?
+Clearly mark source [1] as supplementary material.
+
+The master ontology, which is the core theoretical contribution of the work, is provided in an unreadable format in Fig. 1 ("best viewed at 1,600%"). The ontology should for sure be available, e.g. in appendix or supplementary material. However, the chosen format, which is MUCH too small for printing, is no good choice for the main paper. Also (besides the scrolling effort), it is very hard to identify the core ideas that are highlighted in the ontology, as the full master ontology -- naturally -- is quite huge. For a helpful presentation that later research can base on, the authors are advised to provide selected (and potentially shortened) sections from the complete graph, best one sub-graph for each of the core ideas from Sec. 3.1. Fig. 1 does not serve the purpose of illustrating core ideas or elements of the graph, leaving the reader only with the vage descriptions in Sec. 3.1.
+
+Clarify terms: I frequently stumbled over terms that seemingly are important to understand the modelling approach but were not properly defined nor circumscribed by the authors. I encountered the following:
+- Corner case category, corner case level: It is not clear whether there is a difference in the two. The term corner case category is used already quite early as it is part of the main contribution. However, the specific notion of corner case used in this paper is never introduced, nor is it mentioned that the different corner case categories/levels relevant to the ontology are introduced in Sec. 3.1. It might even be worth introducing those earlier.
+- The understanding of ontology in this paper is never defined. In particular, the parts of an ontology are never properly defined, e.g. p. 4, line 156: What are classes and properties of an ontology and what is the difference? When to say the X class (e.g. line 234, "the Scenario class") and when is it a class?
+- Line 227, line 380: What are individuals in your ontology?
+- Line 230: What are groups here? Are group memberships mutually exclusive here?
+- Line 235: What is the difference between object and data properties?
+- Line 236: How to view an object property as a connection to an Entity? Here, an example is needed.
+- Line 240: What do instances of one Entity class have to have in common? Do they have to match (only) in their movement pattern?
+- Line 254: What are examples of connecting properties for Actions?
+- Line 262: What is the difference between ByEntityCondition and ByValueCondition? In particular, in which class is a by-value-condition that targets a property of an entity, e.g. maximum ego-vehicle speed? Some examples are needed here.
+
+Line 268: What is the reason for this choice of weather conditions? This should shortly be argued.
+
+Fig. 3: This figure is misleading as it only shows part of the considered corner case categories, according to the texts. Further details on the corner case categorization are hidden in the complexity of Fig. 2. It would be much more helpful to amend Fig. 3 by the relevant information on corner case categorization added by this paper.
+
+Main groups: It only becomes more clear in Sec. 3.2 resp. Tab. 2 why the authors might have chosen to cluster items in the master ontology into seven groups. E.g., this is to structure the implementation and to ease finding classes. The motivation behind establishing these groups might be emphasized more clearly by the authors already in Sec. 3.1.
+
+Listing 1.1: This listing is very minimal. It would be more helpful to include a more complete example, e.g. a minimal scenario definition, maybe using the advertised defaults to shorten the definition. That would also more clearly show how much expertise in ontologies is required by the scenario designer.
+
+Line 377: It is unclear what is meant by structural integrity here (what are criteria/counterexamples?). Since this seems to be a relevant feature of the pipeline, this should be explained in more detail.
+
+Line 378-382: It is unclear to me why a merging of several scenarios on ontology level is necessary if a scenario designer wants to design one scenario in one environment just with several (potentially non-interfering) corner case categories. The term scenario individuals here is unclear to me, and why the mentioned prerequisite would result in several instead of one scenario to be described by the scenario designer.
+
+Sec. 4.1: Here the texts state that, in order to get from the master ontology to a specific scenario ontology, new parts are created and inserted. As can be seen (after lots of zooming and interpreting) in Fig. 2, this is not the case. Instead, the general classes defined in the master ontology are simply replaced by the more specific implementations (or instantiations?) that are necessary for the scenario, e.g. Act -> indiv_Act. The notation in Fig. 2, however, keeps the superclasses from the master ontology, each connected to its single implementation. To me, this notation is confusing and requires further explanation. Also, the process of getting from the master ontology to the Scenario ontology (and what the practical difference between the two is) should be detailed further.
+
+Minor:
+
+Fig. 2, caption: It would be good to clarify that the mentioned seven sections are described in more detail in Sec. 3.1.
+
+Typo in Line 266: Time -> Time of Day
+
+The limitations paragraph also mentions compilation issues related to CARLA. It would be good to mention some lessons learned for the reader: How might one avoid such issues in future?
+
+#### Is the paper valuable for a practical application?
+Yes. This is nicely demonstrated in the qualitative evaluation section.
+
+Also, the source code with the developed library is about to be published alongside the paper (unfortunately the link to the anonymized repository did not work, wherefore I could not check the repository content).
+
+#### [Final recommendation]
+Borderline
+
+#### [Justification of the recommendation]
+The paper discusses and provides a practically relevant ontology and scenario generation pipeline. The showcases are convincing and discussion of the work might be of great value for the practical work in the safe AI community. However, the paper is hard to understand for audience not deeply familiar with ontology definition due to the lack of a basic introduction and many missing definitions of ambiguous terms. This needs fixing to be of value for greater audience.
+
+Strong points:
+- Practically relevant work and library publication
+- Convincing systematic feasibility demonstration
+- Interesting focus on systematically established corner case categories
+
+Weak points:
+- Many terms insufficiently introduced (no definition, no examples, no demarcation against other similar terms)
+- Unusable visual aids to understand the key ideas of the master ontology (too complex, no breakdown to the relevant ideas, much too small)
+- Parts of the pipeline workflow unclear (benefits of this kind of pipeline, getting from master to scenario ontology, necessity for scenario fusion)
+</details>
+
+
+&nbsp;
+&nbsp;
 ### DLCSS: Dynamic Longest Common Subsequences
 07/2022 • Daniel Bogdoll, Jonas Rauch, J. Marius Zöllner
 
