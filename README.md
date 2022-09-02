@@ -45,7 +45,7 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 #### [Paper Summary] What is the paper about? (3 to 5 sentences)
 The authors propose a technique for generating a variety of corner cases relevant for AD. Using an ontology "template" (master ontology) and input from a human "scenario designer", scenarios can be specified ("scenario ontologies") and, in a subsequent step, simulated in the CARLA framework. This pipeline is used to generate 10 illustrative corner cases.
 
-####How does it fit with the workshop topic (safe AI for AD)?
+#### How does it fit with the workshop topic (safe AI for AD)?
 The paper addresses rare (so-called long-tail) scenarios that are widely agreed to be one of the main obstacles on the way to safe AD at scale.
 
 #### [Contribution] Does the contribution (sufficiently) differ from related work?
