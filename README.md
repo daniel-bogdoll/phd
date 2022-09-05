@@ -872,7 +872,7 @@ The paper describes the creation of a web site containing a list of data sets co
 
 [PDF](https://arxiv.org/pdf/2111.03201.pdf) | [arXiv](https://arxiv.org/abs/2111.03201) | [Code](https://github.com/daniel-bogdoll/deep_generative_models)
 
-:white_check_mark: Accepted at [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
+:white_check_mark: Accepted at [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/2021/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
