@@ -13,7 +13,7 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
 ### One Ontology to Rule Them All: Corner Case Scenarios for Autonomous Driving
-09/2022 • Daniel Bogdoll, Stefani Guneshka, J. Marius Zöllner
+09/2022 • Daniel Bogdoll*, Stefani Guneshka*, J. Marius Zöllner
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/188085474-d281a2d7-e378-4797-8d25-a82f499528e4.png">
 
