@@ -1,4 +1,4 @@
-ADAD: Anomaly Detection in Autonomous Driving
+Anomaly Detection in Autonomous Driving
 ==========
 
 ## Introduction
