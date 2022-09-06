@@ -18,6 +18,8 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 | 03/2022  |    | Reviewer | IEEE IV Conference
 | 03/2022  | today  | Elected Representative of PhD Candidates | KIT Graduate School UpGrade Mobility
 | 09/2021  | today  | Fellow | KIT Graduate School UpGrade Mobility
+| 07/2021  | today  | PhD Student | KIT Department of Economics and Management
+| 11/2020  | today  | Research Scientist | FZI Department of Technical Cognitive Systems
 
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
