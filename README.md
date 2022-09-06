@@ -10,11 +10,14 @@ I am pursuing my PhD under the supervision of [Prof. Dr.-Ing. J. Marius Zöllner
 I focus on the detection of corner cases in the field of autonomous driving. Method-wise, I find world-models for the detection in multimodal data extremely interesting. Here, reconstruction, prediction, and latent-space based corner case detection methods are of most interest to me. I build upon the concepts of [Breitenstein et al.](https://ieeexplore.ieee.org/document/9304789) and [Heidecker et al.](https://ieeexplore.ieee.org/document/9575933), who did tremendous work in the field of corner case taxonomies.
 
 ## Academic Activities
-- 10/2022 Program Committee Member @ NeurIPS Workshop on Machine Learning for Autonomous Driving
-- 04/2022 Session Chair @ VEHITS Conference
-- 03/2022 Reviewer @ IEEE IV
-- 03/2022 - today Elected Representative of PhD Candidates @ KIT Graduate School UpGrade Mobility
-- 09/2021 - today Fellow @ KIT Graduate School UpGrade Mobility
+
+| Start Date  | End Date | Activity | Organization
+| ------------- | ------------- | ------------- | ------------- |
+| 10/2022  |    | Program Committee | NeurIPS Workshop on Machine Learning for Autonomous Driving
+| 04/2022  |    | Session Chair | VEHITS
+| 03/2022  |    | Reviewer | IEEE IV
+| 03/2022  | today  | Elected Representative of PhD Candidates | KIT Graduate School UpGrade Mobility
+| 09/2021  | today  | Fellow | KIT Graduate School UpGrade Mobility
 
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
