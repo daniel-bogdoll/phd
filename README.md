@@ -11,11 +11,11 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 
 ## Academic Activities
 
-| Start Date  | End Date | Activity | Organization
+| Start Date  | End Date | Activity | Organization / Event
 | ------------- | ------------- | ------------- | ------------- |
 | 10/2022  |    | Program Committee | NeurIPS Workshop on Machine Learning for Autonomous Driving
-| 04/2022  |    | Session Chair | VEHITS
-| 03/2022  |    | Reviewer | IEEE IV
+| 04/2022  |    | Session Chair | VEHITS Conference
+| 03/2022  |    | Reviewer | IEEE IV Conference
 | 03/2022  | today  | Elected Representative of PhD Candidates | KIT Graduate School UpGrade Mobility
 | 09/2021  | today  | Fellow | KIT Graduate School UpGrade Mobility
 
