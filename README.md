@@ -1884,7 +1884,7 @@ Weak accept (2)
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152373346-99b6d881-4543-494c-80de-f0e196f6c1c0.png">
 
-[Proceeding](https://www.sae.org/publications/technical-papers/content/2018-01-1080/)
+[PDF](https://sci-hub.ru/https://doi.org/10.4271/2018-01-1080) | [Proceeding](https://www.sae.org/publications/technical-papers/content/2018-01-1080/)
 
 :white_check_mark: Accepted at [SAE WCX World Congress Experience](https://www.sae.org/attend/wcx)
 
