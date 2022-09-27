@@ -500,7 +500,7 @@ other publications.
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/163943035-470f6b82-72a9-4ede-9741-edf12a41aa99.png">
 
-[PDF](https://arxiv.org/pdf/2204.07974.pdf) | [arXiv](https://arxiv.org/abs/2204.07974) | [Proceeding](https://openaccess.thecvf.com/CVPR2022_workshops/WAD)
+[PDF](https://openaccess.thecvf.com/content/CVPR2022W/WAD/papers/Bogdoll_Anomaly_Detection_in_Autonomous_Driving_A_Survey_CVPRW_2022_paper.pdf) | [arXiv](https://arxiv.org/abs/2204.07974) | [Proceeding](https://ieeexplore.ieee.org/document/9857500)
 
 :white_check_mark: Accepted at [CVPR Workshop on Autonomous Driving](https://cvpr2022.wad.vision/)
 
@@ -881,7 +881,7 @@ The paper describes the creation of a web site containing a list of data sets co
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/150287374-0c4b3081-62b9-46f2-8d32-cb733cd7c762.png">
 
-[PDF](https://arxiv.org/pdf/2111.03201.pdf) | [arXiv](https://arxiv.org/abs/2111.03201) | [Code](https://github.com/daniel-bogdoll/deep_generative_models)
+[PDF](https://ml4ad.github.io/files/papers2021/Compressing%20Sensor%20Data%20for%20Remote%20Assistance%20of%20Autonomous%20Vehicles%20using%20Deep%20Generative%20Models.pdf) | [arXiv](https://arxiv.org/abs/2111.03201) | [Code](https://github.com/daniel-bogdoll/deep_generative_models)
 
 :white_check_mark: Accepted at [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/2021/)
 
