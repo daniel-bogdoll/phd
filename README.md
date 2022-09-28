@@ -1916,7 +1916,7 @@ I no longer have access to the reviews
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152391191-8769338f-f697-4abc-835c-416319bb11e1.png">
 
-[Patent](https://patents.google.com/patent/US20190065933A1/en) | [Application Process](https://patentcenter.uspto.gov/#!/applications/15693265/ifw/docs)
+[PDF](https://patentimages.storage.googleapis.com/5f/94/4d/903d64f5fd1f60/US20190065933A1.pdf) | [Application Process](https://patentcenter.uspto.gov/#!/applications/15693265/ifw/docs) | [Google Patents](https://patents.google.com/patent/US20190065933A1/en)
 
 :white_check_mark: Patent application from 08/2017 granted
 
