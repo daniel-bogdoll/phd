@@ -1911,6 +1911,8 @@ I no longer have access to the reviews
 
 &nbsp;
 &nbsp;
+## Patents
+
 ### Augmenting Real Sensor Recordings With Simulated Sensor Data
 09/2022 • Daniel Bogdoll, Shreyasha Paudel, and Tejaswi Koduri
 
@@ -1919,8 +1921,6 @@ I no longer have access to the reviews
 [PDF](https://patentimages.storage.googleapis.com/5f/94/4d/903d64f5fd1f60/US20190065933A1.pdf) | [Google Patents](https://patents.google.com/patent/US20190065933A1/en)
 
 :white_check_mark: Patent application from 08/2017 granted
-
-[Application Process](https://patentcenter.uspto.gov/#!/applications/15693265/ifw/docs)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -1934,6 +1934,8 @@ I no longer have access to the reviews
 }
   ```
 </details>
+
+[Application Process](https://patentcenter.uspto.gov/#!/applications/15693265/ifw/docs)
 
 &nbsp;
 &nbsp;
