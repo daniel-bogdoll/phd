@@ -1911,24 +1911,26 @@ I no longer have access to the reviews
 
 &nbsp;
 &nbsp;
-### US20190065933A1: Augmenting Real Sensor Recordings With Simulated Sensor Data
+### Augmenting Real Sensor Recordings With Simulated Sensor Data
 09/2022 • Daniel Bogdoll, Shreyasha Paudel, and Tejaswi Koduri
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152391191-8769338f-f697-4abc-835c-416319bb11e1.png">
 
-[PDF](https://patentimages.storage.googleapis.com/5f/94/4d/903d64f5fd1f60/US20190065933A1.pdf) | [Application Process](https://patentcenter.uspto.gov/#!/applications/15693265/ifw/docs) | [Google Patents](https://patents.google.com/patent/US20190065933A1/en)
+[PDF](https://patentimages.storage.googleapis.com/5f/94/4d/903d64f5fd1f60/US20190065933A1.pdf) | [Google Patents](https://patents.google.com/patent/US20190065933A1/en)
 
 :white_check_mark: Patent application from 08/2017 granted
+
+[Application Process](https://patentcenter.uspto.gov/#!/applications/15693265/ifw/docs)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @patent{Bogdoll_Augmenting_2017_US,
+  @patent{Bogdoll_Augmenting_2022_US,
     author    = {Bogdoll, Daniel and Paudel, Shreyasha and Koduri, Tejaswi},
     title     = {{Augmenting Real Sensor Recordings With Simulated Sensor Data}},
-    number    = {US20190065933A1},
-    year      = {2017}
+    number    = {US 11455565},
+    year      = {2022}
 }
   ```
 </details>
