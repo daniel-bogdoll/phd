@@ -1927,10 +1927,11 @@ I no longer have access to the reviews
   
   ```
   @patent{Bogdoll_Augmenting_2022_US,
-    author    = {Bogdoll, Daniel and Paudel, Shreyasha and Koduri, Tejaswi},
-    title     = {{Augmenting Real Sensor Recordings With Simulated Sensor Data}},
-    number    = {US 11455565},
-    year      = {2022}
+    author      = {Bogdoll, Daniel and Paudel, Shreyasha and Koduri, Tejaswi},
+    title       = {{Augmenting Real Sensor Recordings With Simulated Sensor Data}},
+    number      = {11455565},
+    nationality = {United States},
+    year        = {2022}
 }
   ```
 </details>
