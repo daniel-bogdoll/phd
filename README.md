@@ -1947,7 +1947,7 @@ I no longer have access to the reviews
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/164217267-a749a849-2e9f-459d-a123-51edf3608193.png">
 
-[KITopen](https://publikationen.bibliothek.kit.edu/1000144811) | [Code]()
+[KITopen](https://publikationen.bibliothek.kit.edu/1000144811) | [Code](https://github.com/fzi-forschungszentrum-informatik/corner_case_ontology)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
