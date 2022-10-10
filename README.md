@@ -13,12 +13,12 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 
 | Start Date  | End Date | Activity | Organization / Event
 | ------------- | ------------- | ------------- | ------------- |
-| 10/2022  |    | Session Chair | Intelligent Transportation Systems I at IEEE SMC Conference
-| 10/2022  |    | Program Committee | NeurIPS Workshop on Machine Learning for Autonomous Driving
-| 04/2022  |    | Session Chair | Poster Session 2A at VEHITS Conference
-| 03/2022  |    | Reviewer | IEEE IV Conference
-| 03/2022  | today  | Elected Representative of PhD Candidates | KIT Graduate School UpGrade Mobility
-| 09/2021  | today  | Fellow | KIT Graduate School UpGrade Mobility
+| 10/2022  |    | Session Chair | [Intelligent Transportation Systems I at IEEE SMC Conference](https://ieeesmc2022.org/)
+| 10/2022  |    | Program Committee | [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
+| 04/2022  |    | Session Chair | [Poster Session 2A at VEHITS Conference](https://vehits.scitevents.org/?y=2022)
+| 03/2022  |    | Reviewer | [IEEE IV Conference](https://iv2022.com/)
+| 03/2022  | today  | Elected Representative of PhD Candidates | [KIT Graduate School UpGrade Mobility](https://www.mobilitaetssysteme.kit.edu/553.php)
+| 09/2021  | today  | Fellow | [KIT Graduate School UpGrade Mobility](https://www.mobilitaetssysteme.kit.edu/UpGradeMobility.php)
 
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
