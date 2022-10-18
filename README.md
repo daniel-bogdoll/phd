@@ -1,4 +1,4 @@
-Anomaly Detection in Autonomous Driving
+AD4AD: Anomaly Detection for Autonomous Driving
 ==========
 
 ## Introduction
