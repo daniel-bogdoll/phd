@@ -1913,7 +1913,7 @@ I no longer have access to the reviews
 &nbsp;
 ## Patents
 
-### Augmenting Real Sensor Recordings With Simulated Sensor Data
+### US11455565B2: Augmenting Real Sensor Recordings With Simulated Sensor Data
 09/2022 • Daniel Bogdoll, Shreyasha Paudel, and Tejaswi Koduri
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152391191-8769338f-f697-4abc-835c-416319bb11e1.png">
