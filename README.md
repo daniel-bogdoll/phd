@@ -1918,7 +1918,7 @@ I no longer have access to the reviews
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/152391191-8769338f-f697-4abc-835c-416319bb11e1.png">
 
-[PDF](https://patentimages.storage.googleapis.com/5f/94/4d/903d64f5fd1f60/US20190065933A1.pdf) | [Google Patents](https://patents.google.com/patent/US20190065933A1/en)
+[PDF](https://patentimages.storage.googleapis.com/c2/6c/92/81a99e3b0fc7c3/US11455565.pdf) | [Google Patents](https://patents.google.com/patent/US11455565B2/en)
 
 :white_check_mark: Patent application from 08/2017 granted
 
