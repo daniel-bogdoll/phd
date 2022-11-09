@@ -1895,7 +1895,7 @@ Weak accept (2)
   @InProceedings{Koduri_Aureate_2018_WCX,
     author    = {Koduri, Tejaswi and Bogdoll, Daniel and Paudel, Shreyasha and Sholingar, Gautham},
     title     = {{AUREATE: An Augmented Reality Test Environment for Realistic Simulations}},
-    booktitle = {WCX World Congress Experience},
+    booktitle = {World Congress Experience (WCX)},
     publisher = {SAE International},
     year      = {2018}
 }
