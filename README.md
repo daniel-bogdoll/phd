@@ -234,10 +234,10 @@ Weak points:
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @article{Bogdoll_DLCSS_2022_arXiv,
+  @InProceedings{Bogdoll_DLCSS_2022_ICECCME,
     author    = {Bogdoll, Daniel and Rauch, Jonas and Z\"{o}llner, J. Marius},
     title     = {{DLCSS: Dynamic Longest Common Subsequences}}, 
-    journal   = {arXiv preprint:2207.06061},
+    booktitle = {International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)},
     year      = {2022}
   }
   ```
@@ -281,10 +281,10 @@ The work 'DLCSS: Dynamic Longest Common Subsequences' is not novel, so more rela
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @article{Bogdoll_Experiments_2022_arXiv,
+  @InProceedings{Bogdoll_Experiments_2022_ICECCME,
     author    = {Bogdoll, Daniel and Zhang, Meng and Nitsche, Maximilian and Z\"{o}llner, J. Marius},
     title     = {{Experiments on Anomaly Detection in Autonomous Driving by Forward-Backward Style Transfers}}, 
-    journal   = {arXiv preprint:2207.06055},
+    booktitle = {International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)},
     year      = {2022}
   }
   ```
@@ -456,10 +456,10 @@ Weak Reject
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @article{Bogdoll_Multimodal_2022_arXiv,
+  @InProceedings{Bogdoll_Multimodal_2022_SMC,
     author    = {Bogdoll, Daniel and Eisen, Enrico and Scheib, Christin and Nitsche, Maximilian and Z\"{o}llner, J. Marius},
     title     = {{Multimodal Detection of Unknown Objects on Roads for Autonomous Driving}}, 
-    journal   = {arXiv preprint:2205.01414},
+    booktitle = {International Conference on Systems, Man and Cybernetics},
     year      = {2022}
   }
   ```
@@ -696,7 +696,7 @@ metric genericity is very important to evaluate its pertinence.
   @inProceedings{Bogdoll_Addatasets_2022_VEHITS,
       author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
       title     = {{AD-Datasets: A Meta-Collection of Data Sets for Autonomous Driving}},
-      booktitle = {Proceedings of the 8th International Conference on Vehicle Technology and Intelligent Transport Systems},
+      booktitle = {International Conference on Vehicle Technology and Intelligent Transport Systems (VEHITS)},
       year      = {2022}
   }
   ```
@@ -1105,8 +1105,7 @@ Low Botherline
   @InProceedings{Bogdoll_Taxonomy_2022_FICC,
       author    = {Bogdoll, Daniel and Orf, Stefan and T\"{o}ttel, Lars and Z\"{o}llner, J. Marius},
       title     = {{Taxonomy and Survey on Remote Human Input Systems for Driving Automation Systems}}, 
-      booktitle = {Advances in Information and Communication},
-      publisher = {Springer},
+      booktitle = {Future of Information and Communication Conference (FICC)},
       year      = {2022}
   }
   ```
@@ -1926,7 +1925,7 @@ I no longer have access to the reviews
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @patent{Bogdoll_Augmenting_2022_US,
+@patent{Bogdoll_Augmenting_2022_US,
     author      = {Bogdoll, Daniel and Paudel, Shreyasha and Koduri, Tejaswi},
     title       = {{Augmenting Real Sensor Recordings With Simulated Sensor Data}},
     number      = {11455565B2},
