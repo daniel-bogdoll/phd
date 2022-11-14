@@ -693,7 +693,7 @@ metric genericity is very important to evaluate its pertinence.
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @inProceedings{Bogdoll_Addatasets_2022_VEHITS,
+  @InProceedings{Bogdoll_Addatasets_2022_VEHITS,
       author    = {Bogdoll, Daniel and Schreyer, Felix and Z\"{o}llner, J. Marius},
       title     = {{AD-Datasets: A Meta-Collection of Data Sets for Autonomous Driving}},
       booktitle = {International Conference on Vehicle Technology and Intelligent Transport Systems (VEHITS)},
@@ -1291,10 +1291,10 @@ Accept (1)
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @inProceedings{Toettel_Reliving_2022_ICITE,
+  @InProceedings{Toettel_Reliving_2022_ICITE,
     author    = {T\"{o}ttel, Lars and Zipfl, Maximilian and Bogdoll, Daniel and Zofka, Marc Ren\'{e} and Z\"{o}llner, J. Marius},    
     title     = {{Reliving the Dataset: Combining the Visualization of Road Users' Interactions with Scenario Reconstruction in Virtual Reality}}, 
-    booktitle = {6th International Conference on Intelligent Transportation Engineering (ICITE)},
+    booktitle = {International Conference on Intelligent Transportation Engineering (ICITE)},
     year      = {2022}
 }
   ```
