@@ -1942,23 +1942,49 @@ I no longer have access to the reviews
 &nbsp;
 ## Supervised Theses
 
-### Ontology-based Corner Case Scenario Simulation for Autonomous Driving
-03/2022 • Bachelor Thesis • Stefani Guneshka
+### Anomaly Detection in the Latent Space of VAEs
+10/2022 • Bachelor Thesis • Simon Klaus
 
-<img width="100%" src="https://user-images.githubusercontent.com/19552411/164217267-a749a849-2e9f-459d-a123-51edf3608193.png">
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/201601458-78113be8-59f4-4560-9ef8-d4d25e1360a1.png">
 
-[KITopen](https://publikationen.bibliothek.kit.edu/1000144811) | [Code](https://github.com/fzi-forschungszentrum-informatik/corner_case_ontology)
+[KITopen]() | [Code]()
+
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @mastersthesis{Guneshka_Ontology_2022_BA,
-    author    = {Guneshka, Stefani},
-    title     = {{Ontology-based Corner Case Scenario Simulation for Autonomous Driving}},
+  @mastersthesis{Klaus_Anomaly_2022_BA,
+    author    = {Klaus, Simon},
+    title     = {{Anomaly Detection in the Latent Space of VAEs}},
     school    = {{Karlsruhe Institute of Technology (KIT)}},
     year      = {2022},
     type      = {Bachelor Thesis}
+}
+  ```
+</details>
+
+&nbsp;
+&nbsp;
+
+### Anomaly Detection in 3D Space for Autonomous Driving
+06/2022 • Master Thesis • Marcus Schilling
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/174027056-e09ed341-aa52-48dc-9ff5-93a8a2ed9861.png">
+
+[KITopen](https://publikationen.bibliothek.kit.edu/1000148848) | [Code]()
+
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Schilling_Anomaly_2022_MA,
+    author    = {Schilling, Marcus},
+    title     = {{Anomaly Detection in 3D Space for Autonomous Driving}},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
+    year      = {2022},
+    type      = {Master Thesis}
 }
   ```
 </details>
@@ -1991,24 +2017,23 @@ I no longer have access to the reviews
 &nbsp;
 &nbsp;
 
-### Anomaly Detection in 3D Space for Autonomous Driving
-06/2022 • Master Thesis • Marcus Schilling
+### Ontology-based Corner Case Scenario Simulation for Autonomous Driving
+03/2022 • Bachelor Thesis • Stefani Guneshka
 
-<img width="100%" src="https://user-images.githubusercontent.com/19552411/174027056-e09ed341-aa52-48dc-9ff5-93a8a2ed9861.png">
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/164217267-a749a849-2e9f-459d-a123-51edf3608193.png">
 
-[KITopen](https://publikationen.bibliothek.kit.edu/1000148848) | [Code]()
-
+[KITopen](https://publikationen.bibliothek.kit.edu/1000144811) | [Code](https://github.com/fzi-forschungszentrum-informatik/corner_case_ontology)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @mastersthesis{Schilling_Anomaly_2022_MA,
-    author    = {Schilling, Marcus},
-    title     = {{Anomaly Detection in 3D Space for Autonomous Driving}},
+  @mastersthesis{Guneshka_Ontology_2022_BA,
+    author    = {Guneshka, Stefani},
+    title     = {{Ontology-based Corner Case Scenario Simulation for Autonomous Driving}},
     school    = {{Karlsruhe Institute of Technology (KIT)}},
     year      = {2022},
-    type      = {Master Thesis}
+    type      = {Bachelor Thesis}
 }
   ```
 </details>
