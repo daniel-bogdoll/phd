@@ -237,7 +237,7 @@ Weak points:
   @InProceedings{Bogdoll_DLCSS_2022_ICECCME,
     author    = {Bogdoll, Daniel and Rauch, Jonas and Z\"{o}llner, J. Marius},
     title     = {{DLCSS: Dynamic Longest Common Subsequences}}, 
-    booktitle = {International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)},
+    booktitle = {IEEE International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)},
     year      = {2022}
   }
   ```
@@ -284,7 +284,7 @@ The work 'DLCSS: Dynamic Longest Common Subsequences' is not novel, so more rela
   @InProceedings{Bogdoll_Experiments_2022_ICECCME,
     author    = {Bogdoll, Daniel and Zhang, Meng and Nitsche, Maximilian and Z\"{o}llner, J. Marius},
     title     = {{Experiments on Anomaly Detection in Autonomous Driving by Forward-Backward Style Transfers}}, 
-    booktitle = {International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)},
+    booktitle = {IEEE International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)},
     year      = {2022}
   }
   ```
@@ -459,7 +459,7 @@ Weak Reject
   @InProceedings{Bogdoll_Multimodal_2022_SMC,
     author    = {Bogdoll, Daniel and Eisen, Enrico and Scheib, Christin and Nitsche, Maximilian and Z\"{o}llner, J. Marius},
     title     = {{Multimodal Detection of Unknown Objects on Roads for Autonomous Driving}}, 
-    booktitle = {International Conference on Systems, Man and Cybernetics},
+    booktitle = {IEEE International Conference on Systems, Man and Cybernetics (SMC)},
     year      = {2022}
   }
   ```
@@ -511,7 +511,7 @@ other publications.
   @InProceedings{Bogdoll_Anomaly_2022_CVPR,
     author    = {Bogdoll, Daniel and Nitsche, Maximilian and Z\"{o}llner, J. Marius},
     title     = {{Anomaly Detection in Autonomous Driving: A Survey}}, 
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop},
     year      = {2022}
   }
   ```
@@ -892,7 +892,7 @@ The paper describes the creation of a web site containing a list of data sets co
   @article{Bogdoll_Compressing_2021_NeurIPS,
       author    = {Bogdoll, Daniel and Jestram, Johannes and Rauch, Jonas and Scheib, Christin and Wittig, Moritz and Z\"{o}llner, J. Marius},
       title     = {{Compressing Sensor Data for Remote Assistance of Autonomous Vehicles using Deep Generative Models}},
-      journal   = {NeurIPS Conference on Neural Information Processing Systems Workshop on Machine Learning for Autonomous Driving (ML4AD)},
+      journal   = {Conference on Neural Information Processing Systems (NeurIPS) Workshop},
       year      = {2021},
   }
   ```
@@ -1030,7 +1030,7 @@ Reject
   @InProceedings{Bogdoll_Description_2021_ICCV,
     author    = {Bogdoll, Daniel and Breitenstein, Jasmin and Heidecker, Florian and Bieshaar, Maarten and Sick, Bernhard and Fingscheidt, Tim and Z\"{o}llner, Marius},
     title     = {{Description of Corner Cases in Automated Driving: Goals and Challenges}},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV) Workshop},
     year      = {2021}
 }
 
@@ -1894,8 +1894,7 @@ Weak accept (2)
   @InProceedings{Koduri_Aureate_2018_WCX,
     author    = {Koduri, Tejaswi and Bogdoll, Daniel and Paudel, Shreyasha and Sholingar, Gautham},
     title     = {{AUREATE: An Augmented Reality Test Environment for Realistic Simulations}},
-    booktitle = {World Congress Experience (WCX)},
-    publisher = {SAE International},
+    booktitle = {SAE World Congress Experience (WCX)},
     year      = {2018}
 }
   ```
