@@ -36,10 +36,10 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
   <summary markdown="span">BibTeX Citation</summary>
   
   ```
-  @article{Bogdoll_Ontology_2022_arXiv,
+  @InProceedings{Bogdoll_Ontology_2022_ECCV,
     author    = {Bogdoll, Daniel and Guneshka, Stefani and Z\"{o}llner, J. Marius},
     title     = {{One Ontology to Rule Them All: Corner Case Scenarios for Autonomous Driving}}, 
-    journal   = {arXiv preprint:2209.00342},
+    booktitle = {European Conference on Computer Vision (ECCV) Workshop},
     year      = {2022}
   }
   ```
