@@ -448,7 +448,7 @@ Weak Reject
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/166636960-a2dc91aa-c4a9-4e38-abd1-b4d8578684fc.png">
 
-[PDF](https://arxiv.org/pdf/2205.01414.pdf) | [arXiv](https://arxiv.org/abs/2205.01414) | [Code](https://github.com/daniel-bogdoll/unknown_objects_roads)
+[PDF](https://arxiv.org/pdf/2205.01414.pdf) | [arXiv](https://arxiv.org/abs/2205.01414) | [Code](https://github.com/daniel-bogdoll/unknown_objects_roads) | [Proceeding](https://ieeexplore.ieee.org/document/9945211)
 
 :white_check_mark: Accepted at [SMC International Conference on Systems, Man, and Cybernetics](https://ieeesmc2022.org/)
 
