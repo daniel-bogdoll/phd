@@ -226,7 +226,7 @@ Weak points:
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/178706603-068bd38e-cfd9-47ad-b587-85c5b29cd5e8.png">
 
-[PDF](https://arxiv.org/pdf/2207.06061.pdf) | [arXiv](https://arxiv.org/abs/2207.06061)
+[PDF](https://arxiv.org/pdf/2207.06061.pdf) | [arXiv](https://arxiv.org/abs/2207.06061) | [Proceeding](https://ieeexplore.ieee.org/document/9987849)
 
 :white_check_mark: Accepted at [ICECCME International Conference on Electrical, Computer, Communications and Mechatronics Engineering](http://www.iceccme.com/)
 
@@ -273,7 +273,7 @@ The work 'DLCSS: Dynamic Longest Common Subsequences' is not novel, so more rela
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/178707046-c72b831c-7c6e-4e95-b25c-f2eb6c7f4039.png">
 
-[PDF](https://arxiv.org/pdf/2207.06055.pdf) | [arXiv](https://arxiv.org/abs/2207.06055)
+[PDF](https://arxiv.org/pdf/2207.06055.pdf) | [arXiv](https://arxiv.org/abs/2207.06055) | [Proceeding](https://ieeexplore.ieee.org/document/9988287)
 
 :white_check_mark: Accepted at [ICECCME International Conference on Electrical, Computer, Communications and Mechatronics Engineering](http://www.iceccme.com/)
 
