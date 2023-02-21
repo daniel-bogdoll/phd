@@ -28,7 +28,7 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/188085474-d281a2d7-e378-4797-8d25-a82f499528e4.png">
 
-[PDF](https://arxiv.org/pdf/2209.00342.pdf) | [arXiv](https://arxiv.org/abs/2209.00342) | [Code](https://github.com/fzi-forschungszentrum-informatik/corner_case_ontology)
+[PDF](https://arxiv.org/pdf/2209.00342.pdf) | [arXiv](https://arxiv.org/abs/2209.00342) | [Proceedings](https://link.springer.com/chapter/10.1007/978-3-031-25072-9_29) | [Code](https://github.com/fzi-forschungszentrum-informatik/corner_case_ontology)
 
 :white_check_mark: Accepted at [ECCV Workshop on Safe Artificial Intelligence for Automated Driving](https://sites.google.com/view/saiad2022)
 
