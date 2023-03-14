@@ -2012,7 +2012,7 @@ I no longer have access to the reviews
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/201601458-78113be8-59f4-4560-9ef8-d4d25e1360a1.png">
 
-[KITopen]() | [Code]()
+[KITopen](https://publikationen.bibliothek.kit.edu/1000154302) | [Code]()
 
 
 <details>
