@@ -13,6 +13,7 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 
 | Start Date  | End Date | Activity | Organization / Event
 | ------------- | ------------- | ------------- | ------------- |
+| 03/2023  | | Selected Participant | [Integrated Engineering for Future Mobility Workshop](https://www.dwih-newdelhi.org/en/event/integrated-engineering-for-future-mobility/)
 | 10/2022  |    | Session Chair | [Intelligent Transportation Systems I at IEEE SMC Conference](https://ieeesmc2022.org/)
 | 10/2022  |    | Program Committee | [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
 | 04/2022  |    | Session Chair | [Poster Session 2A at VEHITS Conference](https://vehits.scitevents.org/?y=2022)
@@ -23,6 +24,72 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+### Perception Datasets for Anomaly Detection in Autonomous Driving: A Survey
+02/2023 • Daniel Bogdoll, Svenja Uhlemeyer, Kamil Kowol, J. Marius Zöllner
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/224989201-7cabf947-10b7-4cda-9f2c-c5b6c54dbae3.png">
+
+[PDF](https://arxiv.org/pdf/2302.02790.pdf) | [arXiv](https://arxiv.org/abs/2302.02790) | [Proceeding]() | [Code](https://github.com/daniel-bogdoll/anomaly_datasets)
+
+Submitted to [Intelligent Vehicles Symposium (IV)](https://2023.ieee-iv.org/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Perception_2023_IV,
+    author    = {Bogdoll, Daniel and Uhlemeyer, Svenja and Kowol, Kamil and Z\"{o}llner, J. Marius},
+    title     = {{Perception Datasets for Anomaly Detection in Autonomous Driving: A Survey}}, 
+    booktitle = {Intelligent Vehicles Symposium (IV)},
+    year      = {2023}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :green_circle: High Quality Reviews
+</summary>
+  
+Reviews will follow
+</details>
+
+&nbsp;
+&nbsp;
+### Impact, Attention, Influence: Early Assessment of Autonomous Driving Datasets
+01/2023 • Daniel Bogdoll*, Jonas Hendl*, Felix Schreyer, Nishanth Gowda, Michael Färber, J. Marius Zöllner
+
+<img width="100%" src="https://user-images.githubusercontent.com/19552411/224989095-6ad7f3ce-bd54-42eb-aa4a-fece2a56a59d.png">
+
+[PDF](https://arxiv.org/pdf/2301.02200.pdf) | [arXiv](https://arxiv.org/abs/2301.02200) | [Proceeding]() | [Code](https://github.com/daniel-bogdoll/ad_datasets_influence)
+
+:white_check_mark: Accepted at [International Conference on Control and Robotics Engineering (ICCRE)](http://www.iccre.org/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Impact_2023_ICCRE,
+    author    = {Bogdoll, Daniel and Hendl, Jonas and Schreyer, Felix and Gowda, Nishanth and F\"{a}rber, Michael and Z\"{o}llner, J. Marius},
+    title     = {{Impact, Attention, Influence: Early Assessment of Autonomous Driving Datasets}}, 
+    booktitle = {International Conference on Control and Robotics Engineering (ICCRE)},
+    year      = {2023}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :red_circle: Low Quality Reviews
+</summary>
+  
+Reviews will follow
+</details>
+
+&nbsp;
+&nbsp;
 ### One Ontology to Rule Them All: Corner Case Scenarios for Autonomous Driving
 09/2022 • Daniel Bogdoll*, Stefani Guneshka*, J. Marius Zöllner
 
