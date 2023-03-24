@@ -9,18 +9,6 @@ I am pursuing my PhD under the supervision of [J. Marius Zöllner](https://www.a
 
 I focus on the detection of corner cases in the field of autonomous driving. Method-wise, I find world-models for the detection in multimodal data extremely interesting. Here, reconstruction, prediction, and latent-space based corner case detection methods are of most interest to me. I build upon the concepts of [Breitenstein et al.](https://ieeexplore.ieee.org/document/9304789) and [Heidecker et al.](https://ieeexplore.ieee.org/document/9575933), who did tremendous work in the field of corner case taxonomies.
 
-## Academic Activities
-
-| Start Date  | End Date | Activity | Organization / Event
-| ------------- | ------------- | ------------- | ------------- |
-| 03/2023  | | Selected Participant | [Integrated Engineering for Future Mobility Workshop](https://www.dwih-newdelhi.org/en/event/integrated-engineering-for-future-mobility/)
-| 10/2022  |    | Session Chair | [Intelligent Transportation Systems I at IEEE SMC Conference](https://ieeesmc2022.org/)
-| 10/2022  |    | Program Committee | [NeurIPS Workshop on Machine Learning for Autonomous Driving](https://ml4ad.github.io/)
-| 04/2022  |    | Session Chair | [Poster Session 2A at VEHITS Conference](https://vehits.scitevents.org/?y=2022)
-| 03/2022  |    | Reviewer | [IEEE IV Conference](https://iv2022.com/)
-| 03/2022  | today  | Elected Representative of PhD Candidates | [KIT Graduate School UpGrade Mobility](https://www.mobilitaetssysteme.kit.edu/553.php)
-| 09/2021  | today  | Fellow | [KIT Graduate School UpGrade Mobility](https://www.mobilitaetssysteme.kit.edu/UpGradeMobility.php)
-
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
