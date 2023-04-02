@@ -19,7 +19,7 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 
 [PDF](https://arxiv.org/pdf/2302.02790.pdf) | [arXiv](https://arxiv.org/abs/2302.02790) | [Proceeding]() | [Code](https://github.com/daniel-bogdoll/anomaly_datasets)
 
-Submitted to [Intelligent Vehicles Symposium (IV)](https://2023.ieee-iv.org/)
+:white_check_mark: Accepted at [Intelligent Vehicles Symposium (IV)](https://2023.ieee-iv.org/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
