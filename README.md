@@ -119,7 +119,25 @@ As an informational paper, the content (collection of datasets and assessments) 
     :red_circle: Low Quality Reviews
 </summary>
   
-Reviews will follow
+### Reviewer 1
+
+#### Recommendation
+
+Marginally Accept
+
+#### Expertise
+
+Expertise: Explain your rating by discussing the strengths and weaknesses of the submission, contributions, and the potential impacts of the paper. Include suggestions for improvement and publication alternatives, if appropriate. Be thorough. Be fair. Be courteous. Your evaluation will be forwarded to the authors during the rebuttal period.
+
+#### Suggestion:
+The topic is timely and will be of interest to the readers
+This paper describes scientometric analysis for over 200 datasets in Autonomous Driving.
+From a technical point of view, the work is done very well. Presentation and English is well. Methods are clearly explained. Results of work are possible use in the industry. Theme of this paper corresponds to the conference topics.
+I recommend to accept this article with one minor corrections: It is strongly recommended to extend the abstract. You have specific numerical results, which are important to the readers and should be highlighted in the abstract and in concluding section.
+Some relevant paper from Journal of Advances in Information Technology (JAIT)- http://www.jait.us/are recommendable for the authors to enrich the references. Such as:
+Saeed Samet, "Privacy-Preserving Logistic Regression," Vol. 6, No. 3, pp. 88-95, August, 2015. doi: 10.12720/jait.6.3.88-95
+Kevin Kam Fung Yuen, "Towards Multiple Regression Analyses for Relationships of Air Quality and Weather," Vol. 8, No. 2, pp. 135-140, May, 2017. doi: 10.12720/jait.8.2.135-140
+Tahani Daghistani and Riyad Alshammari, "Comparison of Statistical Logistic Regression and RandomForest Machine Learning Techniques in Predicting Diabetes," Journal of Advances in Information Technology, Vol. 11, No. 2, pp. 78-83, May 2020. doi: 10.12720/jait.11.2.78-83
 </details>
 
 &nbsp;
