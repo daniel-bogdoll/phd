@@ -37,10 +37,56 @@ Submitted to [Intelligent Vehicles Symposium (IV)](https://2023.ieee-iv.org/)
 <details>
   <summary>
     :red_circle: Single-Blind
-    :green_circle: High Quality Reviews
+    :orange_circle: Medium Quality Reviews
 </summary>
   
-Reviews will follow
+### Reviewer 1
+
+| Confidence  | Importance/Relevance | Novelty/Originality | Technical Correctness | Experimental Validation | Clarity of presentation | Reference to prior work | Overall evaluation of the paper
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Confident (2)  | Of sufficient interest (3) | Minor originality (2) | Probably correct (3) | Limited but convincing (3) | Clear enough (3) | Reference adequate (3) | Weak accept (4)
+			
+#### Justification (Justification (required if score of 1 or 2 has been selected for questions 3-8)
+
+The topic is very important with respect to the validation and development of perceptual systems and takes a high priority in system design. The paper helps to get a good overview of datasets with anomalies. Sufficiently many and relevant references are given for a survey in this research field. Datasets that are not the focus of the paper are also mentioned here to give a broader overview. The table is clearly structured and shows all relevant and described points. The approach using the cumulative masks is very good and also shows that work has been done with the data. Further experiments to compare the data sets would be beneficial. A conclusion or recommendation of the datasets for possible applications is missing. The expressions and descriptions in the paper are understandable, although in some places a more detailed description would be desirable.
+
+#### Additional comments to author
+The paper provides a good overview of datasets with anomalies. The approach with the cumulative masks is very good and can serve for a proper comparison. A more precise definition of the anomalies at the beginning would be helpful. Further analysis of the datasets, e.g., the anomaly data and objects themselves or the relationship to non-anomalies, would also be desirable. Also, a more comprehensive evaluation on the suitability and comparison of the training data would be beneficial, e.g., by experimenting with image recognition algorithms. Comparison of dataset structures would also be useful for a more comprehensive overview of the datasets. The outline of the paper could be made even clearer and easier to read by adding more subsections. At the end of the paper, a summary and conclusion could also help to emphasize the goals of the paper and the results.
+
+### Reviewer 2
+
+| Confidence  | Importance/Relevance | Novelty/Originality | Technical Correctness | Experimental Validation | Clarity of presentation | Reference to prior work | Overall evaluation of the paper
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Very confident (3)  | Of broad interest (4) | Minor originality (2) | Definitely correct (4) | Sufficient validation/theoretical paper (4) | Clear enough (3) | Excellent reference (4) | Strong Accept (5)
+
+#### Additional comments to author
+This is a summary paper that compares in a good way datasets for anomaly detection. Having contributed to that field in the past I can underline the necessity of good datasets to benchmark OOD-detection methods. To the best of my knowledge the authors achieved to list current datasets completely with the limitations that the datasets need to have pixel-wise anomaly labels. I would have preferred if they would have included also datasets with whole-image labels but I find the contribution to the community still extremely valuable hence my strong accept. There are a few minor points to improve which I list in the following:
+
+Appreciating the rigorous citations of core concepts, I am not sure if the closed world assumption needs a citation to the original work from 1978, but that's more a comment than a suggestion to change anything.
+
+Why include only datasets with pixel-wise anomaly labels? When other datasets are known that classify entire scenes that differentiation seems a bit arbitrary or focused on a specific use case. Maybe one more sentence justifying this would be helpful because the claim, the list is complete hinges on this. That being said, it's a matter of explaining and not a fault. Everybody should understand the need to limit a summary paper to finish it in limited time and space.
+
+Data Augmentation: Unlabeled datasets can be used as baseline, but I'd think labeled data too? The phrasing makes it sound like this excludes labeled datasets.
+
+The difference in labels between Figure 1 and Figure 2 is not really clear. What are the fine-grained binary semantic masks whose annotation of the background is shown comparing them? Both images show pixel-wise labels for objects. In one, more of the background seems to be labeled as background. Is that it?
+
+It's a bit hard to follow the CODA explanations and easy to loose track which dataset is based on what. The CARLA-WildLife dataset is listed under the section "Wuppertal OOD Tracking". What is the relationship here? Is SOS and CARLA-WildLife part of a paper called Wuppertal OOD Tracking with WOS inside? It gets a bit confusing. Also, why is WOS not in Figure 9?
+
+Regarding III, Discussion, Realism. While what the authors say is true, this does not necessarily take away from these datasets. Imagine a large truck standing sideways on the street with advertisement for animal food, it could put a huge cat into the camera image. This is not too speculative, think about that Tesla hitting that truck. Some object detection false positives are also the result of reflections in glass windows which may lead to the weirdest effects so the existence of anomalies at implausible locations or at a huge scale is maybe not opposite to the idea of Realism. They may be an illusion but they may still appear to a camera. Another example of rare sights on the street can be found here: https://www.youtube.com/watch?v=tpOg87AQvbo
+
+III Discussion, Sensor Data and CODA, 2) Context. It could be better explained what crowdsourcing means in this context. Also, not sure what the sentence "Finally, representations of anomalies in camera data are not actionable for an autonomous driving system, however, this is a general computer vision issue." means here.
+
+### Reviewer 3
+
+| Confidence  | Importance/Relevance | Novelty/Originality | Technical Correctness | Experimental Validation | Clarity of presentation | Reference to prior work | Overall evaluation of the paper
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Confident (2)  | Of sufficient interest (3) | Moderate originality (3) | Probably correct (3) | Lacking in some respect (2) | Clear enough (3) | Reference adequate (3) | Weak accept (4)
+			
+#### Justification (Justification (required if score of 1 or 2 has been selected for questions 3-8)
+As an informational paper, the content (collection of datasets and assessments) should be interesting to the research society. The perception datasets reviewed should be a good coverage over the anomaly detection. One comment is that the authors should justify the key difference between this paper and their another one "Anomaly Detection in Autonomous Driving: A Survey".
+
+#### Additional comments to author
+As an informational paper, the content (collection of datasets and assessments) should be interesting to the research society. The perception datasets reviewed should be a good coverage over the anomaly detection. One comment is that the authors should justify the key difference between this paper and their another one "Anomaly Detection in Autonomous Driving: A Survey".
 </details>
 
 &nbsp;
