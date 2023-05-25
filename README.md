@@ -19,7 +19,7 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 
 [PDF](https://arxiv.org/pdf/2305.13960.pdf) | [arXiv](https://arxiv.org/abs/2305.13960) | [Proceeding]()
 
-:white_check_mark: Accepted at [CVPR Workshop on Vision-Centric Autonomous Driving]([https://2023.ieee-iv.org/](https://vcad.site/#/))
+:white_check_mark: Accepted at [CVPR Workshop on Vision-Centric Autonomous Driving](https://vcad.site/#/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
