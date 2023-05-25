@@ -18,6 +18,7 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 <img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/c5c9bb2c-1c7f-42a9-bb32-a055e3f8f7bf">
 
 [PDF](https://arxiv.org/pdf/2305.13960.pdf) | [arXiv](https://arxiv.org/abs/2305.13960) | [Proceeding]()
+
 :white_check_mark: Accepted at [CVPR Workshop on Vision-Centric Autonomous Driving]([https://2023.ieee-iv.org/](https://vcad.site/#/))
 
 <details>
