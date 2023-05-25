@@ -26,7 +26,7 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
   
   ```
   @InProceedings{Muetsch_Simulation_2023_CVPR,
-    author    = {Muetsch, Ferdinand and Gremmelmaier, Helen and Becker, Nicolas and Bogdoll, Daniel and and Zofka, Marc Ren\'{e} and Z\"{o}llner, J. Marius},
+    author    = {Muetsch, Ferdinand and Gremmelmaier, Helen and Becker, Nicolas and Bogdoll, Daniel and Zofka, Marc Ren\'{e} and Z\"{o}llner, J. Marius},
     title     = {{From Model-Based to Data-Driven Simulation: Challenges and Trends in Autonomous Driving}}, 
     booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop},
     year      = {2023}
