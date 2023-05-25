@@ -12,6 +12,47 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+### From Model-Based to Data-Driven Simulation: Challenges and Trends in Autonomous Driving
+05/2023 • Ferdinand Mütsch*, Helen Gremmelmaier*, Nicolas Becker*, Daniel Bogdoll, Marc René Zofka, J. Marius Zöllner
+
+<img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/c5c9bb2c-1c7f-42a9-bb32-a055e3f8f7bf">
+
+[PDF](https://arxiv.org/pdf/2305.13960.pdf) | [arXiv](https://arxiv.org/abs/2305.13960) | [Proceeding]()
+:white_check_mark: Accepted at [CVPR Workshop on Vision-Centric Autonomous Driving]([https://2023.ieee-iv.org/](https://vcad.site/#/))
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Muetsch_Simulation_2023_CVPR,
+    author    = {Muetsch, Ferdinand and Gremmelmaier, Helen and Becker, Nicolas and Bogdoll, Daniel and and Zofka, Marc Ren\'{e} and Z\"{o}llner, J. Marius},
+    title     = {{From Model-Based to Data-Driven Simulation: Challenges and Trends in Autonomous Driving}}, 
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop},
+    year      = {2023}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :red_circle: Low Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+#### What are strengths/weaknesses of this paper?
+This paper provides an overview of the challenges and trends in simulation for autonomous driving. The paper proposes a hierarchical classification of simulation approaches and discusses current challenges in achieving content realism, behavior realism, and perception realism in simulations. Additionally, the paper identifies trends towards data-driven, generative approaches and high-fidelity data synthesis to overcome these challenges. It highlights the use of data-driven methods, advancements in behavior and perception realism, and the need for standardization and validation. The paper also identifies important future research questions.
+
+Weakness:
+1. Lack of empirical evaluation: The paper mainly focus on presenting and summarizing existing research rather than providing empirical evaluations or comparative analyses of the discussed simulation approaches. Without empirical evidence or case studies, it is challenging to assess the practical effectiveness or limitations of the different methods.
+
+#### Overall rating
+Accept
+</details>
+
+&nbsp;
+&nbsp;
 ### Perception Datasets for Anomaly Detection in Autonomous Driving: A Survey
 02/2023 • Daniel Bogdoll, Svenja Uhlemeyer, Kamil Kowol, J. Marius Zöllner
 
