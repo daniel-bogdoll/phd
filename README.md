@@ -138,7 +138,7 @@ As an informational paper, the content (collection of datasets and assessments) 
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/224989095-6ad7f3ce-bd54-42eb-aa4a-fece2a56a59d.png">
 
-[PDF](https://arxiv.org/pdf/2301.02200.pdf) | [arXiv](https://arxiv.org/abs/2301.02200) | [Proceeding]() | [Code](https://github.com/daniel-bogdoll/ad_datasets_influence)
+[PDF](https://arxiv.org/pdf/2301.02200.pdf) | [arXiv](https://arxiv.org/abs/2301.02200) | [Proceeding](https://ieeexplore.ieee.org/document/10155607) | [Code](https://github.com/daniel-bogdoll/ad_datasets_influence)
 
 :white_check_mark: Accepted at [International Conference on Control and Robotics Engineering (ICCRE)](http://www.iccre.org/)
 
