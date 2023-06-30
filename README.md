@@ -2101,6 +2101,31 @@ I no longer have access to the reviews
 &nbsp;
 ## Supervised Theses
 
+### Reinforcement Learning for Controlled Traffic Rule Exceptions
+06/2023 • Master Thesis • Jing Qin
+
+<img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/b638db3d-920f-42aa-844a-fd32d8ff0bb7">
+
+[KITopen](https://publikationen.bibliothek.kit.edu/1000159930) | [Code]()
+
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Qin_Reinforcement_2023_MA,
+    author    = {Qin, Jing},
+    title     = {{Reinforcement Learning for Controlled Traffic Rule Exceptions}},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
+    year      = {2023},
+    type      = {Master Thesis}
+}
+  ```
+</details>
+
+&nbsp;
+&nbsp;
+
 ### Anomaly Detection in the Latent Space of VAEs
 10/2022 • Bachelor Thesis • Simon Klaus
 
