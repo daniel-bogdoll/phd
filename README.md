@@ -59,7 +59,7 @@ Accept
 
 <img width="100%" src="https://user-images.githubusercontent.com/19552411/224989201-7cabf947-10b7-4cda-9f2c-c5b6c54dbae3.png">
 
-[PDF](https://arxiv.org/pdf/2302.02790.pdf) | [arXiv](https://arxiv.org/abs/2302.02790) | [Proceeding]() | [Code](https://github.com/daniel-bogdoll/anomaly_datasets)
+[PDF](https://arxiv.org/pdf/2302.02790.pdf) | [arXiv](https://arxiv.org/abs/2302.02790) | [Proceeding](https://ieeexplore.ieee.org/document/10186609) | [Code](https://github.com/daniel-bogdoll/anomaly_datasets)
 
 :white_check_mark: Accepted at [Intelligent Vehicles Symposium (IV)](https://2023.ieee-iv.org/)
 
