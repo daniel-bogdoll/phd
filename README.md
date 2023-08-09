@@ -2101,6 +2101,31 @@ I no longer have access to the reviews
 &nbsp;
 ## Supervised Theses
 
+### Anomaly Detection with Model Contradictions for Autonomous Driving
+08/2023 • Bachelor Thesis • Vincent Geppert
+
+<img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/ecc763ab-744d-4617-9bd9-b0485b6d7fe9">
+
+[KITopen]([https://publikationen.bibliothek.kit.edu/1000159930](https://publikationen.bibliothek.kit.edu/1000161266)) | [Code](https://github.com/vincentgeppert/model_contradictions)
+
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Geppert_Anomaly_2023_BA,
+    author    = {Geppert, Vincent},
+    title     = {{Anomaly Detection with Model Contradictions for Autonomous Driving}},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
+    year      = {2023},
+    type      = {Bachelor Thesis}
+}
+  ```
+</details>
+
+&nbsp;
+&nbsp;
+
 ### Reinforcement Learning for Controlled Traffic Rule Exceptions
 06/2023 • Master Thesis • Jing Qin
 
