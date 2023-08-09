@@ -2106,7 +2106,7 @@ I no longer have access to the reviews
 
 <img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/ecc763ab-744d-4617-9bd9-b0485b6d7fe9">
 
-[KITopen]([https://publikationen.bibliothek.kit.edu/1000159930](https://publikationen.bibliothek.kit.edu/1000161266)) | [Code](https://github.com/vincentgeppert/model_contradictions)
+[KITopen](https://publikationen.bibliothek.kit.edu/1000161266) | [Code](https://github.com/vincentgeppert/model_contradictions)
 
 
 <details>
