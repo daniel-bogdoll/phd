@@ -12,6 +12,16 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+### Exploring the Potential of World Models for Anomaly Detection in Autonomous Driving
+08/2023 • Daniel Bogdoll, Lukas Bosch, Tim Joseph, Helen Gremmelmaier, Yitian Yang, J. Marius Zöllner
+
+<img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/12f938d6-365b-41f1-93e9-fdba9ba40cf0">
+
+[PDF](https://arxiv.org/pdf/2308.05701.pdf) | [arXiv](https://arxiv.org/abs/2308.05701) | [Proceeding]()
+
+&nbsp;
+&nbsp;
+
 ### From Model-Based to Data-Driven Simulation: Challenges and Trends in Autonomous Driving
 05/2023 • Ferdinand Mütsch*, Helen Gremmelmaier*, Nicolas Becker*, Daniel Bogdoll, Marc René Zofka, J. Marius Zöllner
 
