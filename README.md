@@ -19,6 +19,32 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 
 [PDF](https://arxiv.org/pdf/2308.05701.pdf) | [arXiv](https://arxiv.org/abs/2308.05701) | [Proceeding]()
 
+:white_check_mark: Accepted at [Symposium Series on Computational Intelligence (SSCI)](https://attend.ieee.org/ssci-2023/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Exploring_2023_SSCI,
+    author    = {Bogdoll, Daniel and Bosch, Lukas and Joseph, Tim and Gremmelmaier, Helen and Yang, Yitian and Z\"{o}llner, J. Marius},
+    title     = {{Exploring the Potential of World Models for Anomaly Detection in Autonomous Driving}}, 
+    booktitle = {IEEE Symposium Series on Computational Intelligence (SSCI)},
+    year      = {2023}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :red_circle: Low Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+It is better if you can provide some tables on the comparision results.
+</details>
+
 &nbsp;
 &nbsp;
 
