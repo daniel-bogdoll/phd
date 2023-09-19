@@ -12,6 +12,42 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+### Conditioning Latent-Space Clusters for Real-World Anomaly Classification
+08/2023 • Daniel Bogdoll*, Svetlana Pavlitska*, Simon Klaus*, J. Marius Zöllner
+
+<img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/d446a44b-9425-4998-a005-14e25502cf51">
+
+[PDF](https://arxiv.org/pdf/2309.09676.pdf) | [arXiv](https://arxiv.org/abs/2309.09676) | [Proceeding]()
+
+:white_check_mark: Accepted at [Symposium Series on Computational Intelligence (SSCI)](https://attend.ieee.org/ssci-2023/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Conditioning_2023_SSCI,
+    author    = {Bogdoll, Daniel and Pavlitska, Svetlana and Klaus, Simon and Z\"{o}llner, J. Marius},
+    title     = {{Conditioning Latent-Space Clusters for Real-World Anomaly Classification}}, 
+    booktitle = {IEEE Symposium Series on Computational Intelligence (SSCI)},
+    year      = {2023}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :red_circle: Low Quality Reviews
+</summary>
+  
+### Associate Editor
+
+Comparision with other method is needed.
+</details>
+
+&nbsp;
+&nbsp;
+
 ### Exploring the Potential of World Models for Anomaly Detection in Autonomous Driving
 08/2023 • Daniel Bogdoll, Lukas Bosch, Tim Joseph, Helen Gremmelmaier, Yitian Yang, J. Marius Zöllner
 
