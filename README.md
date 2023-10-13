@@ -12,6 +12,110 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+### What Does Really Count? Estimating Relevance of Corner Cases for Semantic Segmentation in Automated Driving
+10/2023 • Jasmin Breitenstein, Florian Heidecker, Maria Lyssenko, Daniel Bogdoll, Maarten Bieshaar, J. Marius Zöllner, Bernhard Sick, Tim Fingscheidt
+
+<img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/d446a44b-9425-4998-a005-14e25502cf51">
+
+[PDF](https://openaccess.thecvf.com/content/ICCV2023W/BRAVO/papers/Breitenstein_What_Does_Really_Count_Estimating_Relevance_of_Corner_Cases_for_ICCVW_2023_paper.pdf) | [Proceeding]()
+
+:white_check_mark: Accepted at [ICCV Workshop on Robustness and Reliability of Autonomous Vehicles in the Open World](https://valeoai.github.io/bravo/#cfp)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Breitenstein_What_2023_ICCVW,
+    author    = {Breitenstein, Jasmin and Heidecker, Florian and Lyssenko, Maria and Bogdoll, Daniel and Bieshaar, Maarten and Z\"{o}llner, J. Marius and Sick, Bernhard and Fingscheidt, Tim},
+    title     = {{What Does Really Count? Estimating Relevance of Corner Cases for Semantic Segmentation in Automated Driving}}, 
+    booktitle = {International Conference on Computer Vision (ICCV) Workshop},
+    year      = {2023}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :green_circle: High Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+## SCOPE: Does the submission align with the workshop's objectives and scope? Is it pertinent to the themes of robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
+5 - excellent
+
+## INTEREST: Is the submission likely to provoke valuable discussion? (For example: Does it pose intriguing questions, challenge established paradigms, or present surprising findings?)
+3 - borderline
+
+## POTENTIAL: Assuming the ideas in the submission were fully realized, how impactful would they be for assessing or improving robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
+4 - good
+
+## PLAUSIBILITY: How sound is the methodology? Are the findings credible, even if not entirely proven? Are there any glaring errors or misconceptions?
+2 - poor
+
+## CLARITY: Is the submission well-presented, with good use of language, logical organization, and clear expression of ideas? If applicable, are figures and tables used effectively? Does the submission communicate the research question and findings effectively?
+3 - borderline
+
+## COMMENTS TO AUTHORS: Please take into consideration your assessment above to give the authors specific feedback on the strong and weak points of their work.
+Clarity:
+Abstract and Introduction are a bit difficult to follow and can be improved more for clarity. Methodology and Experiment sections were clearly written.
+
+Strong Points:
+* The motivation of the proposed method is very relevant. Being able to quantitatively incorporate the safety relevance into the task metrics is useful for both validation and also data mining.
+
+Weaknesses:
+* The corner cases dataset comprised on 3 examples per corner case type. The seems like a very small set. Drawing conclusions based on such a small set statistically weakens the ability to evaluate. The same applies for the training dataset, training and evaluation on more diverse datasets (e.g. BDD100k) would give a better insight on the effect of the proposed metric.
+* Only a single model is evaluated (OCRNet), evaluating on model variations would strengthen the correctness of the conclusions.
+* It would be interesting to see the contribution of each relevance criterion separately or in different combinations
+
+Overall Comment:
+I believe the submission mainly lacks more thorough experimentation in terms of both data size/source and model architectures, having that would significantly strengthen the credibility of the proposed metric.
+
+## OVERALL RECOMMENDATION: How do you evaluate the submission? Do you recommend it for the workshop?
+Reject
+
+## CONFIDENCE IN RECOMMENDATION: How confident are you in your review, assessment, and recommendation?
+3
+
+### Reviewer 2
+
+## SCOPE: Does the submission align with the workshop's objectives and scope? Is it pertinent to the themes of robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
+5 - excellent
+
+## INTEREST: Is the submission likely to provoke valuable discussion? (For example: Does it pose intriguing questions, challenge established paradigms, or present surprising findings?)
+4 - good
+
+## POTENTIAL: Assuming the ideas in the submission were fully realized, how impactful would they be for assessing or improving robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
+4 - good
+
+## PLAUSIBILITY: How sound is the methodology? Are the findings credible, even if not entirely proven? Are there any glaring errors or misconceptions?
+4 - good
+
+## CLARITY: Is the submission well-presented, with good use of language, logical organization, and clear expression of ideas? If applicable, are figures and tables used effectively? Does the submission communicate the research question and findings effectively?
+4 - good
+
+## COMMENTS TO AUTHORS: Please take into consideration your assessment above to give the authors specific feedback on the strong and weak points of their work.
+This work presents a novel IoU-based evaluation metric for semantic segmentation, designed to focus more on safety-critical situations in autonomous and assisted driving perception systems. The proposed metric penalizes misclassifications, be it False Positives (FP) or False Negatives (FN), with a particular focus on scenarios involving Vulnerable Road Users (VRUs) or misclassifications in proximity to the ego-vehicle, with small Time-to-Collision (TTC). To achieve this, the authors introduce a weighting mechanism at the pixel level, factoring in crucial criteria such as prediction confidence, TTC, vulnerability of the predicted/ground-truth class, and crowdedness of VRUs.
+
+Strengths & Relevance to BRAVO: This work directly impacts the robustness and verification of autonomous driving and assisted perception systems by addressing safety-critical scenarios and handling misclassifications in such contexts. The proposed IoU-based evaluation metric, with its inclusion of weighting criteria such as prediction confidence, TTC, and VRU crowdedness, enhances the verification of autonomous driving perception systems (and in particular semantic segmentation systems).
+
+Weaknesses: Despite its merits, the paper lacks a clear definition of "corner cases." The authors associate corner cases with misclassifications in safety-critical situations, but this appears inconsistent with a more stringent definition of "rare, unusual, or challenging scenarios not typically encountered during regular driving", as depicted in Figure 1 or described in the related work part of the paper. A more precise characterization of corner cases and their relevance to the proposed metric is necessary for a comprehensive understanding of its applicability.
+
+Some comments on the weighting criteria:
+1. Concerning the confidence criterion (L512-516): Wouldn't it be more logical to penalize confident errors (low uncertainty) more than errors with low confidence (high uncertainty)?
+
+2. Regarding the location prior criterion, based on the equation in L560, a misdetection will receive a higher penalty if it occurs in the frequent locations of the objects, contrary to what is stated in L520, which suggests it should be penalized more in unusual places.
+
+## OVERALL RECOMMENDATION: How do you evaluate the submission? Do you recommend it for the workshop?
+Accept
+## CONFIDENCE IN RECOMMENDATION: How confident are you in your review, assessment, and recommendation?
+2
+</details>
+
+&nbsp;
+&nbsp;
+
 ### Conditioning Latent-Space Clusters for Real-World Anomaly Classification
 08/2023 • Daniel Bogdoll*, Svetlana Pavlitska*, Simon Klaus*, J. Marius Zöllner
 
