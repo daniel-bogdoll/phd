@@ -15,7 +15,7 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 ### What Does Really Count? Estimating Relevance of Corner Cases for Semantic Segmentation in Automated Driving
 10/2023 • Jasmin Breitenstein, Florian Heidecker, Maria Lyssenko, Daniel Bogdoll, Maarten Bieshaar, J. Marius Zöllner, Bernhard Sick, Tim Fingscheidt
 
-<img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/d446a44b-9425-4998-a005-14e25502cf51">
+<img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/64e709f3-2bc9-400f-8331-678a341409ab">
 
 [PDF](https://openaccess.thecvf.com/content/ICCV2023W/BRAVO/papers/Breitenstein_What_Does_Really_Count_Estimating_Relevance_of_Corner_Cases_for_ICCVW_2023_paper.pdf) | [Proceeding]()
 
@@ -42,22 +42,22 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
   
 ### Reviewer 1
 
-## SCOPE: Does the submission align with the workshop's objectives and scope? Is it pertinent to the themes of robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
+#### SCOPE: Does the submission align with the workshop's objectives and scope? Is it pertinent to the themes of robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
 5 - excellent
 
-## INTEREST: Is the submission likely to provoke valuable discussion? (For example: Does it pose intriguing questions, challenge established paradigms, or present surprising findings?)
+#### INTEREST: Is the submission likely to provoke valuable discussion? (For example: Does it pose intriguing questions, challenge established paradigms, or present surprising findings?)
 3 - borderline
 
-## POTENTIAL: Assuming the ideas in the submission were fully realized, how impactful would they be for assessing or improving robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
+#### POTENTIAL: Assuming the ideas in the submission were fully realized, how impactful would they be for assessing or improving robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
 4 - good
 
-## PLAUSIBILITY: How sound is the methodology? Are the findings credible, even if not entirely proven? Are there any glaring errors or misconceptions?
+#### PLAUSIBILITY: How sound is the methodology? Are the findings credible, even if not entirely proven? Are there any glaring errors or misconceptions?
 2 - poor
 
-## CLARITY: Is the submission well-presented, with good use of language, logical organization, and clear expression of ideas? If applicable, are figures and tables used effectively? Does the submission communicate the research question and findings effectively?
+#### CLARITY: Is the submission well-presented, with good use of language, logical organization, and clear expression of ideas? If applicable, are figures and tables used effectively? Does the submission communicate the research question and findings effectively?
 3 - borderline
 
-## COMMENTS TO AUTHORS: Please take into consideration your assessment above to give the authors specific feedback on the strong and weak points of their work.
+#### COMMENTS TO AUTHORS: Please take into consideration your assessment above to give the authors specific feedback on the strong and weak points of their work.
 Clarity:
 Abstract and Introduction are a bit difficult to follow and can be improved more for clarity. Methodology and Experiment sections were clearly written.
 
@@ -72,30 +72,30 @@ Weaknesses:
 Overall Comment:
 I believe the submission mainly lacks more thorough experimentation in terms of both data size/source and model architectures, having that would significantly strengthen the credibility of the proposed metric.
 
-## OVERALL RECOMMENDATION: How do you evaluate the submission? Do you recommend it for the workshop?
+#### OVERALL RECOMMENDATION: How do you evaluate the submission? Do you recommend it for the workshop?
 Reject
 
-## CONFIDENCE IN RECOMMENDATION: How confident are you in your review, assessment, and recommendation?
+#### CONFIDENCE IN RECOMMENDATION: How confident are you in your review, assessment, and recommendation?
 3
 
 ### Reviewer 2
 
-## SCOPE: Does the submission align with the workshop's objectives and scope? Is it pertinent to the themes of robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
+#### SCOPE: Does the submission align with the workshop's objectives and scope? Is it pertinent to the themes of robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
 5 - excellent
 
-## INTEREST: Is the submission likely to provoke valuable discussion? (For example: Does it pose intriguing questions, challenge established paradigms, or present surprising findings?)
+#### INTEREST: Is the submission likely to provoke valuable discussion? (For example: Does it pose intriguing questions, challenge established paradigms, or present surprising findings?)
 4 - good
 
-## POTENTIAL: Assuming the ideas in the submission were fully realized, how impactful would they be for assessing or improving robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
+#### POTENTIAL: Assuming the ideas in the submission were fully realized, how impactful would they be for assessing or improving robustness, generalization, transparency, and verification of computer vision for autonomous and assisted driving?
 4 - good
 
-## PLAUSIBILITY: How sound is the methodology? Are the findings credible, even if not entirely proven? Are there any glaring errors or misconceptions?
+#### PLAUSIBILITY: How sound is the methodology? Are the findings credible, even if not entirely proven? Are there any glaring errors or misconceptions?
 4 - good
 
-## CLARITY: Is the submission well-presented, with good use of language, logical organization, and clear expression of ideas? If applicable, are figures and tables used effectively? Does the submission communicate the research question and findings effectively?
+#### CLARITY: Is the submission well-presented, with good use of language, logical organization, and clear expression of ideas? If applicable, are figures and tables used effectively? Does the submission communicate the research question and findings effectively?
 4 - good
 
-## COMMENTS TO AUTHORS: Please take into consideration your assessment above to give the authors specific feedback on the strong and weak points of their work.
+#### COMMENTS TO AUTHORS: Please take into consideration your assessment above to give the authors specific feedback on the strong and weak points of their work.
 This work presents a novel IoU-based evaluation metric for semantic segmentation, designed to focus more on safety-critical situations in autonomous and assisted driving perception systems. The proposed metric penalizes misclassifications, be it False Positives (FP) or False Negatives (FN), with a particular focus on scenarios involving Vulnerable Road Users (VRUs) or misclassifications in proximity to the ego-vehicle, with small Time-to-Collision (TTC). To achieve this, the authors introduce a weighting mechanism at the pixel level, factoring in crucial criteria such as prediction confidence, TTC, vulnerability of the predicted/ground-truth class, and crowdedness of VRUs.
 
 Strengths & Relevance to BRAVO: This work directly impacts the robustness and verification of autonomous driving and assisted perception systems by addressing safety-critical scenarios and handling misclassifications in such contexts. The proposed IoU-based evaluation metric, with its inclusion of weighting criteria such as prediction confidence, TTC, and VRU crowdedness, enhances the verification of autonomous driving perception systems (and in particular semantic segmentation systems).
@@ -107,10 +107,73 @@ Some comments on the weighting criteria:
 
 2. Regarding the location prior criterion, based on the equation in L560, a misdetection will receive a higher penalty if it occurs in the frequent locations of the objects, contrary to what is stated in L520, which suggests it should be penalized more in unusual places.
 
-## OVERALL RECOMMENDATION: How do you evaluate the submission? Do you recommend it for the workshop?
+#### OVERALL RECOMMENDATION: How do you evaluate the submission? Do you recommend it for the workshop?
 Accept
-## CONFIDENCE IN RECOMMENDATION: How confident are you in your review, assessment, and recommendation?
+#### CONFIDENCE IN RECOMMENDATION: How confident are you in your review, assessment, and recommendation?
 2
+
+### CHAIRS' COMMENTS
+
+This work received one accept and one reject recommendation. After analyzing and discussing the reviewers' assessment, the chairs decided to accept the submission but strongly encourage the authors to follow the reviewers' suggestions, particularly in clarifying the corner-case definition and its consistency.
+</details>
+
+:x: Previous version rejected at [IEEE Intelligent Transportation Systems Society Conference (ITSC)](https://2023.ieee-itsc.org/)
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :orange_circle: Medium Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+This paper introduces IoUw, a novel metric that exploits
+relevance on the pixel level of the semantic segmentation
+output to extend the notion of the intersection over union.
+They employ IoUw to measure the effect of pre-defined
+relevance criteria on the segmentation evaluation, and (ii)
+use the relevance adapted IoUw to refine the identification
+of corner cases. Furthermore, they use the Cityscapes
+dataset to verify the effectiveness of the IoUw.
+In my opinion, the article as a whole is not very
+innovative and the overall quality does not meet the
+current requirements for publication.
+Here are my comments: 
+1. The related work is not perfect. Here, the existing
+constraint metrics should be discussed.
+2. The expression of some figures is chaotic, hoping to
+unify the format of the graphs in the paper. Such as, Fig.6
+and Fig.7 ...
+3. The experimental part of the paper is very small. The
+ablation study is not complicate. Additionally, more
+horizontal comparisons should be made with the existing
+constraint indicators.
+4. This innovation seems to be limited. The semantic
+segmentation model an existing method. And, there just
+provides an introduction to metric in method part.
+
+### Reviewer 2
+
+This is an interesting and important idea to explore the
+estimation of for semantic segmentation considering the
+relevance of corner cases for autonomous driving. This
+paper proposes a relevance-adapted version of the generic
+IoU metric to refine the identification of corner cases
+during evaluation.And the results shows that domain- and
+scene-level (collective anomalies) corner cases have the
+highest relevance for the semantic segmentation method.And
+the method may be used to detect data-driven corner cases.
+
+1. Can the method be extended to other metrics, such as the
+average precision (AP) for object detection?
+2. This method also depends on a specific dataset. How is
+the ability of generation&#65311; Could you do more
+experiments on other datasets.
+3. Could you open source your method to form a benchmark?
+This will surely be of great help to the academic
+community.
+
+
 </details>
 
 &nbsp;
