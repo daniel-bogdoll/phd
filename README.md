@@ -2340,6 +2340,31 @@ I no longer have access to the reviews
 &nbsp;
 ## Supervised Theses
 
+### Sustainability of Autonomous Vehicles: An Agent-based Simulation of the Private Passenger Sector
+09/2023 • Master Thesis • Louis Karsch
+
+<img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/b79e8393-d425-413c-92e5-3a200dbf6379">
+
+[KITopen](https://publikationen.bibliothek.kit.edu/1000163446) | [Code](https://github.com/daniel-bogdoll/agent_based_av)
+
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Karsch_Sustainability_2023_MA,
+    author    = {Karsch, Louis},
+    title     = {{Sustainability of Autonomous Vehicles: An Agent-based Simulation of the Private Passenger Sector}},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
+    year      = {2023},
+    type      = {Master Thesis}
+}
+  ```
+</details>
+
+&nbsp;
+&nbsp;
+
 ### Anomaly Detection with Model Contradictions for Autonomous Driving
 08/2023 • Bachelor Thesis • Vincent Geppert
 
