@@ -184,7 +184,7 @@ community.
 
 <img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/d446a44b-9425-4998-a005-14e25502cf51">
 
-[PDF](https://arxiv.org/pdf/2309.09676.pdf) | [arXiv](https://arxiv.org/abs/2309.09676) | [Proceeding]()
+[PDF](https://arxiv.org/pdf/2309.09676.pdf) | [arXiv](https://arxiv.org/abs/2309.09676) | [Proceeding](https://ieeexplore.ieee.org/document/10372019)
 
 :white_check_mark: Accepted at [Symposium Series on Computational Intelligence (SSCI)](https://attend.ieee.org/ssci-2023/)
 
@@ -220,7 +220,7 @@ Comparision with other method is needed.
 
 <img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/12f938d6-365b-41f1-93e9-fdba9ba40cf0">
 
-[PDF](https://arxiv.org/pdf/2308.05701.pdf) | [arXiv](https://arxiv.org/abs/2308.05701) | [Proceeding]()
+[PDF](https://arxiv.org/pdf/2308.05701.pdf) | [arXiv](https://arxiv.org/abs/2308.05701) | [Proceeding](https://ieeexplore.ieee.org/document/10371887)
 
 :white_check_mark: Accepted at [Symposium Series on Computational Intelligence (SSCI)](https://attend.ieee.org/ssci-2023/)
 
