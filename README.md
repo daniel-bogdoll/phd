@@ -2415,7 +2415,6 @@ I no longer have access to the reviews
 
 [KITopen](https://publikationen.bibliothek.kit.edu/1000170314)
 
-
 <details>
   <summary markdown="span">BibTeX Citation</summary>
   
@@ -2436,9 +2435,23 @@ I no longer have access to the reviews
 ### 3D Voxel Reconstruction and World Model for Autonomous Driving
 12/2023 • Master Thesis • Yitian Yang
 
-WIP
+<img width="100%" src="https://github.com/user-attachments/assets/d6360dc0-9102-47ce-81e3-bca0920377e1">
 
 [KITopen](https://publikationen.bibliothek.kit.edu/1000168153)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Yang_Voxel_2023_MA,
+    author    = {Yang, Yitian},
+    title     = {{3D Voxel Reconstruction and World Model for Autonomous Driving}},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
+    year      = {2023},
+    type      = {Master Thesis}
+}
+  ```
+</details>
 
 &nbsp;
 &nbsp;
