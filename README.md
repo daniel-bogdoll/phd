@@ -2408,6 +2408,31 @@ I no longer have access to the reviews
 &nbsp;
 ## Supervised Theses
 
+### Camera-based Anomaly Detection with Generative World Models
+03/2024 • Bachelor Thesis • Noël Ollick
+
+<img width="100%" src="https://github.com/user-attachments/assets/54a277d3-c2fa-4885-a1f2-8b74c98aba3c">
+
+[KITopen](https://publikationen.bibliothek.kit.edu/1000170314)
+
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Ollick_Camera_2024_BA,
+    author    = {Ollick, Noël},
+    title     = {{Camera-based Anomaly Detection with Generative World Models}},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
+    year      = {2024},
+    type      = {Bachelor Thesis}
+}
+  ```
+</details>
+
+&nbsp;
+&nbsp;
+
 ### Sustainability of Autonomous Vehicles: An Agent-based Simulation of the Private Passenger Sector
 09/2023 • Master Thesis • Louis Karsch
 
