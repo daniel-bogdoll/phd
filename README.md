@@ -12,12 +12,77 @@ I focus on the detection of corner cases in the field of autonomous driving. Met
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+### Scalable Remote Operation for Autonomous Vehicles: Integration of Cooperative Perception and Open Source Communication
+07/2024 • Martin Gontscharow, Jens Doll, Albert Schotschneider, Daniel Bogdoll, Stefan Orf, Johannes Jestram, Marc René Zofka, J. Marius Zollner
+
+<img width="100%" src="https://github.com/user-attachments/assets/852f170c-f167-4b36-9abc-d88f202e87fa">
+
+[Proceeding](https://ieeexplore.ieee.org/document/10588376/authors) | [Code](https://github.com/fzi-forschungszentrum-informatik/ros_communication_devcontainer)
+
+:white_check_mark: Accepted at [IEEE Intelligent Vehicles Symposium (IV)](https://ieee-iv.org/2024/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Gontscharow_Scalable_2024_IV,
+    author={Gontscharow, Martin and Doll, Jens and Schotschneider, Albert and Bogdoll, Daniel and Orf, Stefan and Jestram, Johannes and Zofka, Marc René and Marius Zollner, J.},
+    title     = {{Scalable Remote Operation for Autonomous Vehicles: Integration of Cooperative Perception and Open Source Communication}}, 
+    booktitle = {IEEE Intelligent Vehicles Symposium (IV)},
+    year      = {2024}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :red_circle: Low Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+Please find below my comments:
+- The abstract should start with some motivation and clear
+problem statement
+- The link should be put in footnote not in the abstract
+text
+- In the intro last paragraph, it is "sections" rather than
+"Chap."
+- Related work should be a separate section II not embedded
+into section I
+- Spell what SMO stand for
+-There is no evaluation of the system
+
+### Reviewer 2
+
+The paper is exciting to read. It handles a very complex
+case with a practical perspective; base your case on a real
+experiment, which makes it interesting.
+
+The organization and writing style make the document
+suitable for reading by beginners or advanced researchers,
+and it provides valuable tips and references to apply in
+reader research.
+
+The weak point is the absence of results and analysis. I
+expect to see this in a future paper (maybe in the IEEE
+Transactions on Intelligent Transportation Systems).
+However, this point did not evaluate the contribution of
+the paper.
+
+### Associate Editor
+
+You received two reviews, one positive and one negative.
+Both give good suggestions on what you can improve.
+</details>
+
 ### What Does Really Count? Estimating Relevance of Corner Cases for Semantic Segmentation in Automated Driving
 10/2023 • Jasmin Breitenstein, Florian Heidecker, Maria Lyssenko, Daniel Bogdoll, Maarten Bieshaar, J. Marius Zöllner, Bernhard Sick, Tim Fingscheidt
 
 <img width="100%" src="https://github.com/daniel-bogdoll/phd/assets/19552411/64e709f3-2bc9-400f-8331-678a341409ab">
 
-[PDF](https://openaccess.thecvf.com/content/ICCV2023W/BRAVO/papers/Breitenstein_What_Does_Really_Count_Estimating_Relevance_of_Corner_Cases_for_ICCVW_2023_paper.pdf) | [Proceeding]()
+[PDF](https://openaccess.thecvf.com/content/ICCV2023W/BRAVO/papers/Breitenstein_What_Does_Really_Count_Estimating_Relevance_of_Corner_Cases_for_ICCVW_2023_paper.pdf) | [Proceeding](https://ieeexplore.ieee.org/document/10350723)
 
 :white_check_mark: Accepted at [ICCV Workshop on Robustness and Reliability of Autonomous Vehicles in the Open World](https://valeoai.github.io/bravo/#cfp)
 
