@@ -2433,6 +2433,63 @@ I no longer have access to the reviews
 &nbsp;
 &nbsp;
 
+### 3D Voxel Reconstruction and World Model for Autonomous Driving
+12/2023 • Master Thesis • Yitian Yang
+
+WIP
+
+[KITopen](https://publikationen.bibliothek.kit.edu/1000168153)
+
+&nbsp;
+&nbsp;
+
+### Anomaly Detection with World Models for Autonomous Driving
+12/2023 • Master Thesis • Yang Zheng
+
+<img width="100%" src="https://github.com/user-attachments/assets/b17f7929-7ab0-41ac-8a60-f0e318a852de">
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Zheng_Anomaly_2023_MA,
+    author    = {Zheng, Yang},
+    title     = {{Anomaly Detection with World Models for Autonomous Driving}},
+    school    = {{University of Stuttgart}},
+    year      = {2023},
+    type      = {Master Thesis}
+}
+  ```
+</details>
+
+&nbsp;
+&nbsp;
+
+### Benchmarking Anomaly Detection on Camera and Lidar Data with 3D Voxel Representation
+11/2023 • Bachelor Thesis • Lukas Namgyu Rößler
+
+<img width="100%" src="https://github.com/user-attachments/assets/1c18f3ee-993c-4c25-afe4-ec6d891d69e1">
+
+[KITopen](https://publikationen.bibliothek.kit.edu/1000167624)
+
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @mastersthesis{Roessler_Benchmarking_2023_BA,
+    author    = {Rößler, Lukas N.},
+    title     = {{Benchmarking Anomaly Detection on Camera and Lidar Data with 3D Voxel Representation}},
+    school    = {{Karlsruhe Institute of Technology (KIT)}},
+    year      = {2023},
+    type      = {bachelor Thesis}
+}
+  ```
+</details>
+
+&nbsp;
+&nbsp;
+
 ### Sustainability of Autonomous Vehicles: An Agent-based Simulation of the Private Passenger Sector
 09/2023 • Master Thesis • Louis Karsch
 
