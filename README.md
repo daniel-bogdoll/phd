@@ -20,6 +20,19 @@ I focus on the detection of anomalies in the field of autonomous driving. I focu
 
 :white_check_mark: Accepted at [ECCV Workshop on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving (W-CODA)](https://coda-dataset.github.io/w-coda2024/)
 
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Anovox_2025_ECCVW,
+    author={Bogdoll, Daniel and Hamdard, Iramm and R\"{o}ßler, Lukas N. and Geisler, Felix and Bayram, Muhammed and Wang, Felix and Imhof, Jan and de Campos, Miguel and Tabarov, Anushervon and Yang, Yitian and Gontscharow, Martin and Gottschalk, Hanno and Z\"{o}llner, J. Marius},
+    title     = {{AnoVox: A Benchmark for Multimodal Anomaly Detection in Autonomous Driving}}, 
+    booktitle = {European Conference on Computer Vision (ECCV) Workshop},
+    year      = {2025}
+  }
+  ```
+</details>
+
 &nbsp;
 &nbsp;
 
