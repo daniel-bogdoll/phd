@@ -20,6 +20,9 @@ I focus on the detection of anomalies in the field of autonomous driving. I focu
 
 :white_check_mark: Accepted at [ECCV Workshop on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving (W-CODA)](https://coda-dataset.github.io/w-coda2024/)
 
+&nbsp;
+&nbsp;
+
 ### Scalable Remote Operation for Autonomous Vehicles: Integration of Cooperative Perception and Open Source Communication
 07/2024 • Martin Gontscharow, Jens Doll, Albert Schotschneider, Daniel Bogdoll, Stefan Orf, Johannes Jestram, Marc René Zofka, J. Marius Zollner
 
