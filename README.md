@@ -10,6 +10,12 @@ I focus on the detection of anomalies in the field of autonomous driving. I focu
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+
+### AnoVox: A Benchmark for Multimodal Anomaly Detection in Autonomous Driving
+05/2025 • Daniel Bogdoll, Iramm Hamdard, Lukas Namgyu Rößler, Felix Geisler, Muhammed Bayram, Felix Wang, Jan Imhof, Miguel de Campos, Anushervon Tabarov, Yitian Yang, Martin Gontscharow, Hanno Gottschalk, J. Marius Zöllner
+
+TODO
+
 ### Scalable Remote Operation for Autonomous Vehicles: Integration of Cooperative Perception and Open Source Communication
 07/2024 • Martin Gontscharow, Jens Doll, Albert Schotschneider, Daniel Bogdoll, Stefan Orf, Johannes Jestram, Marc René Zofka, J. Marius Zollner
 
