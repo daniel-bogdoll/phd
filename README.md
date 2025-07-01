@@ -3,8 +3,6 @@ AD4AD: Anomaly Detection for Autonomous Driving
 
 ## Introduction
 
-11/2020 - XX/2025
-
 I am pursuing my PhD under the supervision of [J. Marius Zöllner](https://www.aifb.kit.edu/web/J._Marius_Z%C3%B6llner) and [Hanno Gottschalk](https://www.tu.berlin/milz/ueber-uns/leitung) in [Karlsruhe, Germany](https://goo.gl/maps/xG3qDHWKtSiChcDE6). I am with the research group [Applied Technical Cognitive Systems ATKS](https://aifb.kit.edu/web/Angewandte_Technisch-Kognitive_Systeme/en) within the [Institute of Applied Informatics and Formal Description Methods AIFB](https://aifb.kit.edu/web/Hauptseite/en) at the [Karlsruhe Institute of Technology KIT](https://www.kit.edu/english/index.php). In addition, I am part of the group [Technical Cognitive Systems TKS](https://www.fzi.de/team/marius-zoellner/) at the [Research Center for Information Technology FZI](https://www.fzi.de/).
 
 I focus on the detection of anomalies in the field of autonomous driving. I focus on the generation, detection, and handling of anomalies in both simulation and real-world data. I build upon the concepts of [Breitenstein et al.](https://ieeexplore.ieee.org/document/9304789) and [Heidecker et al.](https://ieeexplore.ieee.org/document/9575933), who did tremendous work in the field of theoretical taxonomies in the field.
