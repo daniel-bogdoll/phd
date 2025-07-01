@@ -12,7 +12,7 @@ I focus on the detection of anomalies in the field of autonomous driving. I focu
 
 
 ### AnoVox: A Benchmark for Multimodal Anomaly Detection in Autonomous Driving
-05/2025 • Daniel Bogdoll, Iramm Hamdard, Lukas Namgyu Rößler, Felix Geisler, Muhammed Bayram, Felix Wang, Jan Imhof, Miguel de Campos, Anushervon Tabarov, Yitian Yang, Martin Gontscharow, Hanno Gottschalk, J. Marius Zöllner
+05/2025 • Daniel Bogdoll*, Iramm Hamdard*, Lukas Namgyu Rößler*, Felix Geisler, Muhammed Bayram, Felix Wang, Jan Imhof, Miguel de Campos, Anushervon Tabarov, Yitian Yang, Martin Gontscharow, Hanno Gottschalk, J. Marius Zöllner
 
 TODO
 
