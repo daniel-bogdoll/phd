@@ -14,7 +14,11 @@ I focus on the detection of anomalies in the field of autonomous driving. I focu
 ### AnoVox: A Benchmark for Multimodal Anomaly Detection in Autonomous Driving
 05/2025 • Daniel Bogdoll*, Iramm Hamdard*, Lukas Namgyu Rößler*, Felix Geisler, Muhammed Bayram, Felix Wang, Jan Imhof, Miguel de Campos, Anushervon Tabarov, Yitian Yang, Martin Gontscharow, Hanno Gottschalk, J. Marius Zöllner
 
-TODO
+<img width="100%" src="https://github.com/user-attachments/assets/9e1cb92b-651e-4c0a-b536-0f33fa0343ae">
+
+[arXiv](https://arxiv.org/abs/2405.07865) | [Proceeding](https://link.springer.com/chapter/10.1007/978-3-031-91767-7_15) | [Code](https://github.com/fzi-forschungszentrum-informatik/anovox) | [Dataset](https://zenodo.org/communities/anovox/)
+
+:white_check_mark: Accepted at [ECCV Workshop on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving (W-CODA)](https://coda-dataset.github.io/w-coda2024/)
 
 ### Scalable Remote Operation for Autonomous Vehicles: Integration of Cooperative Perception and Open Source Communication
 07/2024 • Martin Gontscharow, Jens Doll, Albert Schotschneider, Daniel Bogdoll, Stefan Orf, Johannes Jestram, Marc René Zofka, J. Marius Zollner
