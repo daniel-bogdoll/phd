@@ -94,6 +94,132 @@ Recommendation: Accept (Poster)
 
 </details>
 
+:x: Previous version rejected at [European Conference on Computer Vision (ECCV)](https://eccv.ecva.net/Conferences/2024)
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :green_circle: High Quality Reviews
+</summary>
+
+### Reviewer #1
+
+1. Summary. In 5-7 sentences, describe the key ideas, experimental or theoretical results, and their significance.
+The paper introduces a new dataset and benchmark for anomaly detection in autonomous driving. This contribution originates from the observation that current benchmarks have several limitations, the major one being that they typically include camera-only data. Another limitation of previous benchmarks discussed in the manuscript is the lack of a “normality” definition, that is necessary to define the concept of anomaly. Lastly, existing benchmarks do not consider temporal anomalies, as defined in this paper, e.g., the case of a leading vehicle performing an emergency brake.
+Hinging on these notions, the proposed AnoVox benchmark leverages the notorious CARLA simulator to create a new dataset that can overcome the previously mentioned limitations.
+
+The CARLA simulator allows to create scenarios representing normal operation of the system (including the location, weather condition, sensor configuration, other agents). Concerning anomalies, AnoVox enables users to include two types of anomalies: static objects (mostly classes unseen during training, although there is also a fallen class with objects falling to the ground) and temporal anomalies (only one type, that is the case of cars performing an emergency braking).
+Using this system, this work builds a large dataset that includes different scenarios, multimodal data (camera, lidar, depth, ego-motion information), and has ground truth annotations. Additionally, the system introduces a spatial voxel representation that allows to compare methods using lidar and/or RGB images (the 2D anomaly scores are lifted to 3D using the ground truth depth data).
+
+The paper lastly showcases an experiment on a small sample of the collected data, using two methods: RbA as representative for camera-based anomaly detection, and REAL as a method that processes a Lidar point-cloud.
+
+Both the code of the system and the data are submitted.
+2. Strengths. Consider the significance of key ideas, experimental or theoretical validation, writing quality, data contribution. Explain clearly why these aspects of the paper are valuable. Short bullet lists do NOT suffice.
+I think that this work is pointing towards an interesting and frankly needed direction for the community. So far, the problem of anomaly detection for autonomous driving applications has been supported mostly by datasets with camera data only (RGB images), yet an autonomous car would (likely) use other sensors (radars, lidars, ...).
+Another aspect that is somewhat raised by the paper, and that I agree with, is the fact that the current benchmarks used in this field have a very narrow representation of anomalies as classes that are not present in the training set. The reality is however more nuanced than that, and an anomaly may be an object from the closed set training data but that has characteristics that do not match the normality of operations (training distribution): for example, a fallen tree or a popped tire or a pedestrian crossing a street not on a cross walk or even a car suddenly braking.
+
+Another problem with current benchmarks is that they are starting to become saturated with methods achieving near perfect scores, and this dataset with its numerous scenarios may offer a more challenging benchmark to evaluate and assess methods.
+3. Weaknesses. Consider the significance of key ideas, experimental or theoretical validation, writing quality, data contribution. Clearly explain why these are weak aspects of the paper, e.g., why a specific prior work has already demonstrated the key contributions, or why the experiments are insufficient to validate the claims, etc. Short bullet lists do NOT suffice. Be specific!
+Despite the interesting premise of the paper, I find that it has a couple of problems that are difficult to overlook.
+
+- Benchmark and results: the main motivation of the paper is to overcome some limitations of existing benchmarks, and proposes to do so by creating a new, extensive and well curated dataset. However, this dataset is not accompanied by the experimentation that would be expected by a benchmark: the paper only presents an experiment with 2 methods (one using RGB images, the other using point-clouds) and only on a small fraction of the dataset (which makes me question if the large dataset is useful in itself as a contribution).
+I do not mean to detract from the usefulness of the dataset, but when presenting new data (and especially when trying to establish a benchmark) the paper should support it with enough experiments to demonstrate its usefulness, to show how it opens up the possibility to investigate new problems and also to establish the proper protocols to use it. For example, you may look at the paper from the SegmentMeIfYouCan Benchmark, or even from the MUAD dataset. This paper, as it is in its current form, unfortunately does nothing of that, even though I agree with the reasoning behind the creation of the dataset.
+
+- AnoVox: the system proposed in this paper, builds heavily on CARLA, just like many other papers have done before it (as correctly pointed out by the authors). Following on the previous point, only proposing a dataset using this open-source simulator, without extensive experimentation that demonstrates its value, is not a contribution that helps pushing forward the field. I understand that producing AnoVox may have required some customization of the simulation, but many others have already done it (e.g. [a]) and I do not think this is enough on its own to justify the publication.
+
+- Definition of normality: the paper also claims the definition of the concept of normality as its own contribution. This is something that I find to be a stretch. Defining the “normality” as the standard operational situation (represented by the training data) is a rather intuitive and straightforward concept, nothing that I would deem innovative. I do understand the point that the authors are making, comparing to previous benchmarks where there is a narrow view on what an anomaly is (an object from a new class unseen at training time), but this sounds almost like taking the shortcoming of these previous benchmarks as a contribution for this paper. Besides, the way this idea of normality is implemented may be debated. For example, one may argue that considering a single scenario with one weather condition and only a single geographical area may be too restrictive to be representative of a normal way of operation. As a matter of fact, for an autonomous car we expect it to recognize anomalies despite these kinds of domain shifts. Similarly, the paper mentions that the behaviour of the ego agent counts towards normality, but this is not really demonstrated.
+Again, I understand the perspective of the paper, especially with respect to previous benchmarks, but the definition of normality on its own is not something that I deem a noteworthy contribution. On the contrary, what is a contribution is to expand what is narrowly considered an anomaly in previous benchmarks, not restricting anomalies to an open set problem, but considering things such as fallen objects or abrupt behaviors of other agents (emergency braking).
+
+
+- In the comments to the authors, I provide some further comments on some specific points.
+
+[a] SELMA: SEmantic Large-Scale Multimodal Acquisitions in Variable Weather, Daytime and Viewpoints
+4. Paper rating (pre-rebuttal).
+Strong Reject
+5. Justification of rating. What are the most important factors in your rating?
+As mentioned in the strengths, I think that this paper has merit in trying to push the field of anomaly detection for autonomous driving in interesting directions (multimodal data, allowing the comparison of methods using different modalities, considering a more nuanced notion of anomalies). The potential of this kind of endeavor is significant. Unfortunately, I think that the paper is not ready for publication at this venue in its current form (see weaknesses) and implementing the necessary changes, especially an extended experimental part with the necessary discussion, is something that realistically is not feasible within the limits of a rebuttal.
+6. Are there any serious ethical/privacy/transparency/fairness concerns? If yes, please also discuss below in Question 9.
+No
+7. Limitations and Societal Impact. Have the authors adequately addressed the limitations and potential negative societal impact of their work? Discuss any serious ethical/privacy/transparency/fairness concerns here. Also discuss if there are important limitations that are not apparent from the paper.
+The papers addresses the limitations adequately.
+8. Is the contribution of a new dataset a main claim for this paper? Have the authors indicated so in the submission form?
+Dataset contribution claim in the paper. Indicated in the submission form
+9. Additional comments to author(s). Include any comments that may be useful for revision but should not be considered in the paper decision.
+- To make this paper impactful, I recommend adding an extended experimental section, which defines the protocols and data split used, and possibly considers many methods from the literature. It would also be important to demonstrate the utilization and importance of all available data modalities, including the ego-motion information.
+
+- Concerning the methods for anomaly detection using RGB information, it is true that it is a common praxis to use OOD data during training to improve results. While I agree that ideally it would be best to not to resort to extra data, I don’t see any good reason why such methods should not be included in the experiments. Moreover, it is typically possible to use these same methods without fine-tuning them with OOD supervision.
+
+- It seems, judging from Fig. 4 and from L.225-226, that the anomalies are always spawning near the middle of the road. If this is true, it is a strong bias that limits the variety of this benchmark. For example, it would be good to have anomalies also on the sidewalk.
+
+- It would help the reader if there were more qualitative examples. For example, it is not clear what are all the objects considered in the fallen category (which was interesting to me)
+
+- I think that the paper points to the right direction in considering not just anomalies that are classes unseen during training. The Fallen class or the temporal anomaly with the vehicle performing an emergency braking are very good additions. A good way to develop this framework further would be to include more of these anomalies (e.g., a car driving in the opposite direction with respect to the traffic, a fallen traffic sign, a motorbike with multiple riders ....)
+
+- Typo at L.264 “CALRA”
+
+- The dataset contains a lot of scenes, yet the experiments use a very small subset of data that is comparable in size to Cityscapes. This makes me wonder “what is the point of the large dataset?”
+
+- Regarding the presented results, the paper states that “To emphasize the definition of normality based on training data alone, we then neglected all methods that require auxiliary data with anomalies during training”. Aside from the fact that I am not exactly convinced from this choice, the chosen RbA method has indeed very good results on the previous benchmarks, but for what I am aware it also uses additional In Distribution data (it is not trained only on Cityscapes, but it also uses data from BDD100k as far as I remember). This also would break the assumption of method trained only on the normality (Cityscapes). So perhaps other methods would perform better in the proposed test. This also reinforces the need for a much more extended and well curated experimental section.
+
+### Reviewer #3
+
+1. Summary. In 5-7 sentences, describe the key ideas, experimental or theoretical results, and their significance.
+1. The author proposed the largest synthetic dataset for anomaly detection in autonomous driving, consisting of content and temporal anomalies.
+
+2. The dataset consists of large-scale multimodal sensor data and spatial voxel ground truth.
+
+3. The paper introduced normality that denotes a domain shift between the normal data and the proposed dataset.
+2. Strengths. Consider the significance of key ideas, experimental or theoretical validation, writing quality, data contribution. Explain clearly why these aspects of the paper are valuable. Short bullet lists do NOT suffice.
+1. The dataset is significantly large compared to the existing anomaly segmentation dataset.
+
+2. It covers a large variety of anomalies along with multi-modal and multi-sensorial data.
+
+3. The authors introduced the concept of normality which is important for anomaly segmentation but was not addressed in prior works.
+3. Weaknesses. Consider the significance of key ideas, experimental or theoretical validation, writing quality, data contribution. Clearly explain why these are weak aspects of the paper, e.g., why a specific prior work has already demonstrated the key contributions, or why the experiments are insufficient to validate the claims, etc. Short bullet lists do NOT suffice. Be specific!
+
+1. The paper lacks extensive benchmarking results needed for anomaly segmentation. The authors can borrow the ideas from the prior work: a) Segment Me If You Can, b) Fishyscapes that extensively benchmarked all the existing anomaly segmentation methods.
+
+2. A lack of ablation studies regarding how each modalities could help improve anomaly segmentation.
+
+3. In Table 4, the FPR95 is 100 for all the methods. This could be caused by domain shift since the model training was done on cityscapes and tested on AnoVox. It would be interesting to see if the model was trained and tested on AnoVox.
+4. Paper rating (pre-rebuttal).
+Weak Reject
+5. Justification of rating. What are the most important factors in your rating?
+The paper requires extensive benchmarking on the current anomaly segmentation methods. In addition, it needs to show with the addition of each modality how the anomaly segmentation improves.
+6. Are there any serious ethical/privacy/transparency/fairness concerns? If yes, please also discuss below in Question 9.
+No
+7. Is the contribution of a new dataset a main claim for this paper? Have the authors indicated so in the submission form?
+Dataset contribution claim in the paper. Indicated in the submission form
+
+### Reviewer #4
+
+1. Summary. In 5-7 sentences, describe the key ideas, experimental or theoretical results, and their significance.
+The paper introduces AnoVox, the largest and first benchmark for anomaly detection in autonomous vehicles, incorporating extensive multimodal sensor data and spatial voxel ground truth. AnoVox aims to overcome existing benchmarks' limitations, such as a lack of a clear normality definition and an overreliance on RGB data, by providing comprehensive semantic masks for various sensors. The benchmark not only formalizes normality but also compares how current models perform, highlighting the importance of learning normality from training data to improve anomaly detection.
+2. Strengths. Consider the significance of key ideas, experimental or theoretical validation, writing quality, data contribution. Explain clearly why these aspects of the paper are valuable. Short bullet lists do NOT suffice.
+-The paper effectively compares existing datasets to the proposed dataset, highlighting that while existing works mainly use camera-based semantic masks, the proposed dataset offers 3D voxel ground truth.
+
+-The paper defined the nomality well: Ego, Domain, pysical entities.
+
+-It is notably beneficial and practical that scenario description files are shareable and can be used to generate data
+
+-The proposed dataset introduces a more challenging environment for anomaly detection. Anomalies are identified not by their exclusion from Cityscapes classes but by their absence in the training set. Moreover, there is no domain shift for the anomaly classes since they are rendered using the same engine as training data.
+3. Weaknesses. Consider the significance of key ideas, experimental or theoretical validation, writing quality, data contribution. Clearly explain why these are weak aspects of the paper, e.g., why a specific prior work has already demonstrated the key contributions, or why the experiments are insufficient to validate the claims, etc. Short bullet lists do NOT suffice. Be specific!
+-The paper briefly discusses the performance of the REAL and RbA methods on the proposed dataset in Table 4. However, the significance of the differences in performance between columns is unclear. It would be helpful if the paper provided more explanation on how to interpret these results, especially for those unfamiliar with Anomaly Detection.
+
+-It would be beneficial to demonstrate the models' performance across different scenarios, specifically separating evaluations into 1) only content anomaly 2) only temporal anomaly 3) both types of anomalies. Additionally, for evluations focusing solely on content anomalies, analyzing performance across six super classes would provide a more comprehensive understanding of the dataset and models.
+
+-Temporal anomaly lacks the diversity.
+4. Paper rating (pre-rebuttal).
+Borderline
+5. Justification of rating. What are the most important factors in your rating?
+The paper proposes useful dataset but it lacks diversity and analysis mentioned in the weakness
+6. Are there any serious ethical/privacy/transparency/fairness concerns? If yes, please also discuss below in Question 9.
+No
+7. Is the contribution of a new dataset a main claim for this paper? Have the authors indicated so in the submission form?
+Dataset contribution claim in the paper. Indicated in the submission form
+
+</details>
+
 &nbsp;
 &nbsp;
 
