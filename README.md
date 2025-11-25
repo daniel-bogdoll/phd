@@ -10,6 +10,643 @@ I focus on the detection of anomalies in the field of autonomous driving. I focu
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+### Label-Free Model Failure Detection for Lidar-based Point Cloud Segmentation
+09/2025 • Daniel Bogdoll*, Finn Sartoris*, Vincent Geppert*, Svetlana Pavlitska, J. Marius Zöllner
+
+<img width="100%" src="https://github.com/user-attachments/assets/2df14ada-2429-43b5-9e76-0964a2a6504f">
+
+[arXiv](https://arxiv.org/abs/2407.14306) | [Proceeding](https://ieeexplore.ieee.org/document/11163519) | [Code](https://github.com/daniel-bogdoll/model_contradictions)
+
+:white_check_mark: Accepted at [IEEE Intelligent Vehicles Symposium (IV)](https://ieee-iv.org/2025/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Labelfree_2025_IV,
+    author={Bogdoll, Daniel and Sartoris, Finn and Geppert, Vincent and Pavlitska, Svetlana and Zöllner, J. Marius},
+    title     = {{Label-Free Model Failure Detection for Lidar-based Point Cloud Segmentation}}, 
+    booktitle = {IEEE Intelligent Vehicles Symposium (IV)},
+    year      = {2025}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :green_circle: High Quality Reviews
+</summary>
+
+### Associate Editor
+
+This work performed a large-scale qualitative analysis and
+presented LidarCODA, the first public dataset with labeled
+anomalies in real-world lidar data. The paper is well
+written and presents a valid failure detection method. The
+reviewers raised concerns regarding the presentation, the
+analyses and explanations, the comparison to other
+approaches, and the adaptations to sensor domain shifts in
+real-world applications. These concerns should be addressed
+in the final version.
+
+### Reviewer 1
+
+Summary of the review :
+ 
+The idea for the first contribution is promising and the
+dataset proposed in the second contribution looks
+interesting, however, several critical problems appear. The
+evaluation method proposed as first contribution is poorly
+framed (it is difficult even to understand what is
+evaluated and how it could be re-used for another method),
+and the task for which models are supposedly evaluated is
+not the one described in the title, abstract and
+introduction (moving object segmentation and not claimed
+“lidar-based point cloud segmentation”). The validation of
+the evaluation method relies on a qualitative approach and
+a quantitative approach. The qualitative approach seems too
+ambitious and provides weak conclusions. The quantitative
+approach is based on their own provided anomalies dataset.
+Although the dataset looks interesting (but its description
+is very brief in this paper), sadly, there is no attempt to
+compare their method to other methods on this new dataset
+(or other data). Overall, this evaluation seems
+insufficient.
+ 
+ 
+ 
+Summary of the paper :
+ 
+The paper addresses the issue of failure detection for
+moving object segmentation models. For this, the paper
+proposes 2 contributions : 
+- A “Label-free evaluation for lidar-based point cloud
+segmentation based on complementary learning with a super-
+vised and a self-supervised model”
+- A publicly available dataset named “LidarCODA” for
+“real-world anomaly dataset with labeled lidar data, to
+quantitatively evaluate the sensitivity of the approach to
+outliers”
+ 
+It starts with an introduction and related works detailing
+other approaches to detect failure modes in models. The
+method’s section then presents a pipeline for comparing two
+specific moving object segmentation methods that they
+detail. Both methods are seemingly proposed by the authors
+(although built by parts from other works). 
+ 
+The evaluation section consists of a qualitative evaluation
+where the authors “manually analyse 20,000 frames” from the
+KITTI dataset, then a quantitative evaluation with no
+comparison to other methods on their own proposed dataset.
+ 
+ 
+ 
+Full review :
+ 
+1st contribution :
+Content : 
+The first contribution is an evaluation method for MOVING
+OBJECT SEGMENTATION (and not "point cloud segmentation”).
+In the paper, they propose to compare a given supervised
+moving object segmentation method to another
+self-supervised moving object segmentation method.
+Observing the cases where both methods disagree allows to
+identify failure modes.
+ 
+Innovation : 
+The idea does seem innovative in that usual such failure
+modes detectors have relied on finding discrepancies
+between predictions from methods using different sensor
+systems or ensemble learning, and not different approaches
+to the same task like they do here (supervised pipeline VS
+different unsupervised pipeline).
+ 
+Relevancy: 
+(Wrong angle) : The core idea is interesting, but the angle
+is wrong in my opinion. The method is presented as an
+evaluation method, but the authors don’t explicitly explain
+what is the object of the evaluation ! What is evaluated ?
+Is it the supervised moving object segmentation pipeline ?
+or just parts of it, e.g. the semantic segmentation model ?
+For an evaluation tool, there is little detail about how to
+use it to evaluate any other method than the one introduced
+in the paper (the reader is left to guess that you could
+substitute their supervised method with yours). As an
+evaluation tool, then, the focus should be placed on the
+unsupervised method used to compare with, (e.g. why do you
+choose this specific unsupervised method to compare with ?
+Have you tried other methods ? Why not more methods ?) the
+analysis of the discrepancies (which is only quickly
+covered in III.C, where the instance clustering part is
+barely explained). To illustrate my point : Visualize Fig.
+2, giving an overview of the evaluation pipeline. Can you
+understand, without reading the paper, what “model” is
+evaluated by this evaluation method ? Even after reading,
+I’m not sure.
+ 
+(Wrong explanation) There are various critical presentation
+mistakes. The first one is in the first contribution, where
+the authors claim to propose an evaluation method for
+“lidar-based point cloud segmentation”. The method proposed
+is entirely focused on motion segmentation (also called
+“moving object segmentation” from a quick research). “lidar
+point cloud segmentation” is poorly defined in my opinion
+as it may refer to semantic, instance, panoptic or other
+types of segmentations, and in this case, there is no
+explanation given for how the evaluation method would apply
+to any other case than moving object segmentation. 
+ 
+(Wrong explanation) Secondly, The authors introduce a new
+concept named “complementary training”. The problem is that
+this new concept is practically never explained. The only
+other mention of “complementary” is in the introduction of
+III. where they explain that they perform “complementary
+training for the same task in order to detect model
+failures”. This seems  insufficient to explain a new
+proposed concept.
+ 
+(Qualitative Validation and Lack of Comparison) The first
+qualitative evaluation has significant limitations that the
+authors do not adequately emphasize. They claim to have
+"manually analyzed their method on over 20,000 frames" from
+KITTI's test sequences. Their approach involves projecting
+colored point clouds onto RGB images, with colors
+indicating failure detections. If my understanding is
+correct, this would require reviewing each of the 20,000 3D
+LiDAR scans, which can only be properly inspected by
+examining multiple camera images from KITTI for each
+scan—potentially amounting to approximately 100,000 images.
+For each image, reviewing the method's output would mean
+examining individual points and verifying their
+classification accuracy. With ground truth unavailable for
+this data, the authors would need to manually determine
+which objects are moving and which are stationary in each
+scene! This task seems infeasible for such a large dataset,
+even with substantial resources. Furthermore, the nature of
+this "analysis" is poorly explained, as the only apparent
+result from this evaluation consists of comments on a few
+selected cases. That kind of evaluation would also largely
+ignore the problem of False Positives where both methods
+agreed but were both wrong.
+There is nothing wrong with qualitatively evaluating some
+output to provide intuition on the result, but this does
+not constitute a strong evaluation.
+The next quantitative evaluation is more interesting,
+however it is unfortunate that the failure mode detection
+method is not compared to any other existing methods, like
+the ones mentioned in the introduction that rely on
+ensemble learning or other types of discrepancy analysis.
+There is no way to place the proposed method compared to
+state of the art methods.
+(LidarCODA dataset) The proposed dataset seems interesting,
+but the section describing it is very short, and a
+reference to a prior publication for details is not
+receivable if that is one of the main contributions of the
+paper.
+ 
+Form :
+ 
+(Related works section) The related works' section is hard
+to read, as there are no subsections structuring it.
+ 
+(Method section) The method section in generally hard to
+understand, but most importantly it is hard to understand
+what the authors propose VS what they re-use. They re-use
+and cite many articles, but in the end, what is part of the
+evaluation method and what is not is unclear.
+ 
+Quotes of Fig parts like ‘a',’b','c','d', but not appearing
+of figures.
+ 
+Few English mistakes e.g. “anomlies” in IV.
+
+### Reviewer 2
+
+The paper presents a model evaluation pipeline for
+assessing model errors without requiring annotated data.
+Additionally, it introduces a real-world anomaly dataset
+derived from an existing dataset.
+ 
+The paper has a well-structured format; however, it can be
+difficult to read at times due to the numerous model
+representations within the pipeline.
+ 
+I have some questions regarding the evaluation:
+ 
+How do you conduct a qualitative evaluation on 20,000
+frames? That is a substantial number of frames for a human
+to review. Please clarify the process of this evaluation.
+Figure 6 and Tables I and II are not well explained. I
+suggest avoiding some of the qualitative results and
+instead focusing on them to demonstrate the performance of
+your methods through statistical analysis. 
+
+### Reviewer 3
+
+This paper proposes a label-free model failure detection
+method for Lidar-based point cloud segmentation in
+autonomous driving, demonstrating innovation and improved
+robustness. However, several aspects require further
+clarification.
+ 
+Major Issues and Suggestions:
+1. Figure Annotations
+The color scheme in Figure 1 is unclear, which may cause
+confusion.
+It is suggested to add a brief explanation in the figure
+legend or mention where the color scheme is described
+(e.g., Section III-C).
+2. Failure Case Analysis
+The paper presents failure cases but lacks detailed
+analysis. Are the model failures of the supervised stream
+primarily due to the limitations of the scene flow model or
+the clustering method? Or is it a combination of both?
+For both self-supervised and supervised models, what are
+the higher-level insights into the failure cases? Do these
+errors predominantly occur in low-reflectivity objects,
+dynamic objects, or specific complex scenarios (e.g., busy
+intersections)?
+3. Sensor Domain Shift
+The poor performance on the nuScenes subset is attributed
+to sensor domain shift, but the paper does not analyze:
+How do self-supervised and supervised models perform on
+this subset?
+If deployed in real-world autonomous driving systems, how
+would the method adapt to different sensor domain shifts? 
+
+### Reviewer 4
+
+The paper proposed a valid failure detection method. The
+technical exposition of the paper is clear, and overall, it
+is well-written with commendable innovative value in the
+research work.
+However, there are a few shortcomings:
+1.           The detection performance for the "animal" category
+in Table II is notably poor. Why is this the case? Please
+provide an analysis and explanation.
+2.           Section IV, EVALUATION, lacks comparative results
+with other benchmark methods, which diminishes the
+persuasiveness of the paper.
+
+### Reviewer 5
+
+Overall, the work is of interest to the research community
+and provides with a novel methodology on model failure
+detection. The paper is well-organized and mostly clearly
+written. However, I have some concerns and suggestions to
+authors which may help to further improve the work: 
+ 
+- For Fig.6, I suggest to merge 4 parts of the bar plot
+into one, so it is clearer to readers how agreement and
+discrepancy are distributed under different scenarios and
+it is worth to add a note to distinguish between “regular
+scenarios” and “outlier scenarios”.  And it is of interest
+to demonstrate the percentage of “Simultaneous Model
+Failures" which is more critical to all scenarios.
+- The evaluation in Fig.6 and section IV is based on the
+point cloud rather than the instance of object. As it is
+shown that static objects have larger number of points than
+dynamic ones in those datasets, thus, gives more agreement
+between unsupervised and self-supervised models, while the
+dynamic objects are generally unbalanced in terms of the
+number of point clouds, contributing less in agreement
+between the two models. Therefore, the evaluation on
+instance-level may be more appropriate to show the effect
+of agreement and discrepancy of models.
+- Although Fig.7 and Fig.8 show some exemplary scenarios
+when supervised and self-supervised models disagree, it is
+not so clear to me how they are representative in the whole
+dataset. Besides, the resource of such disagreement or
+agreement but with wrong labeling, is not so obvious to me.
+It can be further illustrated or improved with more
+detailed analysis of results.
+- In Section IV-A, the paragraph states “Scenes 3, 4, and 5
+show walking pedestrians or moving cars incorrectly
+classified as dynamic.” when analyzing “scenarios where
+self-supervised model failures occur”. As these objects
+e.g. moving pedestrians are marked as yellow, which means
+the supervised model indicates dynamic while the
+self-supervised model indicates static (wrong), then the
+sentence should change to “incorrectly classified as
+static”.
+- In Section IV-B, authors mention that “This is reflected
+in Fig. 6, where the CODA subsets also show much higher
+detection rates compared to the analysis with regular
+scenarios”. What does the detection rate refer to? And when
+mentioning “moderate correlation between model
+disagreements and anomalies present”, it is hard for
+readers to believe such correlation without proven evidence
+or illustration.
+- In Section IV-B, I suggest to add further explanations on
+Table I and II especially the numbers are highlighted or
+underscored when drawing the conclusion that “our approach
+shows different levels of sensitivity given different types
+of anomalies“.
+- Besides, according to “CODA defines an anomaly as an
+object that “blocks or is about to block a potential path
+of the self- driving vehicle” [68] and/or “does not belong
+to any of the common classes of autonomous driving
+benchmarks”, the “anomaly” object, e.g. a truck laying down
+on a highway, may not necessarily lead to disagreement
+between supervised and self-supervised models. On the other
+hand, a novel class, e.g. a trailer, can be difficult for
+supervised models, while easy for self-supervised models,
+may contribute towards discrepancy between models. It is of
+interest to readers to see such detailed analysis to
+demonstrate the effectiveness of the proposed method
+- Current experiments limit the combination of specific
+choices of supervised and self-supervised models.
+Therefore, the scalability of such methodology on model
+failure detection as a benchmarking is still questionable.
+If more supervised and self-supervised models can be
+evaluated and demonstrated, the contribution of the work
+will be further elevated. 
+
+### Reviewer 6
+
+Your paper presents an interesting approach to model
+failure detection. The text has a good structure and is
+clearly formulated.
+However, there are some points that should be corrected or
+where I believe you should make some thoughts about. I will
+order my comments based on the flow of the paper, so there
+is no order between minor or more serious comments.
+ 
+Figure 1 is not referenced. I think in III C you referenced
+FIg. 2 instead of 1. The description of the colors should
+be in the caption of the figure, not only in the text.
+ 
+From your dataflow in Figure 2 I do not get how there are
+points that do not get a label. Do you use further filter?
+ 
+Please explain the usage of the "oracle" already in the
+introduction to chapter III. The explanation comes quite
+late in the paper and I was a little bit confused at the
+beginning.
+ 
+In the text you referer to subfigures 4 a to d. Although
+the structure of the figure is divided in to 4 blocks,
+there is no a) to d) in the figure.
+ 
+ 
+The evaluation is in my eyes the weakest part of the
+paper. 
+As there is no comparison to e.g. using the model trained
+with different seeds or other hyperparameters, there is no
+prove for the claim, that using different training
+paradigms lets the model leverage different data statistics
+and that this is better for model failure detection. From
+my point of view this ends in the same setup as using
+different architectures or losses as already done for
+example in medical imaging.
+ 
+In IV A under "Evaluation." you state that "in most cases"
+both streams were correctly consistent. Cant you give
+percentages here as the human oracle labled the data now?
+ 
+For scene 9 of figure 8: this is known as parallax. Quite a
+common problem.
+ 
+Your quantitative analysis is quite confusing considering
+the task. I dont understand why we compare the detection
+qualitiy here. Given data with labeled annotations I would
+like to see actual numbers here of how many frames with
+anomalies had discrepancies in the models outputs. Could be
+even done on a point basis. "We generally observe a
+moderate correlation between model disagreements and
+anomalies present in the environment." should be underlined
+with  suitable metrics.
+ 
+Would one apply a threshold of how many points are allowed
+to deviate locally? There will always be some noise in the
+labeling of each point, right? Could outlier filtering help
+here? 
+ 
+In V you say that your method "disregards 95 % of the data
+as typical, which makes human analysis of the remaining 5 %
+feasible even for larger datasets", please use the
+quantitative analysis to show how many false positives this
+contains.
+ 
+Overall I think you're presenting an interesting approach,
+with some drawbacks in your current evaluation. As this is
+a workshop paper, I think this is enough to present your
+rough idea at the conference.
+Until then it would be nice to see a comparison to other
+approaches. 
+
+</details>
+
+:x: Previous version rejected at [IEEE Robotics and Automation Letters (RA-L)](https://www.ieee-ras.org/publications/ra-l)
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :green_circle: High Quality Reviews
+</summary>
+
+### Reviewer 1
+
+The article introduces the concept of complementary learning,
+leveraging the differences between supervised and self-supervised
+paradigms to detect model failures. The proposed method has been
+applied to a real-world autonomous driving task, motion segmentation.
+Additionally, a new dataset, LidarCODA is provided for future research
+in anomaly detection.
+
+I have multiple significant concerns:
+
+1. The LidarCODA dataset is one of the two contributions, but it is not
+currently available to the public. The description of how anomalies are
+labeled and used for evaluation could be clearer. This lack of open
+access and details leads to ambiguity regarding the dataset's
+reliability for future work.
+2. The claim regarding the first real-world anomaly dataset for
+autonomous driving should be weakened, as similar datasets and tasks
+have already been proposed in [1, 2].
+3. The other contribution focuses on using complementary learning to
+detect model failures, but this is applied and demonstrated only to the
+motion segmentation (MOS) task. Therefore, I recommend clarifying this
+by specifically stating that complementary learning is used for the
+LiDAR-based MOS task in this paper to avoid over-claiming.
+4. The authors claim that all code is available on GitHub, but no link
+to the code is provided in the manuscript.
+5. It is not clear about the green points in the top right figure in
+Fig. 1. Are the green points representing static points? Why are other
+static points in gray?
+6. The proposed method compares the results of a supervised model [46]
+with a multi-step clustering-based method for detecting model failures.
+This idea is quite similar to the work [3], which also uses multi-step
+clustering to automatically generate MOS labels to enhance the
+performance of the same supervised model [46]. The differences between
+[3] and the proposed method should be further discussed in the paper.
+7. The final failure detection relies on a human oracle, which
+decreases the technical contribution of this paper. A more automated
+approach should be proposed to enable autonomous failure classification
+and resolution.
+
+[1] Cen, et al.Open-world Semantic Segmentation for LIDAR Point Clouds,
+ECCV, 2022
+[2] Deng, et al. ElC-OIS: Ellipsoidal Clustering for Open-World
+Instance Segmentation on LiDAR Data, IROS, 2023
+[3] Chen, et al. Automatic labeling to generate training data for
+online LiDAR-based moving object segmentation, RAL, 2023 
+
+### Reviewer 2
+
+	
+This article proposes a complementary learning approach to detect model
+anomalies by utilizing two streams, supervised learning and
+self-supervised learning, to segment point clouds and identify
+discrepancies between the two models. The specific implementation
+relies on existing methods such as SalsaNext, GndNet, and FlowStep3D,
+which limits the overall novelty of this article. However, the concept
+of using multiple streams for detecting model failures is innovative.
+Additionally, a new dataset, LidarCODA, was proposed, which can be used
+for anomaly detection.
+
+1. In Section Ⅳ-A, although the authors provide some image
+examples of anomaly detection, there is a lack of accurate evaluation
+of the performance of this anomaly detection method. For example, if a
+supervised stream is used as the main model and a self-supervised
+stream is used to detect model failure, what are the true
+positives (TP), false positives (FP), true negatives (TN), and false
+negatives (FN)? In addition, corresponding discussions should be
+conducted on these metrics.
+
+2. In Section Ⅳ-B, some evaluation metrics, such as mIoU, mP, mR,
+and mF1, should be explained in detail, including how they were
+obtained.
+
+3. In Section Ⅲ-D, the authors mention, "More details can be
+found in [48]." Some important details, such as hyperparameters, should
+be provided directly instead of asking readers to search for them in
+other literature.
+
+4. In the main text, the authors mentioned Figure 10 first and then
+Figure 9. It is suggested that the order of the figures be modified.
+
+5. The expression of figures should be unified in the main text, such
+as Figure 7 and Fig. 7.
+
+6. The information in some citations is incomplete. It is suggested to
+complete them.
+
+### Reviewer 3
+
+The majority of this paper's content comes from the thesis [1].
+Although the content itself is interesting and valuable, the current
+manuscript is clearly not complete enough to be published on RA-L.
+
+1. The title of this paper is about "Model Failure Detection", which is
+too broad and not precise enough. This paper mainly talks about the
+discrepancy between the supervised and self-supervised motion
+classification model, which is a specific and narrow task. So the
+general expression is not reasonable in the title.
+
+2. From my perspective, the reason to detect the discrepancy between
+the supervised and self-supervised motion classification models is to
+minimize the error of either model. However, this paper does not
+discuss a key problem: how to determine the final result if the
+supervised and self-supervised models do not agree with each other? If
+there is no such solution, detecting the discrepancy is not useful
+since it is straightforward that the two model have the distinct
+results. The
+paper shows the quantitative results of when the two models have
+distinct results, but does not show which model is correct.
+
+3. The introduction of LidarCODA is confusing. This paper mainly
+discusses the discrepancy between the supervised and self-supervised
+motion classification models, but this part talks a lot about the
+domain gap on the semantic segmentation task, which seems to have no
+direct relation to the core idea of this paper.
+
+### Reviewer 4
+
+The authors propose a method to detect model errors and a real-world
+anomaly LiDAR dataset.
+The proposed method consists of using a self-supervised and a
+self-supervised network to leverage different data characteristics. The
+authors compare point-wise the discrepancy of the two predictions and
+cluster them.
+For the proposed dataset, the authors take an already existing anomaly
+dataset CODA, which provides 2D bounding box annotations and performs
+filtering and clustering plus manual inspection to transfer the 2D
+labels to 3D point-wise labels.
+
+Contributions:
+    * The authors provide experiments on semantic motion segmentation,
+analyze model discrepancies, and provide qualitative analysis. 
+    * The proposed dataset extends the 2D labels to 3D point-wise
+labels.
+    * The authors provide good-quality figures to understand the
+different steps of the proposed method.
+
+
+Weaknesses:
+    * The paper is not well structured. First, it focuses on how to
+detect model errors and later it changes completely the focus to
+anomaly detection, which makes it very hard to follow.
+    * The contribution of the proposed method is not clear. The authors
+used already existing methods and combined them together without any
+new insight.
+    * The authors claim that usually test splits are typically very
+small and not representative, yet they evaluate their method in a
+subset (only two sequences) of the SemanticKITTI test set and use the
+rest of the test set for qualitative analysis.
+    * The authors propose a new method to detect model errors but they
+only provide an analysis for a single task. Further experiments would
+be required to validate the method.
+
+    * The authors use outdated methods, particularly for motion
+segmentation (2021), which does not provide a good comparison of
+supervised vs self-supervised methods.
+    * In the introduction, the authors give a summary of related work,
+which should be contained in that section.
+
+    * The proposed dataset is introduced in the evaluation section
+    * In the evaluation section, under "Oracle", they only explain the
+qualitative results of the figures and provide some examples of failure
+cases for the supervised and self-supervised methods, which is not a
+sufficient evaluation process.
+    * The evaluation part is not well structured and hard to follow.
+    * The motivation behind the experiments in section IV-C is not
+clear.
+    * The evaluation of the proposed method on the LidarCODA dataset is
+not clear. The authors should provide a more detailed explanation about
+how they adapted their approach to this task and why is this relevant.
+
+### Editor
+
+Dear Mr. Daniel Bogdoll,
+
+Your paper submitted to the IEEE Robotics and Automation Letters (RA-L) has been
+reviewed by the Associate Editor and selected Reviewers. The reviews of
+the paper are attached.
+
+On the basis of the reviewers' ratings and comments, I regret to inform
+you that your paper is not suitable for publication in RA-L.
+
+We thank you for your interest in the IEEE Robotics and Automation
+Letters, and hope that you will consider publishing future papers here.
+
+Sincerely,
+
+Editor (Applications)
+IEEE Robotics and Automation Letters
+ 
+Report: This paper proposes a method by learning characteristics from different
+training paradigms to detect model errors. As indicated by the review
+comments, the contributions of this paper are limited. The general
+quality is below RAL. It is suggested that the authors consider the
+review comments and submit the paper to other venues.
+
+</details>
+
+&nbsp;
+&nbsp;
 
 ### AnoVox: A Benchmark for Multimodal Anomaly Detection in Autonomous Driving
 05/2025 • Daniel Bogdoll*, Iramm Hamdard*, Lukas Namgyu Rößler*, Felix Geisler, Muhammed Bayram, Felix Wang, Jan Imhof, Miguel de Campos, Anushervon Tabarov, Yitian Yang, Martin Gontscharow, Hanno Gottschalk, J. Marius Zöllner
