@@ -10,6 +10,331 @@ I focus on the detection of anomalies in the field of autonomous driving. I focu
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+### MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations
+08/2025 • Daniel Bogdoll*, Yitian Yang*, Tim Joseph, Melih Yazgan, J. Marius Zöllner
+
+<img width="100%" src="https://github.com/user-attachments/assets/ffd79b7b-7d6e-449d-bb69-8d754792198a">
+
+[arXiv](https://arxiv.org/abs/2311.11762) | [Proceeding](https://ieeexplore.ieee.org/document/11097718) | [Code](https://github.com/fzi-forschungszentrum-informatik/muvo)
+
+:white_check_mark: Accepted at [IEEE Intelligent Vehicles Symposium (IV)](https://ieee-iv.org/2025/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_MUVO_2025_IV,
+    author={Bogdoll, Daniel and Yang, Yitian and Joseph, Tim and Yazgan, Melih and Zollner, J. Marius},
+    title     = {{MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations}}, 
+    booktitle = {IEEE Intelligent Vehicles Symposium (IV)},
+    year      = {2025}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :orange_circle: Medium Quality Reviews
+</summary>
+
+### Associate Editor
+
+The paper proposes a sensor fusion strategy for predictive
+world models using transformer-based fusion and 3D
+occupancy prediction. Strengths include a good experimental
+setup, useful comparisons across fusion strategies, and
+relevance of the topic.
+Yet, the paper needs improvement in regard to clarity of
+the presentation and a more comprehensive real-world
+evaluation. The authors should carefully take the
+reviewers' questions and comments into account.
+
+### Reviewer 1
+
+Strengths:
+The authors provide an evaluation protocol and a problem
+that is important for practical application and also for
+the current research from interest.
+The authors motivate the research idea and explain their
+experiment steps clearly. They give a detailed description
+about the dataset creation. Furthermore, they introduce the
+results shortly but clearly and do a wide range of
+experiments with different components. 
+
+Weakness: 
+ Didactic rewriting is necessary to rate the paper. In
+detail: 
+ The didactic guiding through paper should be improved by: 
+ - clearly stating the contributions in the introduction.
+ - distinguish between new methods aspects and evaluation
+settings.
+ - putting the paper in context in the related work section
+rather then listing models and approaches without relation
+or grouping.
+ - minimize variables & description of method to those
+actually needed for evaluation purpose.
+The overall writing quality needs to be improved, like
+L^pred is not introduces, reference and wording style
+inconsistency e.g. multimodal or multi-modal, plot
+description... 
+ 
+ To increase the benefits for research community providing
+code would be helpful. 
+
+Questions: 
+What are the advantages of using an RL agent for recording
+actions instead of the autopilot provided by CARLA, that
+can also returns the action?
+
+### Reviewer 2
+
+This paper presents a well-structured study on sensor
+fusion strategies for generative predictive world models,
+offering valuable insights into the advantages of
+transformer-based fusion over traditional BEV-based
+approaches. The experimental design is thorough, comparing
+multiple fusion strategies and evaluating the impact of 3D
+occupancy prediction.
+
+However, there are some limitations that should be
+addressed. (1) The experiments are conducted solely in a
+simulated environment (CARLA) without validation on
+real-world datasets. Even if real-world experiments are not
+feasible, a discussion on potential challenges and expected
+performance differences in real-world applications would be
+beneficial. (2) Computational cost is not analyzed, despite
+the use of transformer-based fusion, which can be
+resource-intensive. Reporting FLOPs and inference time for
+different fusion strategies would improve clarity on
+practical feasibility. (3) The contribution of 3D occupancy
+prediction appears limited, showing minimal impact on
+sensor data prediction performance. Further optimization of
+its integration could strengthen the argument for its
+inclusion.
+
+To improve the paper, the following additions are
+recommended: (1) A discussion on how the proposed method
+might generalize to real-world scenarios, along with
+potential challenges. (2) A computational efficiency
+analysis, including FLOPs and inference time comparisons.
+(3) A more detailed discussion in the conclusion on the
+method's limitations and possible extensions to more
+complex multi-sensor setups.
+
+</details>
+
+:x: Previous version rejected at [IEEE Robotics and Automation Letters (RA-L)](https://www.ieee-ras.org/publications/ra-l)
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :green_circle: High Quality Reviews
+</summary>
+
+### Reviewer 1
+
+The paper proposed an architecture that focuses on the world’s physical
+attributes to make future environment predictions. The architecture
+takes RGB images, pointclounds, and acceleration-steer actions to
+perform world predictions. 
+
+It is unclear why the entire 3D environment prediction is required to
+improve the reasoning ability of an agent. In most of the cases, the
+agent will only be interacting with the proximate environment.
+
+Figure 3 and Figure 4 lack a description of key takeaways. It would be
+great if the authors could point out what is being predicted accurately
+and what is not being predicted. 
+
+Additionally, indicating which images represent ground truth and which
+are predictions in Figures 3 and 4 would be helpful to the reader.
+
+The authors provide several ablation studies however the takeaways are
+not strongly backed by the results. 
+
+The inference time of the architecture would be useful to know if we
+want to put this architecture on a real vehicle. 
+
+### Reviewer 2
+
+Summary: The authors propose MUVO, an unsupervised world model for
+autonomous driving. This model jointly predicts future camera and LiDAR
+sensor observations, together with a 3D occupancy representation
+conditioned on the vehicle's future actions. The authors train and
+evaluate it with the CARLA simulator on synthetic data.
+
+Related Work: The authors provide a comprehensive section on related
+work for world models in autonomous driving and various
+representations. I am unaware of highly associated papers that still
+need to be addressed. 
+
+Strengths:
+- World modelling is important as an unsupervised task. Existing work
+on the CARLA simulator relies on labels (or privileged information),
+which might not be available in real-world or large-scale settings.
+- The prediction of 3D occupancy seems advantageous for downstream
+tasks, e.g. planning or simulation. 
+- Extensive experiments show the impact of several architectural
+choices. 
+
+Weaknesses:
+- The camera, LiDAR, and 3D occupancy predictions in Fig. 3 appear to
+have low fidelity compared to the state-of-the-art single-sensor
+models. That being said, the model jointly predicts multiple modalities
+without computationally expensive methods, such as diffusion models. 
+- The introduction needs more motivation on possible downstream
+applications of the model. Concrete experiments, e.g., using the world
+model to pre-train an imitation policy in CARLA, would significantly
+strengthen the paper.
+- Some technical aspects are not clearly described in the manuscript.
+How is the range view LiDAR representation calculated in Sec. III A?
+Are the velocity and route mentioned in Sec IV A part of the model
+input? What loss component is L^{pcd} in Equation 1?
+
+Style: The paper is well-written and structured, with clear figures and
+adequate length. 
+
+Evaluation: Unsupervised world modelling for autonomous driving is an
+interesting topic. The proposed method is novel in terms of considering
+multiple sensor modalities. The qualitative results have limitations
+and experiments are only conducted on synthetic data, but show a great
+start for unsupervised representation learning.
+
+### Reviewer 3:
+
+This paper introduced MUVO, a multimodal world model designed to
+predict future states for autonomous driving by leveraging spatial
+voxel representations from high-resolution camera and lidar data. The
+experiments demonstrated that MUVO effectively improves prediction
+quality for both sensor modalities and advances the state of the art in
+action-conditioned 3D occupancy forecasting. However, the model's
+overfitting to simulated environments and limited real-world validation
+highlight areas that require further research investment.
+1) In Section I, Introduction, some parts should be rewritten to better
+emphasize the main motivations and contributions. The abstract should
+also include the overall method in a clearer presentation.
+2)  In Section II, Related Works, the related works section is very
+limited and should typically include more types of studies, such as an
+overview of existing solutions in BEV methods, supervised methods for
+autonomous driving, domain adaptation in deep learning, as well as the
+limitation for the recent works.
+3) In Sections III. Please add more symbol explanations under the
+framework figure. Authors mentioned that the previous works are based
+on low-resolution inputs. What’s the resolution for the previous work?
+How much accuracy is affected by the low-resolution? Except for fusing
+the point cloud and the RGB image, why could the action features help
+for the prediction?
+4) From Equation 1, the loss function is simply adding all the features
+in different weights, what are the hyper-parameters for each part? In
+Figure 6, the “Pre-Trained-O” achieved the highest IoU and recall, why
+the precision is lower than other methods? 
+5) In Section V, The model's validation and testing appear to be
+limited to simulated environments (CARLA), with no mention of testing
+on real-world datasets. Is it possible to test the current model in any
+real world dataset? .
+6)  In Section V, the training data is collected under a limited set of
+conditions (e.g., specific towns and weather conditions in CARLA). This
+may lead to a lack of robustness in the model when exposed to
+environments. Is it possible to simulate more different environments to
+improve the robustness?  
+7)  The novel contribution is using action as the multimodal input.
+Could you please add an ablation study for investigating how much
+influence for using the action features? 
+  The method is a good solution to address the computational complexity
+problem. However, the settings of experiments might have some weak
+points. Authors should present more ablation studies of experiments and
+address issues.
+
+### Editor
+
+Dear Mr. Daniel Bogdoll,
+
+Your paper submitted to the IEEE Robotics and Automation Letters (RA-L) has been
+reviewed by the Associate Editor and selected Reviewers. The reviews of
+the paper are attached.
+
+On the basis of the reviewers' ratings and comments, I regret to inform
+you that your paper is not suitable for publication in RA-L.
+
+We thank you for your interest in the IEEE Robotics and Automation
+Letters, and hope that you will consider publishing future papers here.
+
+Sincerely, Editor (Autonomy for Mobility and Manipulation)
+IEEE Robotics and Automation Letters
+ 
+Report	
+The authors present MUVO, an unsupervised world model that predicts
+future camera and LiDAR sensor observations and a 3D occupancy
+representation conditioned on the vehicle's future actions.
+
+The paper is well-written and adequately situates itself with respect
+to the existing works in the field. The work itself is novel due to its
+consideration of multimodal inputs. It is of relevance to the real
+world, given its unsupervised nature. The reviewers appreciated the
+extensive ablation experiments but also raised sincere concerns as
+follows:
+
+1. Additional motivation regarding the usability of the model would be
+helpful (R3, R4, R5) in the introduction section and through
+experimental evaluation. R4 provides a specific suggestion (using the
+world model to pre-train an imitation policy in the simulator).
+
+2. The model predictions appear to be low-fidelity as compared to the
+state-of-the-art single-sensor models. Addressing this observation in
+light of the multimodal nature and/or computational expense would be
+helpful (R4,R5). 
+
+3. The ablation experiments show the impact of architectural choices.
+However, key takeaways regarding the model's overall performance are
+not clearly highlighted (R3). 
+
+4. Ablation studies highlighting the benefit of using actions as input
+would be helpful (R5).
+
+5. In relation with concern #2, #3, and #4, the key differentiators of
+this work are its multimodal nature and the world-modeling based
+approach. However, all the reported experiments are ablation-style
+experiments that justify the design choices but do not highlight the
+benefits of MUVO as compared to other world models. It is crucial to
+provide experimental evaluations and/or discussion (preferably both)
+that highlight these key differentiators of MUVO through comparison
+with a single-sensor approach and a pattern recognition-based approach
+(i.e., approaches that the authors claim learn patterns in the data
+rather than modeling the real world). This will help the authors
+demonstrate the superiority of their approach. 
+
+6. The entire approach is trained and tested in simulation. While such
+training and testing are useful, including qualitative results on
+real-world data (certainly using one of the existing real-world
+datasets
+mentioned in Section II) needs to strengthen the paper (R5).
+Furthermore,
+it will also be necessary to make a case for the applicability of the
+work to the real world (R3) with robotics experiments. 
+
+7. Several technical aspects and hyperparameters are not clearly
+described in the manuscript (R4, R5).
+
+Minor suggestions:
+
+1. Labeling and captioning of Figures 3 and 4 can be altered to improve
+clarity (R3,R5)
+2. Some typos need to be fixed (e.g., the first sentence in Section
+VA-1)
+3. It may be helpful to provide a couple of sentences in the abstract
+summarizing the proposed approach (R5).
+4. It might be useful to add a couple of sentences situating MUVO with
+respect to existing BEV-based and supervised approaches (R5).
+
+
+
+
+</details>
+
+&nbsp;
+&nbsp;
+
 ### Label-Free Model Failure Detection for Lidar-based Point Cloud Segmentation
 09/2025 • Daniel Bogdoll*, Finn Sartoris*, Vincent Geppert*, Svetlana Pavlitska, J. Marius Zöllner
 
