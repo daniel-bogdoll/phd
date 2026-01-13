@@ -1,11 +1,9 @@
-AD4AD: Anomaly Detection for Autonomous Driving
+Anomaly Detection for Autonomous Driving
 ==========
 
 ## Introduction
 
-I am pursuing my PhD under the supervision of [J. Marius Zöllner](https://www.aifb.kit.edu/english/21_88.php) and [Hanno Gottschalk](https://www.tu.berlin/en/milz/about-us/head-of-chair) in [Karlsruhe, Germany](https://goo.gl/maps/xG3qDHWKtSiChcDE6). I am with the research group [Applied Technical Cognitive Systems ATKS](https://atks.aifb.kit.edu/english/index.php) within the [Institute of Applied Informatics and Formal Description Methods AIFB](https://www.aifb.kit.edu/english/index.php) at the [Karlsruhe Institute of Technology KIT](https://www.kit.edu/english/index.php). In addition, I am part of the group [Technical Cognitive Systems TKS](https://www.fzi.de/en/team/marius-zoellner/) at the [FZI Research Center for Information Technology](https://www.fzi.de/en/).
-
-I focus on the detection of anomalies in the field of autonomous driving. I focus on the generation, detection, and handling of anomalies in both simulation and real-world data. I build upon the concepts of [Breitenstein et al.](https://ieeexplore.ieee.org/document/9304789) and [Heidecker et al.](https://ieeexplore.ieee.org/document/9575933), who did tremendous work in the field of theoretical taxonomies in the field.
+I developed my PhD dissertation titled [Anomaly Detection for Autonomous Driving](https://publikationen.bibliothek.kit.edu/1000189348) as a PhD student within the research group [Applied Technical Cognitive Systems ATKS](https://atks.aifb.kit.edu/english/index.php) within the [Institute of Applied Informatics and Formal Description Methods AIFB](https://www.aifb.kit.edu/english/index.php) at the [Karlsruhe Institute of Technology KIT](https://www.kit.edu/english/index.php). During this time, I was a research scientist in the group [Technical Cognitive Systems TKS](https://www.fzi.de/en/team/marius-zoellner/) at the [FZI Research Center for Information Technology](https://www.fzi.de/en/). My thesis was supervised by [J. Marius Zöllner](https://www.aifb.kit.edu/english/21_88.php) and [Hanno Gottschalk](https://www.tu.berlin/en/milz/about-us/head-of-chair).
 
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
