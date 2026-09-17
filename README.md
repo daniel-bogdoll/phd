@@ -1422,6 +1422,145 @@ The reviewers lean toward accepting the paper, however we would appreciate to ta
 &nbsp;
 &nbsp;
 
+### Informed Reinforcement Learning for Situation-Aware Traffic Rule Exceptions
+08/2024 • Daniel Bogdoll*, Jing Qin*, Moritz Nekolla, Ahmed Abouelazm, Tim Joseph, J. Marius Zöllner
+
+<img width="100%" src="https://github.com/user-attachments/assets/6fc197d5-caae-47d3-b340-57305c8d5dae">
+
+[Proceeding](https://ieeexplore.ieee.org/document/10610842) | [Code](https://github.com/fzi-forschungszentrum-informatik/informed_rl) | [arXiv](https://arxiv.org/abs/2402.04168)
+
+:white_check_mark: Accepted at [IEEE International Conference on Robotics and Automation (ICRA)](https://2024.ieee-icra.org/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Informed_2024_ICRA,
+    author={Bogdoll, Daniel and Qin, Jing and Nekolla, Moritz and Abouelazm, Ahmed and Joseph, Tim and Zöllner, J. Marius},
+    title     = {{Informed Reinforcement Learning for Situation-Aware Traffic Rule Exceptions}}, 
+    booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+    year      = {2024}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :orange_circle: Medium Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+The authors propose an Informed reward function with a rule
+book for situation-aware driving. The authors did an
+excellent job of explaining each section in short and
+sweet. The concept of Rule realization and rulebook is used
+here and is implemented within the reward function. As
+written in the paper, Rule realization and rulebooks were
+already introduced by Censi et al. So the main
+contribution, I think, is including them in the reward
+function. Curriculum learning is used where the agents are
+trained in a regular environment first and then introduced
+to situations that require controlled traffic rule
+exceptions. The results show that including the rulebook
+does improve performance for the dreamer algorithm, but for
+the rainbow algorithm, it didn’t. As mentioned adding just
+the rulebook didn’t make the performance go up. Why was
+Rainbow+rulebook+trajectory or rainbow+trajectory not
+studied?
+1.	The introduction does not have any references for
+the statements made. 
+2.	While the authors have identified unstructured
+reward designs as a limitation in previous work and propose
+a structured reward function as one of their contributions,
+the introduction of numerous heuristic parameters in
+Equation 3 seems to compromise this. Basically, the reward
+function should still be improved.  
+3.	In section 3. c, line 9, it should be “similar to”
+4.	The plots are hard to look at, authors should
+consider smoothening the lines and make the size bigger.
+
+#### Reviewer 2
+
+This paper introduces a situation-dependent reward function
+structure, allowing human logic to be combined with Deep RL
+in autonomous driving applications.  The method seems
+highly useful in scenarios which are poorly represented by
+the training dataset. This method is likely useful in
+non-AV applications.
+
+I have several comments/questions:
+
+1) The authors should briefly explain their decision to
+model this problem as POMDP.  For example, perhaps mention
+RGB data alone not enough to infer velocity, etc. 
+
+2) What is the network architecture?  Are CNN's used to
+process the raw images?  If these details are explained in
+the Dreamer and Rainbow papers, please indicate.  
+
+3) In Figure 1, does the hierarchical rulebook not need to
+"see" the observation o_t so as to correctly assign weights
+p_j?  Alternatively, does the HRB receive some ground truth
+input during training to correctly assign weights p_j?	If
+so, please indicate in the Figure.  To promote learning
+convergence the reward should be correlated with the
+observation in some way.
+
+4) Figure 7 is confusing.  Are the Frenet coordinates not
+v,d,t?	I'm not seeing v in the bottom trajectory plot. 
+Maybe state the trajectory is plotted in d and t only. 
+Also, do the red triangles represent the start and end of
+the activation range? The top figure does not appear to
+align with the placement of these triangles.
+
+5) Reference [34] should be updated to its IEEE
+Transactions on Aerospace and Electronic Systems version.
+
+6) Depending on the page limit, a brief description of the
+Frenet Space would improve the quality of the paper.  
+
+7) In the Conclusion section, the following statement is
+made without reference: "As already shown in
+the literature, a continuous action space for the
+generation of trajectories could be implemented into our
+work." Please include a reference.  
+
+8) Figure 5 is a bit difficult to read.  The noise should
+be plotted with a higher transparency (behind the filtered
+means) for readability.
+
+#### Associate Editor
+
+I appreciate the innovative approach presented in your
+paper, incorporating a rulebook into the reward function
+for situation-aware driving. Both reviewers commend the
+clarity of the explanations and the utilization of
+curriculum learning. However, some concerns need
+addressing. First, the introduction lacks proper
+references, and the reward function, while structured,
+introduces heuristic parameters, prompting the need for
+refinement. Clarifications are sought on the absence of
+Rainbow+rulebook+trajectory and rainbow+trajectory
+analyses. Additionally, improvements to plots, such as
+smoothening lines and increasing size, are suggested.
+Addressing these concerns, enhancing the reward function,
+and providing the requested references will strengthen the
+paper's impact and overall quality. Consider exploring the
+recommended extensions to validate the approach across
+different algorithm combinations.
+
+Comments to author (Editor)
+================================
+
+The reviewers recommend more proper references, and
+clarification of the reward function design and analysis.
+</details>
+
+&nbsp;
+&nbsp;
+
 
 ### Scalable Remote Operation for Autonomous Vehicles: Integration of Cooperative Perception and Open Source Communication
 07/2024 • Martin Gontscharow, Jens Doll, Albert Schotschneider, Daniel Bogdoll, Stefan Orf, Johannes Jestram, Marc René Zofka, J. Marius Zollner
