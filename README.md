@@ -1212,7 +1212,7 @@ Dataset contribution claim in the paper. Indicated in the submission form
 &nbsp;
 
 ### UMAD: Unsupervised Mask-Level Anomaly Detection for Autonomous Driving
-12/2024 • Daniel Bogdoll, Noël Ollick, Tim Joseph, J. Marius Zöllner
+12/2024 • Daniel Bogdoll*, Noël Ollick*, Tim Joseph, J. Marius Zöllner
 
 <img width="100%" src="https://github.com/user-attachments/assets/77a6fc26-5c5c-4129-9590-0d796750f88d">
 
