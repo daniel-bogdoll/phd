@@ -15,8 +15,9 @@ BibTeX Citation:
   }
 ```
 
-## List of Publications
-##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
+This repository lists all the accepted publications, supervised theses and patents that I had produced by the time I defended my PhD. More up-to-date overviews can be found on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao), [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787), or [arXiv](https://arxiv.org/a/bogdoll_d_1.html). \* denotes equal contribution.
+
+## Publications
 
 ### Mcity Data Engine: Iterative Model Improvement Through Open-Vocabulary Data Selection
 03/2026 • Daniel Bogdoll, Rajanikant Patnaik Ananta, Abeyankar Giridharan, Isabel Moore, Gregory Stevens, Henry X. Liu
@@ -2888,52 +2889,8 @@ Weak Reject
 
 &nbsp;
 &nbsp;
-### Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey
-05/2022 • Julian Wörmann et al.
 
-<img width="100%" src="https://user-images.githubusercontent.com/19552411/167864149-426026e2-f6b9-461a-905a-24031642c7fe.png">
 
-[PDF](https://arxiv.org/pdf/2205.04712.pdf) | [arXiv](https://arxiv.org/abs/2205.04712)
-
-❔ No ongoing submission
-
-<details>
-  <summary markdown="span">BibTeX Citation</summary>
-  
-  ```
-  @article{Woermann_Knowledge_2022_arXiv,
-     author    = {Wörmann, Julian and Bogdoll, Daniel and Bührle, Etienne and Chen, Han and Chuo, Evaristus Fuh and Cvejoski, Kostadin and van Elst, Ludger and
-  Gleißner, Tobias and Gottschall, Philip and Griesche, Stefan and Hellert, Christian and Hesels, Christian and Houben, Sebastian and Joseph, Tim and
-  Keil, Niklas and Kelsch, Johann and Königshof, Hendrik and Kraft, Erwin and Kreuser, Leonie and Krone, Kevin and Latka, Tobias and Mattern, Denny and
-  Matthes, Stefan and Munir, Mohsin and Nekolla, Moritz and Paschke, Adrian and Pintz, Maximilian Alexander and Qiu, Tianming and Qureishi, Faraz and
-  Rizvi, Syed Tahseen Raza and Reichardt, Jörg and von Rueden, Laura and Rudolph, Stefan and Sagel, Alexander and Schunk, Gerhard and Shen, Hao and
-  Stapelbroek, Hendrik and Stehr, Vera and Srinivas, Gurucharan and Tran, Anh Tuan and Vivekanandan, Abhishek and Wang, Ya and Wasserrab, Florian and
-  Werner, Tino and Wirth, Christian and Zwicklbauer, Stefan},
-     title     = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}}, 
-     journal   = {arXiv preprint:2205.04712},
-     year      = {2022}
-}
-  
-@InBook{Bogdoll_Situation_2022_Knowledge,
-     author     = {Bogdoll, Daniel and Vivekanandan, Abhishek and Qureishi, Faraz and Schunk, Gerhard},
-     chapter    = {{Overview Use Case Domains: Situation Interpretation}},
-     title      = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
-     publisher  = {arXiv},
-     year       = {2022}
-}
-
-@InBook{Rudolph_Reinforcement_2022_Knowledge,
-     author    = {Rudolph, Stefan and Bogdoll, Daniel and Joseph, Tim},
-     chapter   = {{Knowledge Integration: Reinforcement Learning}},
-     title     = {{Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey}},
-     publisher = {arXiv},
-     year      = {2022}
-}  
-  ```
-</details>
-
-&nbsp;
-&nbsp;
 ### Multimodal Detection of Unknown Objects on Roads for Autonomous Driving
 05/2022 • Daniel Bogdoll*, Enrico Eisen*, Maximilian Nitsche*, Christin Scheib*, and J. Marius Zöllner
 
