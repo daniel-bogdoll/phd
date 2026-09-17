@@ -407,8 +407,6 @@ compare their method to other methods on this new dataset
 (or other data). Overall, this evaluation seems
 insufficient.
  
- 
- 
 Summary of the paper :
  
 The paper addresses the issue of failure detection for
@@ -433,8 +431,6 @@ The evaluation section consists of a qualitative evaluation
 where the authors “manually analyse 20,000 frames” from the
 KITTI dataset, then a quantitative evaluation with no
 comparison to other methods on their own proposed dataset.
- 
- 
  
 Full review :
  
@@ -1494,6 +1490,187 @@ Both give good suggestions on what you can improve.
 
 &nbsp;
 &nbsp;
+
+### On The Impact of Replacing Private Cars with Autonomous Shuttles: An Agent-Based Approach
+04/2024 • Daniel Bogdoll*, Louis Karsch*, Jennifer Amritzer, J. Marius Zöllner
+
+<img width="100%" src="https://github.com/user-attachments/assets/8e415268-7bbf-4937-bfe2-efd1946f37f8">
+
+[Proceeding](https://ieeexplore.ieee.org/document/10485606) | [Code](https://github.com/daniel-bogdoll/agent_based_av) | [arXiv](https://arxiv.org/abs/2311.14118)
+
+:white_check_mark: Accepted at [IEEE Forum for Innovative Sustainable Transportation Systems (FISTS)](https://ieee-fists.org/2024/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Impact_2024_FISTS,
+    author={Bogdoll, Daniel and Karsch, Louis and Amritzer, Jennifer and Zöllner, J. Marius},
+    title     = {{On The Impact of Replacing Private Cars with Autonomous Shuttles: An Agent-Based Approach}}, 
+    booktitle = {IEEE Forum for Innovative Sustainable Transportation Systems (FISTS)},
+    year      = {2024}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :orange_circle: Medium Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+The manuscript presents an agent-based simulation to assess
+the environmental impact of replacing private cars with
+shared autonomous shuttles (SAVs) in Berlin. It forecasts
+travel demand for 2050 and tests different regulatory
+interventions, showing potential reductions in lifecycle
+emissions and energy consumption.
+Review Comments:
+
+1. The application of agent-based simulation for
+forecasting travel demand and assessing policy
+interventions is a robust approach, providing a valuable
+perspective on potential environmental impacts.
+
+2. The focus on autonomous shuttles as a sustainable
+alternative to private car usage is timely and relevant,
+considering current climate goals.
+
+3. In this filed, it maybe more appropriate to use
+automated vehicle instead of autonomous vehicle. 
+
+4. In the related work, "Bansal and Kockelman [15]
+projected the proportion of AVs in the private light-duty
+transport sector of the Unitedů", be more specific, what
+proportion?
+
+5. Also in the related work, "They utilize the
+Demand-Responsive Transport (DRT) extension of MATSim,
+assuming single-passenger SAV service [13]. For instance,
+they implement regulatory interventions where a random 10%
+of agents who previously relied on public transportation
+are transitioned to SAVs [13]. " What conclusion did you
+get from their study, and how is their results related to
+your work?
+
+6. Similar issue for other literature reviews, you mostly
+state what they are doing, but not connected to your study.
+
+7. Figure 2, it maybe more clear to write in the caption of
+what does SC2 and SC3 mean. I got lost here. And what do
+you mean adapted from [23]? And other figures seems all
+adapted from [23]?
+
+8. Figure 3, stull better to write the meaning of SC1.1,
+SC1.2 and SC1.3. Also, the figures are too small, and only
+can be better visualized using a computer reader. 
+
+9. We allowed for a maximum fleet size of 100,000 SAVs.
+Why?
+
+10. Following this para, what is the default setting?
+
+11. The para, starting with "After introducing the required
+fleets of shared autonomous shuttlesů", is the conclusion
+here from your simulation or from [23]?
+
+12. The exclusion of time variables in the analysis could
+be a significant oversight, as temporal factors can greatly
+influence energy consumption patterns.
+
+13. Clarity in the presentation of results could be
+enhanced, ensuring that findings are accessible and
+comprehensible to readers.
+
+14. Incorporating a discussion on the implications for
+emissions, in addition to energy consumption, would provide
+a more comprehensive view of environmental impacts. A
+section on the broader implications of the study, such as
+the potential impact on urban emissions, would be a
+valuable addition.
+
+15. There may be future challenges such as cyberattacks,
+some studies about cyberattacks on AVs, and their impact on
+traffic and fuel consumption. Consider included:
+
+	Li T, Shang M, Wang S, Stern R. Detecting stealthy
+cyberattacks on adaptive cruise control vehicles: A machine
+learning approach. arXiv preprint arXiv:2310.17091. 2023
+Oct 26.
+	
+	Li T, Rosenblad B, Wang S, Shang M, Stern R.
+Exploring energy impacts of cyberattacks on adaptive cruise
+control vehicles. In2023 IEEE Intelligent Vehicles
+Symposium (IV) 2023 Jun 4 (pp. 1-6). IEEE.
+	
+	Li T, Shang M, Wang S, Filippelli M, Stern R.
+Detecting stealthy cyberattacks on automated vehicles via
+generative adversarial networks. In2022 IEEE 25th
+International Conference on Intelligent Transportation
+Systems (ITSC) 2022 Oct 8 (pp. 3632-3637). IEEE.
+	
+
+In conclusion, the study is methodologically sound and
+explores an innovative topic, there is room for improvement
+in data representativeness, analysis breadth, and clarity
+of presentation to enhance the overall impact of the
+findings.
+
+### Reviewer 2
+
+Please add the GitHub links if the code is effectively
+available, directing to the actual files that
+produced the results.
+
+The methods section explains the scenarios chosen for the
+results, then there is a separate section for the
+assumptions in the future travel demand/population and a
+separate section to describe (in prose) how the openBerlin
+the scenario in Matsim was used. These three sections
+constitute the methodology and could be detailed more.
+
+A Class diagram of the different agents, their behavior
+rules, and a flowchart of the method, (for example) could
+improve clarity in the methods section, and help
+highlighting the contribution
+of this work beyond the alteration of the available
+OpenBerlin model.
+
+The description of travel demand forecasting can be more
+detailed, are there any considerations beyond directly
+applying the distributions from [35].
+Any further explanation of how this is translated to a
+microscopic
+simulation model?
+
+The time-based results (Fig. 4 and 5) show modal occupancy
+shares and waiting times run until hour 36, or 29, however,
+one would expect some type of 24-hour pattern/cycle. A
+better description of the methodology would aid in
+understanding these figures as well.
+
+A claim about the infrastructure reaching its "limit" is
+made on page 3, but no evidence is given for this analysis.
+
+Instead of using very small figures that require zooming in
+to be viewed, I would be more careful in the selection of
+the results and consider using summary statistics and
+tables. 
+
+### Associate Editor
+
+The reviewers provide constructive feedback on the novelty
+and methods. Overall, there is agreement that this work
+could be improved, but may provide value to conference
+participants.
+
+</details>
+
+&nbsp;
+&nbsp;
+
 
 ### What Does Really Count? Estimating Relevance of Corner Cases for Semantic Segmentation in Automated Driving
 10/2023 • Jasmin Breitenstein, Florian Heidecker, Maria Lyssenko, Daniel Bogdoll, Maarten Bieshaar, J. Marius Zöllner, Bernhard Sick, Tim Fingscheidt
