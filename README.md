@@ -1211,6 +1211,95 @@ Dataset contribution claim in the paper. Indicated in the submission form
 &nbsp;
 &nbsp;
 
+### Hybrid Video Anomaly Detection for Anomalous Scenarios in Autonomous Driving
+12/2024 • Daniel Bogdoll*, Jan Imhof*, Tim Joseph, Svetlana Pavlitska, J. Marius Zöllner
+
+<img width="100%" src="https://github.com/user-attachments/assets/aa683894-0abd-4340-9d02-3bbac988a147">
+
+[Proceeding](https://bmva-archive.org.uk/bmvc/2024/workshops/RROW/04_Hybrid_Video_Anomaly_Detecti.pdf) | [arXiv](https://arxiv.org/abs/2406.06423)
+
+:white_check_mark: Accepted at [BMVC Workshop on Robust Recognition in the Open World (RROW)](https://rrow2024.github.io/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Hybrid_2024_BMVC,
+    author={Bogdoll, Daniel and Imhof, Jan and Joseph, Tim and Pavlitska, Svetlana and Zöllner, J. Marius},
+    title     = {{Hybrid Video Anomaly Detection for Anomalous Scenarios in Autonomous Driving}}, 
+    booktitle = {British Machine Vision Conference (BMVC) Workshop},
+    year      = {2024}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :orange_circle: Double-Blind
+    :orange_circle: Medium Quality Reviews
+</summary>
+  
+### Reviewer 1
+
+Nice framework for anomaly detection using temporal information
+
+#### Review
+This paper adapts the anomaly detection framework 
+ to autonomous driving and proposes a pixel-wise evaluation to localize anomalies. The innovation lies in modifying the framework to handle the complexities of high-resolution real-world driving scenes. The paper is well-written and easy to follow. Given the increasing importance of reliable anomaly detection in autonomous driving systems, the work is also significant. Additionally, I find the idea of using temporal anomalies innovative.
+
+Weaknesses:
+
+In the introduction, five techniques for anomaly detection are mentioned; however, only two are elaborated on. It would be beneficial to elaborate on the others as well and draw a clear line where this work differentiates from the others. I see later in the related work that HF2-VAD is a combination of reconstruction and prediction. Maybe it would be beneficial to expand on this in the introduction as well.
+
+I find Figure 1 to be somewhat confusing, given its positioning in the paper. The right frame should show the anomaly score for all instances of the class vehicle, but it seems the anomaly mask has been cut out in a perfect square. In the first reference of the paper, the paper states: " we adapt HF2-VAD to autonomous driving by generating dense, pixel-wise anomaly scores for the whole frame rather than focusing on the content of unlocalized, detected bounding boxes alone, as can be seen in Figure 1. " at first I found this very confusing, but only after reading along the paper do I understand that the image I see on the right this is due to the bounding boxes from the object detector (this information is only given in page 5). I think this information should somehow be summarized in the caption such that the reader gets a complete understanding from the caption alone. Additionally, the ordering of the figures and tables should be adjusted so that the reader does not need to scroll through multiple pages to find the referenced figure.
+
+The paper mentions a limitation when turning vehicles are detected as anomalies. It would be useful to elaborate on why this happens. Is the model overfitting to straight-moving vehicles?
+
+For future work, it would also be interesting to see how well this method generalizes to real-world data; since strong breaking maneuvers are taken as anomalous scenarios, this method can be applied to a real-world dataset and analyzed when it triggers an anomaly.
+
+#### Rating
+6: Marginally above acceptance threshold
+
+#### Confidence
+4: The reviewer is confident but not absolutely certain that the evaluation is correct
+
+### Reviewer 2
+
+Review of Hybrid Video Anomaly Detection for Autonomous Driving
+
+#### Review
+Overview:
+The presented paper proposes a method for detecting anomalous driving patterns in road traffic scenarios based on camera data recorded from an ego vehicle. An adaptation of the HF2-VAD model is proposed in order to obtain pixel-wise anomaly scores which are aggregated over bounding box predictions per frame. Scenario evaluation is carried out on the AnoVox benchmark.
+
+Strengths:
+Detecting anomalous traffic patterns is an important and relevant objective for automated driving and the presented work addresses this problem successfully
+The proposed adaptation of the HF2-VAD method seems sound conceptually and the shown anomaly score heatmaps indicate that the localization aspect is meritous.
+Weaknesses:
+Despite the considerable list of related methods there is no experimental comparison with any of the other methods in Table 1. Although there are no methods that tick exactly the same boxes as the proposed method, having no direct comparison with any of the methods leaves the experimental evaluation unanchored. Therefore, in my understanding the only result that is not an ablation of the proposed method are the shown anomaly heatmaps which are of qualitative character.
+The presentation of the method and the results seems quite opaque. Equation 2 which shows the computation of the pixel-wise score mentions "robustly scaled MSE" which is nothing that has a unique meaning to me. I would like to see a clearer description of how the final scores are computed. Section 4 mentions that "We extended the available pixel-wise ground truth, as shown in Figure 3 by frame-wise annotations.". Does that mean that ground truth for IoU computation was added to the AnoVox benchmark? If so, how? This seems like an important detail since the computed evaluation is based on this ground truth information.
+Minor Comments:
+The formatting seems a bit unfortunate since referenced Tables and Figures are often far from the text referencing them. It feels like there should be a reference to Table 2 again in the ablation paragraph of section 4.1.
+The difference between the two graphs in Fig. 5 should be emphasized and font sizes enlaged.
+
+#### Rating
+6: Marginally above acceptance threshold
+
+#### Confidence
+3: The reviewer is fairly confident that the evaluation is correct
+
+### Program Chairs
+
+#### Decision
+Accept (Oral)
+
+#### Comment
+The reviewers lean toward accepting the paper, however we would appreciate to take into account the reviewer's comments for the camera ready version.
+
+</details>
+
+&nbsp;
+&nbsp;
+
 ### UMAD: Unsupervised Mask-Level Anomaly Detection for Autonomous Driving
 12/2024 • Daniel Bogdoll*, Noël Ollick*, Tim Joseph, J. Marius Zöllner
 
