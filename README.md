@@ -18,6 +18,301 @@ BibTeX Citation:
 ## List of Publications
 ##### Overviews on [Google Scholar](https://scholar.google.com/citations?user=epFVqnIAAAAJ&hl=en&oi=ao) and [Semantic Scholar](https://www.semanticscholar.org/author/Daniel-Bogdoll/73381787). \* denotes equal contribution.
 
+### Mcity Data Engine: Iterative Model Improvement Through Open-Vocabulary Data Selection
+03/2026 • Daniel Bogdoll, Rajanikant Patnaik Ananta, Abeyankar Giridharan, Isabel Moore, Gregory Stevens, Henry X. Liu
+
+<img width="100%" src="https://github.com/user-attachments/assets/13623a1f-bf87-40c6-b43b-bf66b1afb799">
+
+[arXiv](https://arxiv.org/abs/2504.21614) | [Proceeding](https://ieeexplore.ieee.org/document/11423797) | [Code](https://github.com/mcity/mcity_data_engine)
+
+:white_check_mark: Accepted at [International Conference on Intelligent Transportation Systems (ITSC)](https://ieee-itsc.org/2025/)
+
+<details>
+  <summary markdown="span">BibTeX Citation</summary>
+  
+  ```
+  @InProceedings{Bogdoll_Mcity_2026_ITSC,
+    author={Bogdoll, Daniel and Patnaik Ananta, Rajanikant and Giridharan, Abeyankar and Moore, Isabel and Stevens, Gregory and Liu, Henry X.},
+    title     = {{Mcity Data Engine: Iterative Model Improvement Through Open-Vocabulary Data Selection}}, 
+    booktitle = {International Conference on Intelligent Transportation Systems (ITSC)},
+    year      = {2026}
+  }
+  ```
+</details>
+
+<details>
+  <summary>
+    :red_circle: Single-Blind
+    :green_circle: High Quality Reviews
+</summary>
+
+### Reviewer 1
+
+Summary:
+This paper proposes a comprehensive workflow for
+intelligent transportation systems, including data
+acquisition, annotation, model training, and deployment.
+Strengths:
+1. The proposed Mcity Data Engine is the first open-source
+data engine, which could support subsequent research in the
+field.
+2. The author uses the open-vocabulary detection models to
+assist with data annotation.
+Questions:
+1. The core innovations are limited. While I understand the
+substantial amount of work the author has done, it
+resembles more of an engineering implementation.
+2. All the work is conducted in the 2D image domain, which
+limits its scope of application. There is a lack of depth
+information or 3D annotations, limiting its use to video
+surveillance and preventing its application in fields like
+autonomous driving.
+3. There is no explanation on how to address the long-tail
+problem, yet the abstract mentions that it "focuses on rare
+and novel classes". Although the open-vocabulary model can
+detect arbitrary categories, the author does not provide a
+detailed explanation on how it is used to address the
+long-tail effect. Moreover, occupancy prediction can
+effectively address the long-tail problem in 3D space. The
+significance of the rare classes in 2D space, as discussed
+by the author, is questionable.
+4. There is no definition of the similarity score in the
+class alignment process. In addition, considering the need
+for high-quality annotations, the significance of such
+label mapping is questionable.
+5. I can see that many similar works, like X-AnyLabeling,
+use open-vocabulary models to assist with annotation, and
+the author does not emphasize the distinction of this work.
+While the complete workflow is certainly an advantage, the
+core module still lies in the data annotation.
+6. The dataset is relatively small, containing only 1,260
+instances. There is no specific description of the scene
+setup, such as the height of the roadside camera, image
+resolution, etc.
+7. The detection performance of the open-vocabulary model
+is limited, as shown in Table 2, and the inference time is
+relatively long. For example, Grounding DINO 1.6 Pro
+exhibits strong detection performance, while the
+performance of Grounding DINO 1.0 is not as strong.
+
+### Reviewer 2
+
+The paper introduces the Mcity Data Engine (MDE) to address
+a key challenge in Intelligent Transportation Systems
+(ITS): selecting and labeling useful data from massive,
+unlabeled datasets. This is especially difficult for
+identifying rare or novel events (long-tail classes),
+essential for safety and reliability in real-world
+scenarios.
+The authors note that while companies like Nvidia and Tesla
+have proprietary data engines, researchers have no
+comparable open-source solution. MDE fills this gap by
+offering a complete, modular framework—from data collection
+to model deployment—designed to support open-vocabulary
+selection for rare events.
+Table I (Page 2) shows that MDE is the only open-source
+tool covering all development stages: acquisition, storage,
+selection, labeling, training, validation, and deployment.
+This makes it especially useful for tasks like detecting
+rare road users (e.g., pedestrians, cyclists) in autonomous
+driving.
+The MDE is open-sourced under the MIT license on GitHub,
+promoting transparency and collaboration. However, the
+paper’s claim that MDE is the “first” holistic open-source
+engine is debatable. Other tools like VLM-C4L also cover
+several stages, and the paper doesn’t fully explain why MDE
+is superior.
+While the paper highlights the importance of long-tail
+data, it doesn’t provide data on how frequent or impactful
+these rare events are. It also briefly mentions other
+techniques like active learning but doesn’t explain why
+they fall short.
+MDE’s modular design (Fig. 1) makes it adaptable across
+applications. Its use of an ensemble of open-vocabulary
+models (Fig. 2) allows flexible querying without fixed
+class sets—helpful for identifying rare classes. The system
+uses model consensus and instance-based selection to reduce
+noise and labeling effort. It can process up to 1.3 million
+samples per day using 8 Nvidia H100 GPUs.
+However, the criteria for selecting the 12 models in the
+ensemble aren’t clearly explained, and the semantic
+disagreement between models (e.g., "person" vs.
+"pedestrian") could lead to missed detections. Only 100
+frames were evaluated, despite the system’s high processing
+capacity, raising concerns about scalability and
+generalization.
+Although the framework supports 22 model architectures,
+only one (YOLOv11_N) is trained and tested. Testing more
+models would better demonstrate MDE’s flexibility. Also,
+the paper doesn’t compare MDE’s performance against other
+methods like CLIP-based or VLM-based selection, making it
+difficult to assess its true effectiveness.
+In the end, while MDE is a useful and comprehensive tool
+built on existing models and ideas, its innovations are
+incremental rather than groundbreaking.
+
+The authors should expand further on the following;
+1. Clarify Novelty: Explicitly compare MDE with VLM-C4L and
+other academic data engines, justifying why MDE is uniquely
+holistic or superior.
+2. Expand Evaluation: Include experiments with additional
+models (e.g., Co-DETR), datasets (e.g., non-fisheye data),
+and multiple iterations to demonstrate scalability and
+generalizability.
+3. Add Baselines: Compare MDE’s data selection against
+random sampling, active learning, or other VLM-based
+methods (e.g., [18], [19]).
+4. Improve Transparency: Detail the ensemble selection
+criteria and consensus filter’s handling of semantic
+disagreements.
+5. Address Accessibility: Discuss lighter computational
+alternatives or configurations for resource-constrained
+settings.
+6. Evaluate Auto-Labeling: Quantify the impact of
+auto-labeling errors and describe human review processes to
+ensure quality.
+7. Clarify Crowd Data: Either justify the inclusion of
+\(\mathcal{D}_{\text{iter}}^{\text{crowd}}\) with
+crowd-specific metrics or remove it to focus on non-crowd
+VRUs.
+8. Add Statistical Tests: Include statistical significance
+tests (e.g., t-tests, confidence intervals) for the results
+in Table III.
+9. Strengthen Conclusion: Discuss practical challenges,
+broader impact, and potential extensions to non-vision
+data.
+
+### Reviewer 3
+
+This paper introduces the Mcity Data Engine (MDE), an
+open-source framework designed to address the challenge of
+iterative model improvement, particularly for detecting
+rare and novel (long-tail) classes within large volumes of
+unlabeled data, with a focus on Intelligent Transportation
+Systems. The authors highlight the gap between proprietary
+industrial data engines and often incomplete or unavailable
+academic solutions. The MDE provides a comprehensive suite
+of modules covering the entire data-centric development
+lifecycle: data acquisition, storage, selection, labeling,
+training, validation, and deployment. A core technical
+contribution is its open-vocabulary data selection module,
+which utilizes an ensemble of state-of-the-art
+open-vocabulary object detection models to query data based
+on natural language class descriptions.the MDE employs a
+consensus-based filtering stage to reduce false
+positives/negatives. The paper details the architecture and
+functionalities of each MDE module, emphasizing its
+domain-agnostic nature and integration with tools like CVAT
+for labeling and Voxel51 for dataset representation. The
+utility of the MDE is demonstrated through a real-world
+case study on improving Vulnerable Road User (VRU)
+detection using unlabeled fisheye camera data from the
+Smart Intersections Project.
+1. While the ensemble of OWL-ViT/OWLv2/Grounding-DINO
+models improves rare-class selection, the authors admit
+current open-vocabulary models exhibit "suboptimal
+prediction quality" (Sec. III-B). The consensus-based
+filtering (e.g., 3/5 majority) mitigates noise but lacks
+stress testing under cross-domain shifts (e.g., weather
+variations or unseen sensor types).
+2.Evaluation solely focuses on VRU detection in fisheye
+data from one project (Smart Intersections). No tests on:
+a)Truly novel classes beyond {pedestrian, cyclist} (e.g.,
+animals or construction objects).
+b)Multi-modal data (LiDAR/radar) despite MDE claiming
+"domain-agnostic" support (Sec. III-A).
+c)Cross-dataset benchmarks (e.g., Waymo or nuScenes) to
+validate scalability.
+
+### Reviewer 4
+
+The authors created Mcity Data Engine which poses itself to
+be the open-source solution to the communities lack of
+openly available data engines. While there are several
+proprietary data-engines which offer a complete end-to-end
+pipeline from data acquisition to model deployment, these
+solutions are not open sourced which make it difficult to
+customize for a variety of different datasets. Meanwhile,
+academic solutions consider isolated aspect of data
+engines, drastically reducing their utility. The authors
+then proposed Mcity data engine to combine the best aspects
+of both existing solutions. Allowing work to be done from
+data acquisition to model deployment while being
+open-sourced. 
+
+Strengths:
+
+1. They claim to be the first open-source data engine for
+holistic data-based development cycles. Their solution is
+domain-agnostic, offer a host of open-vocabulary object
+detection models, and follow unified dataset format. This
+makes it easier for other researchers to use their solution
+out-of-the-box.
+2. MDE includes a variety of model architectures for object
+detection and open vocabulary models which make it easy to
+validate and benchmark.
+3. They have released v1.1 of their solution on github,
+with adequate documentation, proving that their claims at
+least can be substantiated by other researchers. It has
+substantial wiki entries (which is out of the scope of this
+review).
+4. There are plenty of references which demonstrate the
+knowledge of the authors in this domain. 
+5. Clear comparison of existing state-of-the-art data
+engines in Table 1.
+
+Weaknesses:
+1. The technical novelty of their approach is not that
+strong due to the fact that MDE is less of technical
+solution and more of a pipeline that combines the
+approaches of different existing solutions. Did the authors
+propose or define a novel solution within the modules of
+MDE?
+2. The authors did not highlight how other external models
+can be injected into their framework (or was this the
+compatiblity mentioned in the last paragraph of Section
+III.D?) which would allow other researchers, using MDE to
+easily benchmark their models alongside other
+state-of-the-art approaches. This will make their solution
+much more usable outside their own research.
+3. They did not include a discussion on how model
+deployment is handled by MDE (aside from uploading the
+weights and deploying it on the edge).
+4. Figure 4 is not very clear to me. What is the key
+takeaway from this figure? Is it just meant to show that
+additional VRU instances make the data embeddings richer?
+
+Overall it is a well written paper with a very mature and
+complete looking data engine. The main concern is the lack
+of technological novelty, but I think the availability of
+their code with documentation makes up for it. This is very
+relevant to the field of intelligent transport systems.
+
+### Associate Editor
+
+The authors introduce the MCity Data Engine (MDE), which is
+an open-source solution providing modules for the complete
+data-based development cycle. The MDE provides a
+comprehensive suite of modules covering the entire
+data-centric development lifecycle: data acquisition,
+storage, selection, labeling, training, validation, and
+deployment. 
+There are some comments that authors should consider. Major
+concerns are especially related to:
+1) Clarity of the novelties
+2) All the work is conducted in the 2D image domain, which
+limits its scope of application. There is a lack of depth
+information or 3D annotations, limiting its use to video
+surveillance and preventing its application in fields like
+autonomous driving.
+3) no explanation on how to address the long-tail problem
+
+</details>
+
+&nbsp;
+&nbsp;
+
+
 ### MUVO: A Multimodal Generative World Model for Autonomous Driving with Geometric Representations
 08/2025 • Daniel Bogdoll*, Yitian Yang*, Tim Joseph, Melih Yazgan, J. Marius Zöllner
 
@@ -334,9 +629,6 @@ VA-1)
 summarizing the proposed approach (R5).
 4. It might be useful to add a couple of sentences situating MUVO with
 respect to existing BEV-based and supervised approaches (R5).
-
-
-
 
 </details>
 
