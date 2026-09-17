@@ -10,7 +10,7 @@ BibTeX Citation:
 @phdthesis{Bogdoll_PhD_2025,
     author = {Bogdoll, Daniel},
     title = {{Anomaly Detection for Autonomous Driving}}, 
-    school = {Karlsruher Institut für Technologie (KIT)},
+    school = {Karlsruhe Institute of Technology (KIT)},
     year = {2025}
   }
 ```
