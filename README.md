@@ -1214,7 +1214,7 @@ Dataset contribution claim in the paper. Indicated in the submission form
 
 [Proceeding](https://bmva-archive.org.uk/bmvc/2024/workshops/RROW/04_Hybrid_Video_Anomaly_Detecti.pdf) | [arXiv](https://arxiv.org/abs/2406.06423)
 
-:white_check_mark: Accepted at [BMVC Workshop on Robust Recognition in the Open World (RROW)](https://rrow2024.github.io/)
+:white_check_mark: Accepted at [BMVC Workshop on Robust Recognition in the Open World](https://rrow2024.github.io/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
@@ -1303,7 +1303,7 @@ The reviewers lean toward accepting the paper, however we would appreciate to ta
 
 [Proceeding](https://bmva-archive.org.uk/bmvc/2024/workshops/RROW/03_UMAD_Unsupervised_Mask_Level.pdf) | [arXiv](https://arxiv.org/abs/2406.06370v1)
 
-:white_check_mark: Accepted at [BMVC Workshop on Robust Recognition in the Open World (RROW)](https://rrow2024.github.io/)
+:white_check_mark: Accepted at [BMVC Workshop on Robust Recognition in the Open World](https://rrow2024.github.io/)
 
 <details>
   <summary markdown="span">BibTeX Citation</summary>
