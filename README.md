@@ -1235,7 +1235,7 @@ Dataset contribution claim in the paper. Indicated in the submission form
 
 <details>
   <summary>
-    orange_circle: Double-Blind
+    :orange_circle: Double-Blind
     :green_circle: High Quality Reviews
 </summary>
   
